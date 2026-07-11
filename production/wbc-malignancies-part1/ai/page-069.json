@@ -1,0 +1,12 @@
+{
+  "index": 69,
+  "kind": "content",
+  "content_voiceover": "This question tests familiarity with the landmark New England Journal of Medicine paper by Bernard and colleagues that introduced the Molecular International Prognostic Scoring System, or IPSS-M, for myelodysplastic syndromes. Option A is correct, multivariable analysis identified TP53 multi-hit status, FLT3 mutations, and MLL partial tandem duplication as the strongest genetic predictors of adverse outcomes. Option B is correct, SF3B1 mutations were generally associated with favorable prognosis, but this benefit was attenuated when SF3B1 co-occurred with other high-risk mutations, illustrating why the model incorporates co-mutation patterns rather than treating each gene in isolation. Option C is correct, the IPSS-M showed improved prognostic discrimination compared with the revised IPSS across all major clinical endpoints, including overall survival, leukemia-free survival, and transformation to acute myeloid leukemia. Option D is correct, mutations in ASXL1, BCOR, EZH2, NRAS, RUNX1, STAG2, and U2AF1 were each independently associated with adverse risk across these same endpoints. The wrong statement is option E. The actual finding from this study was that the vast majority of MDS patients, around ninety-eight percent, carried at least one detectable molecular abnormality, not merely sixty percent as stated here. This distinction matters clinically because it underscores how comprehensive molecular profiling has become central to modern MDS risk stratification, rather than being an occasional adjunct finding.",
+  "keypoints": [
+    "IPSS-M top predictors: TP53 multihit, FLT3, and MLL partial tandem duplication",
+    "SF3B1's favorable prognosis is modulated by co-mutation patterns",
+    "IPSS-M outperforms IPSS-R across overall survival, leukemia-free survival, and AML transformation",
+    "Nearly 98 percent, not 60 percent, of MDS patients carry at least one molecular abnormality"
+  ],
+  "keypoint_voiceover": "Focus on the numbers here. Almost all MDS patients, roughly ninety-eight percent, have at least one molecular abnormality detectable, so the sixty percent figure in this question is the wrong statement to catch. Also remember the top adverse predictors: TP53 multi-hit, FLT3, and MLL partial tandem duplication, and that SF3B1's good prognosis can be modulated away by co-occurring mutations."
+}

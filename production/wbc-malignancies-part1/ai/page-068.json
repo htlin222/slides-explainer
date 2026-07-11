@@ -1,0 +1,12 @@
+{
+  "index": 68,
+  "kind": "content",
+  "content_voiceover": "This is a follow-up version of the ICC and WHO fifth edition MDS classification question, with slightly revised answer choices testing the same core concepts a year later. Option A remains correct, a unified ten percent dysplasia threshold for all lineages. Option B is refined further, MDS-SF3B1 in the WHO classification requires an SF3B1 mutation with low blasts, but explicitly excludes patients who also carry five q deletion, monosomy seven, or a complex karyotype, since these higher-risk cytogenetic features override the SF3B1-defined entity. Option D correctly places a patient with two-lineage dysplasia and an isolated RUNX1 mutation, without SF3B1 involvement, into the ICC category of MDS, not otherwise specified, with multilineage dysplasia. Option E again correctly applies the fifth edition WHO criteria for MDS with biallelic TP53 inactivation, demonstrated by two separate TP53 mutations at fifteen and thirty-two percent variant allele frequency alongside complex cytogenetics. The wrong statement remains option C, for the same reason as the earlier version of this question: a single TP53 mutation in a patient with a normal forty-six XY karyotype does not satisfy the ICC's multi-hit requirement for the category MDS with mutated TP53. Fellows should internalize that isolated TP53 mutations without a second hit, whether from deletion, a second mutation, or copy-neutral loss of heterozygosity, are not sufficient for this high-risk designation.",
+  "keypoints": [
+    "Same core concept repeated across exam years: multi-hit TP53 required for ICC mutated-TP53 MDS",
+    "MDS-SF3B1 excludes cases with del(5q), monosomy 7, or complex karyotype",
+    "Isolated RUNX1 mutation with two-lineage dysplasia maps to MDS NOS-MLD under ICC",
+    "Single TP53 mutation plus normal karyotype is insufficient for multi-hit designation"
+  ],
+  "keypoint_voiceover": "This question repeats almost verbatim across exam years, so it is high-yield. The trap is always the same, a single TP53 mutation with a normal karyotype does not meet the multi-hit criteria the ICC requires. Also remember MDS-SF3B1 specifically excludes deletion five q, monosomy seven, and complex karyotype cases."
+}

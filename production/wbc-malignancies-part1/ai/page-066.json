@@ -1,0 +1,12 @@
+{
+  "index": 66,
+  "kind": "content",
+  "content_voiceover": "This page presents two treatment-selection vignettes for lower-risk MDS. The first, a seventy-eight-year-old woman with isolated deletion five q syndrome, is a classic indication for lenalidomide, option C, which produces high rates of transfusion independence and cytogenetic response specifically in this subgroup by degrading the CK1-alpha protein through cereblon-mediated ubiquitination. The other agents are inappropriate here: allogeneic transplant is reserved for higher-risk disease, anthracycline plus cytarabine is intensive induction chemotherapy for acute leukemia, azacitidine is typically used for higher-risk MDS, and antithymocyte globulin targets hypoplastic marrow rather than deletion five q disease. The second vignette describes a fifty-eight-year-old man with anemia, ring sideroblasts, trisomy eight, and an SF3B1 K700E mutation, findings consistent with MDS with ring sideroblasts. His serum erythropoietin level of five hundred milliunits per milliliter is already elevated, which predicts a poor response to exogenous erythropoietin, ruling out option B. Ferritin is also elevated, so iron supplementation with ferrous sulfate would be inappropriate and potentially harmful. Azacitidine is not first-line for this lower-risk, transfusion-dependent anemia without excess blasts. Lenalidomide works best in deletion five q disease, not this karyotype. The correct choice is luspatercept, option E, a TGF-beta superfamily ligand trap that promotes late-stage erythroid maturation and is specifically approved for transfusion-dependent lower-risk MDS with ring sideroblasts, especially when SF3B1 is mutated.",
+  "keypoints": [
+    "Isolated del(5q) low-risk MDS: lenalidomide is first-line",
+    "Lenalidomide works via cereblon-mediated CK1-alpha degradation",
+    "High baseline EPO (over 500) predicts poor ESA response",
+    "Ring sideroblasts plus SF3B1 mutation favors luspatercept over ESA"
+  ],
+  "keypoint_voiceover": "Two takeaways. For isolated deletion five q low-risk MDS, lenalidomide is the go-to agent, working through cereblon-mediated degradation of CK1-alpha. For ring sideroblast MDS with an SF3B1 mutation, check the baseline erythropoietin level first, if it's already above five hundred, erythropoietin therapy won't help, and luspatercept becomes the preferred choice over erythropoiesis-stimulating agents or iron supplementation."
+}
