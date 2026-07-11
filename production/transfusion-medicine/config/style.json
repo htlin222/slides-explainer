@@ -1,0 +1,58 @@
+{
+  "caption": {
+    "band_color": "#000000",
+    "band_opacity": 0.72,
+    "band_pad_x": 40,
+    "band_pad_y": 20,
+    "band_radius": 12,
+    "burn": false,
+    "color": "#ffffff",
+    "font_family": "'Helvetica Neue', 'Arial', sans-serif",
+    "font_size": 46,
+    "font_weight": 600,
+    "max_chars_per_cue": 46,
+    "max_width_pct": 86,
+    "words_per_cue": 9,
+    "y_from_bottom": 70
+  },
+  "gaps_s": {
+    "end_hold": 1.2,
+    "lead": 0.3,
+    "post_content": 0.6,
+    "post_keypoint": 0.8,
+    "title_settle": 0.4
+  },
+  "keypoint": {
+    "accent": "#c0392b",
+    "bg": "#ffffff",
+    "bullet_color": "#222222",
+    "bullet_line_height": 1.5,
+    "bullet_size": 40,
+    "font_family": "'Helvetica Neue', 'Arial', sans-serif",
+    "max_points": 5,
+    "pad_top": 90,
+    "pad_x": 120,
+    "title": "Key Points",
+    "title_color": "#1a1a1a",
+    "title_size": 60
+  },
+  "raster": {
+    "dpi": 150
+  },
+  "tts": {
+    "rate": "+0%",
+    "voice": "en-US-AndrewNeural",
+    "volume": "+0%"
+  },
+  "video": {
+    "abitrate": "192k",
+    "acodec": "aac",
+    "crf": 20,
+    "fps": 30,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "preset": "veryfast",
+    "vcodec": "libx264",
+    "width": 1920
+  }
+}
