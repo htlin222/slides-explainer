@@ -98,6 +98,45 @@ page PNGs) that write `ai/page-NNN.json`. A headless `claude -p` adapter can dri
 them unattended in CI (each call reloads project context, so it is slower/costlier
 than in-session subagents).
 
+## Local (LLM only) → Cloud (deterministic + release)
+
+The work is split so the user's machine only runs the **LLM**, and GitHub Actions
+runs **all the heavy rendering** and publishes the video.
+
+```
+one PDF = one worktree = one branch = one PR = one release
+```
+
+1. **New PDF → isolated worktree**
+   ```bash
+   scripts/new_pdf.sh "pdf/<file>.pdf"     # git worktree + branch pdf/<slug>
+   cd ../slides-explainer-<slug>
+   ```
+2. **Local LLM stage** (in Claude Code): `/enrich "pdf/<file>.pdf"`
+   Rasterizes for the models, runs haiku triage + sonnet/opus enrich subagents,
+   writes `ai/*.json` and `config/content.json`. **No media is produced.**
+3. **Commit + PR**
+   ```bash
+   git add production/<slug>/config production/<slug>/ai
+   git commit -m "enrich <slug>" && git push -u origin pdf/<slug>
+   gh pr create --fill        # review content.json (the text), then merge to main
+   ```
+4. **Cloud build + release** — merging to `main` triggers `.github/workflows/build-video.yml`:
+   it pulls the PDF (Git LFS), rasterizes, runs TTS (cached across restyles),
+   renders/composes/concats, validates, and publishes a **GH Release `video/<slug>`**
+   with `final.mp4`, `master.srt`, `render.lock.json`.
+
+Split of responsibility:
+
+| | local | cloud (CI) |
+|---|---|---|
+| LLM (classify/enrich) | ✅ subscription, reads slide images | — |
+| rasterize / TTS / render / compose / release | — | ✅ all deterministic, CPU-heavy |
+| committed | PDF (LFS), `config/*.json`, `ai/*.json` | (regenerates media, publishes release) |
+
+Tool paths are env-overridable (`FFMPEG_BIN`, `CHROME_BIN`, `PDFTOPPM_BIN`, …) so the
+same scripts run on macOS locally and Ubuntu in CI.
+
 ## Output
 
 - `production/<slug>/final.mp4` — burned-in captions, concatenated.

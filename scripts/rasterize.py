@@ -71,8 +71,15 @@ def main():
 
     style = C.load_json(prod.style_path, DEFAULT_STYLE)
     dpi = style.get("raster", {}).get("dpi", 150)
-    if args.pages.strip().lower() == "all":
+    spec = args.pages.strip().lower()
+    if spec == "all":
         pages = list(range(1, C.pdf_page_count(pdf) + 1))
+    elif spec == "content":
+        # cloud path: rasterize exactly the pages already present in content.json
+        existing = C.load_json(prod.content_path, {})
+        pages = sorted(p["index"] for p in existing.get("pages", []))
+        if not pages:
+            pages = list(range(1, C.pdf_page_count(pdf) + 1))
     else:
         pages = parse_pages(args.pages)
     rasterize(pdf, pages, dpi, prod, args.force)

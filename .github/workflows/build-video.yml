@@ -1,0 +1,120 @@
+name: build-video
+
+# Cloud does ALL the deterministic heavy lifting (rasterize, TTS, render, compose,
+# concat) from the committed content.json, then publishes a GH Release per PDF.
+# The LLM stage already ran locally; there is no AI here.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'production/**/config/**'
+      - 'production/**/ai/**'
+      - 'pdf/**'
+      - 'scripts/**'
+      - 'tools/**'
+      - '.github/workflows/build-video.yml'
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'Slug to build (blank = all buildable)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    outputs:
+      targets: ${{ steps.pick.outputs.targets }}
+      has: ${{ steps.pick.outputs.has }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # need history for the changed-slug diff
+          lfs: false
+      - id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.slug }}" ]; then
+            T=$(python3 scripts/ci_targets.py --slug "${{ github.event.inputs.slug }}")
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            T=$(python3 scripts/ci_targets.py --base "${{ github.event.before }}" --head "${{ github.sha }}")
+          else
+            T=$(python3 scripts/ci_targets.py)
+          fi
+          echo "targets=$T" >> "$GITHUB_OUTPUT"
+          [ "$T" = "[]" ] && echo "has=false" >> "$GITHUB_OUTPUT" || echo "has=true" >> "$GITHUB_OUTPUT"
+          echo "targets: $T"
+
+  build:
+    needs: discover
+    if: needs.discover.outputs.has == 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        target: ${{ fromJSON(needs.discover.outputs.targets) }}
+    concurrency:
+      group: build-${{ matrix.target.slug }}
+      cancel-in-progress: true
+    env:
+      FFMPEG_BIN: ffmpeg
+      FFPROBE_BIN: ffprobe
+      PDFTOPPM_BIN: pdftoppm
+      PDFINFO_BIN: pdfinfo
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true               # pull the PDF from Git LFS
+
+      - name: System deps (poppler + ffmpeg)
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils ffmpeg
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install edge-tts
+
+      - name: Install Chrome
+        id: chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: TTS cache (stable timeline across restyles)
+        uses: actions/cache@v4
+        with:
+          path: production/${{ matrix.target.slug }}/audio
+          # keyed on voiceover text only; tts.py's own (text,voice,rate,vol) hash
+          # still forces re-synth if the voice changes, so this stays correct.
+          key: tts-${{ matrix.target.slug }}-${{ hashFiles(format('production/{0}/config/content.json', matrix.target.slug)) }}
+
+      - name: Render (deterministic chain)
+        env:
+          CHROME_BIN: ${{ steps.chrome.outputs.chrome-path }}
+        run: |
+          PDF="${{ matrix.target.pdf }}"
+          python scripts/render.py --pdf "$PDF" --pages content --only raster
+          python scripts/render.py --pdf "$PDF" --from slide
+
+      - name: Validate (final gate)
+        env:
+          CHROME_BIN: ${{ steps.chrome.outputs.chrome-path }}
+        run: python scripts/validate.py --pdf "${{ matrix.target.pdf }}" --stage all
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          slug="${{ matrix.target.slug }}"
+          dir="production/$slug"
+          tag="video/$slug"
+          assets=("$dir/final.mp4" "$dir/master.srt" "$dir/config/render.lock.json")
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "${assets[@]}" --clobber
+          else
+            gh release create "$tag" "${assets[@]}" \
+              --title "$tag" --notes "Auto-built from ${GITHUB_SHA:0:7}"
+          fi
