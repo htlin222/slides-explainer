@@ -1,0 +1,12 @@
+{
+  "index": 67,
+  "kind": "content",
+  "content_voiceover": "Three more testing questions here, again from the 109th year exam. Question fifty nine presents a forty year old with severe bleeding, a normal thrombin time and PT, but a prolonged aPTT, and a mixing study that corrects immediately at time zero but prolongs again after two hours of incubation at thirty seven degrees. This time-dependent loss of correction is the signature of a factor eight autoantibody, so the answer is acquired hemophilia A, choice B, not lupus anticoagulant, which typically fails to correct right away rather than showing delayed inhibition on incubation. Question sixty asks which situation does not cause a falsely low protein S activity, and the answer is D, uremia. Protein S can be falsely lowered right after an acute venous thrombosis because it's consumed, during pregnancy due to increased binding protein, in liver cirrhosis from reduced synthesis, and while on a vitamin K antagonist since protein S is vitamin K dependent, but uremia is not a recognized cause of spuriously low protein S. Question sixty one asks about a patient with a bleeding tendency but normal platelet count, PT, and aPTT, and which diagnosis does not fit that pattern, and the answer is E, factor eleven deficiency, because factor eleven deficiency would actually prolong the aPTT, unlike factor thirteen deficiency, qualitative platelet disorders, von Willebrand disease, and alpha two antiplasmin deficiency, which can all present with completely normal screening coagulation tests despite causing real clinical bleeding.",
+  "keypoints": [
+    "Time-dependent loss of mixing correction on incubation suggests a factor VIII autoantibody, i.e. acquired hemophilia A.",
+    "Lupus anticoagulant typically fails to correct immediately, without needing an incubation step.",
+    "Uremia does not spuriously lower protein S; acute clot, pregnancy, cirrhosis, and vitamin K antagonists do.",
+    "Bleeding with normal platelet count, PT, and aPTT: think factor XIII deficiency, qualitative platelet disorder, vWD, or alpha-2 antiplasmin deficiency."
+  ],
+  "keypoint_voiceover": "Watch the mixing study pattern: immediate correction that reverses on incubation points to a factor eight autoantibody, not lupus anticoagulant. Uremia is a trap answer for low protein S. And when platelet count, PT, and aPTT are all normal but a patient still bleeds, think factor thirteen deficiency, a qualitative platelet disorder, von Willebrand disease, or alpha two antiplasmin deficiency."
+}

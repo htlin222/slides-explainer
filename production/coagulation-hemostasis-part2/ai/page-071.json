@@ -1,0 +1,11 @@
+{
+  "index": 71,
+  "kind": "content",
+  "content_voiceover": "This slide repeats a familiar concept alongside a trickier pharmacology question. Question sixty eight is the same isolated prolonged aPTT question we saw earlier, and here it's marked with answer B, one plus two plus four, meaning heparin, direct oral anticoagulants, and lupus anticoagulant, while von Willebrand disease is excluded from this particular answer key, since aPTT prolongation from von Willebrand disease depends on how much factor eight is dragged down and isn't considered a reliably isolated aPTT effect the way the other three are. Question forty eight, in Chinese, asks about low molecular weight heparin dosing for anti-thrombotic therapy, and which laboratory tool is not appropriate for adjusting the dose, with choices of PT, anti-factor Xa, thrombin generation assay, aPTT, and none of the above. The handwritten annotation on this slide points out that both anti-Xa and thrombin generation assays are legitimate ways to monitor LMWH, which leaves the answer key choice of E, none of the above, as the more defensible pick, since PT and aPTT are the tests that are genuinely not useful for LMWH monitoring. The nuance worth remembering for boards is that LMWH is monitored by anti-Xa activity, and thrombin generation assay can also be used, but PT and aPTT cannot.",
+  "keypoints": [
+    "This answer key marks the isolated prolonged aPTT causes as heparin, DOACs, and lupus anticoagulant; vWD is debated here.",
+    "LMWH dosing is monitored by anti-Xa assay, and thrombin generation assay is also acceptable.",
+    "PT and aPTT are not appropriate tools for adjusting LMWH dose."
+  ],
+  "keypoint_voiceover": "Note the answer key nuance on the isolated aPTT question, and more importantly for boards, remember that low molecular weight heparin is monitored with anti-factor Xa activity, or a thrombin generation assay, never with PT or aPTT."
+}

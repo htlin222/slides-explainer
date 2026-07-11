@@ -1,0 +1,12 @@
+{
+  "index": 70,
+  "kind": "content",
+  "content_voiceover": "From the 113th year exam. Question two asks what else, besides venous thrombosis and DIC, can elevate D-dimer, and the answer is all four listed factors, hormone use, pregnancy, cancer, and increased age, choice E. D-dimer is a notoriously nonspecific marker, and fellows should remember it rises physiologically with pregnancy and advancing age, and pathologically with malignancy and estrogen-containing therapy, which is exactly why a normal D-dimer is more useful for ruling out thrombosis than an elevated one is for ruling it in. Question sixty four asks what a normal aPTT cannot rule out, and again the answer is all four, mild factor eight deficiency, mild factor nine deficiency, mild factor eleven deficiency, and factor thirteen deficiency, choice E. This directly echoes the sensitivity table from earlier in this deck. The aPTT only becomes abnormal once intrinsic pathway factors drop well below hemostatic thresholds, so mild deficiencies can hide within a normal aPTT, and factor thirteen deficiency is never detected by aPTT at any severity, because factor thirteen acts downstream of the standard clotting cascade, cross-linking fibrin after the clot has already formed.",
+  "keypoints": [
+    "D-dimer elevation is nonspecific: pregnancy, aging, cancer, and hormone use all raise it.",
+    "A normal D-dimer rules thrombosis out better than an elevated one rules it in.",
+    "A normal aPTT does not exclude mild factor VIII, IX, or XI deficiency.",
+    "Factor XIII deficiency is never detected by aPTT, since factor XIII acts after clot formation."
+  ],
+  "keypoint_voiceover": "Two nonspecificity traps for boards. D-dimer rises with pregnancy, aging, cancer, and hormone use, not just thrombosis or DIC. And a normal aPTT never rules out mild factor eight, nine, or eleven deficiency, and can never detect factor thirteen deficiency at all, since factor thirteen works downstream of the clotting cascade."
+}

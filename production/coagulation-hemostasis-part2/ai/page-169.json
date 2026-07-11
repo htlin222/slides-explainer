@@ -1,0 +1,12 @@
+{
+  "index": 169,
+  "kind": "content",
+  "content_voiceover": "These two questions test core concepts in anticoagulant selection. The first vignette describes a patient with antiphospholipid syndrome who is triple positive, meaning lupus anticoagulant, anticardiolipin antibody, and anti beta two glycoprotein one are all positive. For long term anticoagulation in triple positive APS, vitamin K antagonists such as warfarin remain the preferred choice. Direct oral anticoagulants have been shown in trials like TRAPS to carry a higher risk of recurrent thrombotic events, particularly arterial events, in this high risk triple positive population, so they should be avoided. The second question tests a commonly confused detail about direct oral anticoagulants used for venous thromboembolism. Remember the grouping, rivaroxaban and apixaban can be started as a single drug approach without any lead in anticoagulation, while dabigatran and edoxaban require at least five days of parenteral heparin or low molecular weight heparin before starting. The wrong statement in this question reverses that pairing, which is exactly the kind of trap that shows up on boards.",
+  "keypoints": [
+    "Triple positive antiphospholipid syndrome: prefer vitamin K antagonist over DOACs for long term anticoagulation",
+    "DOACs increase thrombotic risk in triple positive APS, per TRAPS trial data",
+    "Rivaroxaban and apixaban: single drug approach, no parenteral lead in needed",
+    "Dabigatran and edoxaban: require at least 5 days of heparin or LMWH lead in first"
+  ],
+  "keypoint_voiceover": "Key takeaways. In triple positive antiphospholipid syndrome, choose a vitamin K antagonist over a DOAC for long term anticoagulation, since DOACs carry higher thrombotic risk in this group. And remember the DOAC lead in rule, rivaroxaban and apixaban work as single drug approaches, while dabigatran and edoxaban need at least five days of heparin or low molecular weight heparin first."
+}
