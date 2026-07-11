@@ -51,7 +51,10 @@ def main():
         ai = C.load_json(ai_file)
         idx = ai["index"]
         if idx not in by_index:
-            continue
+            # page not in the skeleton yet (e.g. rasterize skeleton incomplete);
+            # create it from the ai file, deriving the standard image path.
+            by_index[idx] = {"index": idx, "kind": None,
+                             "image": f"pages/page-{idx:03d}.png", "segments": []}
         page = by_index[idx]
         page["kind"] = ai["kind"]
         page["segments"] = segments_for(ai)
