@@ -1,0 +1,13 @@
+{
+  "index": 21,
+  "kind": "content",
+  "content_voiceover": "This is Appendix II, the treatment schema of TPOG ALL twenty twenty one for T cell ALL. It splits patients into early T cell precursor, or ETP, and non ETP subtypes, each following a similar backbone. Both start with Induction I and Induction II C over the first several weeks, followed by an intensification block, EI plus for most patients, or V-EI specifically for ETP cases. MRD is checked at day fifteen, day forty two, and day seventy. Based on that MRD result, patients enter a menu of treatment options, footnoted at the bottom, before a decision point, if MRD remains positive, the patient goes to transplant, if negative, they continue with high dose methotrexate and mercaptopurine cycles, re-induction I and II, and then long term continuation therapy. Note that ETP ALL requires MRD of zero point one percent or higher after EI plus or V-EI to trigger the intensified pathway, while non ETP uses a slightly different threshold combining MRD2 and the post EI plus MRD value. The overall timeline mirrors the B-ALL schema, extending out to week one twenty.",
+  "keypoints": [
+    "T-ALL is split into ETP and non-ETP arms with similar overall backbone",
+    "MRD checkpoints at day fifteen, day forty two, and day seventy guide therapy",
+    "ETP patients get V-EI intensification, non-ETP get EI plus",
+    "Persistent MRD positivity after intensification leads to HSCT",
+    "Different MRD thresholds define high risk for ETP versus non-ETP"
+  ],
+  "keypoint_voiceover": "Key points for T-ALL treatment under TPOG twenty twenty one. ETP and non ETP subtypes follow a similar induction and intensification backbone, but ETP uses V-EI while non ETP uses EI plus. MRD is checked at day fifteen, forty two, and seventy, and persistent MRD positivity after intensification triggers transplant. The MRD thresholds defining high risk differ slightly between ETP and non ETP."
+}

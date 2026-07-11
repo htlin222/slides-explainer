@@ -1,0 +1,12 @@
+{
+  "index": 58,
+  "kind": "content",
+  "content_voiceover": "This slide makes two points about pediatric brain tumor epidemiology. The top bar chart compares incidence rates per hundred thousand across eight countries and registries, the United States, Australia, the UK, Japan, Singapore, China, Korea, and Taiwan. You can see meaningful variation in total incidence and in the relative proportion of astrocytoma, embryonal tumors like medulloblastoma and PNET, other gliomas, germ cell tumors, and ependymoma between these populations, which is a reminder that epidemiologic data isn't fully generalizable across regions. The bottom chart is more testable, it shows brain tumor type by age band, under one, one to four, five to nine, ten to fourteen, and fifteen to nineteen. Notice that embryonal tumors, the purple segment, are proportionally much larger in the youngest age groups, under one and one to four, and then shrink with age, while astrocytoma, the orange segment, becomes proportionally dominant by the teenage years. CNS germ cell tumors also show an age pattern, becoming more prominent in the five to nine and ten to fourteen bands. The board relevant lesson is that age at presentation should shift your differential, embryonal tumors like medulloblastoma cluster in infants and young children, astrocytomas and gliomas become relatively more common as children get older.",
+  "keypoints": [
+    "Brain tumor incidence and subtype distribution vary by country and registry",
+    "Embryonal tumors, like medulloblastoma, are proportionally most common in infants and toddlers",
+    "Astrocytoma becomes the dominant subtype by the teenage years",
+    "Use age at presentation to help narrow your brain tumor differential"
+  ],
+  "keypoint_voiceover": "Two things to lock in. First, incidence rates and tumor subtype proportions genuinely differ across countries and registries. Second, and more testable, age shapes the differential, embryonal tumors like medulloblastoma peak in infants and young children, while astrocytoma becomes proportionally dominant as kids move into adolescence."
+}

@@ -1,0 +1,12 @@
+{
+  "index": 63,
+  "kind": "content",
+  "content_voiceover": "This table is the detailed reference version of the four medulloblastoma molecular subgroups, and it's dense but very testable. WNT subgroup occurs in older children, adolescents, and adults, has an equal gender distribution, classic histology that's rarely large cell anaplastic, is rarely metastatic, and has a very good prognosis, driven by CTNNB1 mutations and WNT signaling activation. Sonic hedgehog, or SHH, subgroup occurs in young children as well as adolescents and adults, notably with a bimodal age pattern, equal gender distribution, desmoplastic nodular or classic histology, uncommon metastasis, and prognosis that's good in infants but intermediate in others, driven by mutations in PTCH1, PTCH2, SMO, or SUFU, plus GLI2 and MYCN amplification. Group 3 occurs in children and infants, is male predominant at a two to one ratio, has classic or large cell anaplastic histology, is very frequently metastatic, and has the poorest prognosis, characterized by isochromosome 17q and MYC amplification with very high MYC expression. Group 4 occurs across infants, children, and adults, is male predominant, has classic or large cell anaplastic histology, is frequently metastatic, with an intermediate prognosis, also showing isochromosome 17q plus CDK6 and MYCN amplification, but minimal MYC or MYCN expression compared to Group 3. The red underline on the prognosis row is your cue, that's the single row worth memorizing if you memorize nothing else on this slide.",
+  "keypoints": [
+    "WNT, CTNNB1 mutation, very good prognosis, rarely metastatic",
+    "SHH, PTCH1, PTCH2, SMO, or SUFU mutations, good in infants, intermediate otherwise",
+    "Group 3, MYC amplification, male predominant, poorest prognosis, very frequent metastasis",
+    "Group 4, isochromosome 17q, CDK6 and MYCN amplification, intermediate prognosis"
+  ],
+  "keypoint_voiceover": "Boil this table down to genetics and prognosis. WNT means CTNNB1 mutation and excellent prognosis. SHH means PTCH, SMO, or SUFU mutations with an infant favorable pattern. Group 3 means MYC amplification and the worst prognosis with frequent metastasis. Group 4 means isochromosome 17q with CDK6 and MYCN amplification and an intermediate prognosis."
+}

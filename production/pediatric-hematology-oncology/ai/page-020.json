@@ -1,0 +1,13 @@
+{
+  "index": 20,
+  "kind": "content",
+  "content_voiceover": "This is Appendix I, the treatment schema of TPOG ALL twenty twenty one for B cell ALL. It lays out two parallel tracks, standard risk on top and high risk or very high risk on the bottom, defined by MRD checkpoints at day fifteen, day forty two, and a later MRD3 assessment. Standard risk patients move through Induction I and II A, then either high dose methotrexate and mercaptopurine cycles or, if MRD at day fifteen is one percent or higher, an extra EI star block before consolidation, followed by re-induction and cyclical maintenance chemotherapy. High risk and very high risk patients get more intensive Induction II B or C, extra intensification blocks, and critically, two cycles of blinatumomab, labeled Blincyto I and II, built into consolidation. After blinatumomab, MRD is reassessed, if positive, the patient proceeds to HSCT or CAR T cell therapy, if negative, they continue with re-induction and maintenance. The timeline at the bottom shows the overall structure, remission and early intensification for the first nine weeks, consolidation over the next eight weeks, continuation and reinduction from week one to twenty, and then long term continuation therapy out to week one twenty, roughly two and a half years total.",
+  "keypoints": [
+    "Two parallel tracks, standard risk versus high risk and very high risk, driven by MRD",
+    "MRD checked at day fifteen, day forty two, and MRD3",
+    "High risk and very high risk patients receive two cycles of blinatumomab in consolidation",
+    "MRD positive after blinatumomab leads to HSCT or CAR T cell therapy",
+    "Total therapy duration extends to about week one twenty"
+  ],
+  "keypoint_voiceover": "Key points on this TPOG ALL twenty twenty one B-ALL schema. Risk group and MRD response, checked at day fifteen, day forty two, and MRD3, drive the treatment path. High risk and very high risk patients get blinatumomab built into consolidation. If MRD stays positive afterward, the patient moves to transplant or CAR T cell therapy. Total treatment runs out to about week one twenty."
+}

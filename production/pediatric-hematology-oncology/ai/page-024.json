@@ -1,0 +1,13 @@
+{
+  "index": 24,
+  "kind": "content",
+  "content_voiceover": "This slide summarizes the diagnostic criteria for Early T-cell Precursor, or ETP, ALL, a biologically distinct and historically high risk subtype of T-ALL. All four criteria must be met simultaneously. Criteria one requires an unequivocal diagnosis of T-ALL, meaning CD3 positive, either surface or cytoplasmic, CD7 positive, and myeloperoxidase negative, which rules out mixed phenotype or myeloid disease. Criteria two requires the blasts to be CD1a negative and CD8 negative, reflecting an immature, pre cortical stage of T cell development. Criteria three requires dim CD5 expression, defined as a mean fluorescence intensity at least ten fold lower than normal T lymphocytes in the same sample, or fewer than seventy five percent of blasts being CD5 positive. Finally, criteria four requires expression of stem cell associated antigens, such as CD34, CD133, CD117, or HLA-DR, and or myeloid associated antigens, such as CD13, CD33, CD15, or CD11b, and positivity for just one of these markers is enough to satisfy this criterion. Together, this immunophenotype reflects an early, multipotent thymocyte that has not committed to full T lineage differentiation, which is why ETP ALL behaves differently and is risk stratified separately, as we saw in the preceding treatment algorithms.",
+  "keypoints": [
+    "All four criteria must be met for ETP ALL diagnosis",
+    "Unequivocal T-ALL, CD3 positive, CD7 positive, myeloperoxidase negative",
+    "CD1a negative and CD8 negative",
+    "Dim CD5, MFI at least ten fold lower than normal T cells, or under seventy five percent CD5 positive",
+    "Stem cell or myeloid associated antigen expression, any one marker is sufficient"
+  ],
+  "keypoint_voiceover": "Key points for ETP ALL diagnosis. All four criteria must be met together. First, unequivocal T-ALL with CD3 positive, CD7 positive, and MPO negative. Second, CD1a negative and CD8 negative. Third, dim CD5 expression. Fourth, expression of at least one stem cell or myeloid associated antigen. This immature immunophenotype is why ETP ALL is risk stratified separately."
+}
