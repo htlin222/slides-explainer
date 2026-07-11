@@ -44,13 +44,16 @@ def main():
     ap.add_argument("--pdf", required=True)
     ap.add_argument("--pages", help="e.g. 1-5 (required if running the raster stage)")
     ap.add_argument("--from", dest="from_stage", default="raster", choices=STAGE_NAMES)
+    ap.add_argument("--to", dest="to_stage", default=None, choices=STAGE_NAMES,
+                    help="stop after this stage (inclusive)")
     ap.add_argument("--only", help="run just this one stage", choices=STAGE_NAMES)
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
 
     start = STAGE_NAMES.index(args.from_stage)
+    end = (STAGE_NAMES.index(args.to_stage) + 1) if args.to_stage else len(STAGES)
     todo = [s for s in STAGES if (s[0] == args.only)] if args.only \
-        else STAGES[start:]
+        else STAGES[start:end]
 
     for name, script, accepts_pages, accepts_force in todo:
         cmd = [PY, str(SCRIPTS / script), "--pdf", args.pdf]

@@ -47,11 +47,11 @@
   "video": {
     "abitrate": "192k",
     "acodec": "aac",
-    "crf": 18,
+    "crf": 20,
     "fps": 30,
     "height": 1080,
     "pix_fmt": "yuv420p",
-    "preset": "medium",
+    "preset": "veryfast",
     "vcodec": "libx264",
     "width": 1920
   }

@@ -1,0 +1,131 @@
+name: build-one
+
+# Reusable per-slug builder with a sharded compose (map-reduce):
+#   prepare  -> rasterize + keypoint cards + TTS + SRT + timeline (once)
+#   compose  -> 12 parallel workers, each renders its slice of segment clips
+#   combine  -> gather all clips, concat, snapshot, publish the GH Release
+# Clips are handed between jobs as artifacts.
+
+on:
+  workflow_call:
+    inputs:
+      slug:
+        required: true
+        type: string
+      pdf:
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+env:
+  FFMPEG_BIN: ffmpeg
+  FFPROBE_BIN: ffprobe
+  PDFTOPPM_BIN: pdftoppm
+  PDFINFO_BIN: pdfinfo
+  SHARDS: "12"
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils ffmpeg
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install edge-tts
+      - id: chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+      - name: TTS cache (stable timeline across restyles)
+        uses: actions/cache@v4
+        with:
+          path: production/${{ inputs.slug }}/audio
+          key: tts-${{ inputs.slug }}-${{ hashFiles(format('production/{0}/config/content.json', inputs.slug)) }}
+      - name: Prepare (raster, cards, TTS, SRT, timeline)
+        env:
+          CHROME_BIN: ${{ steps.chrome.outputs.chrome-path }}
+        run: |
+          PDF="${{ inputs.pdf }}"
+          python scripts/render.py --pdf "$PDF" --pages content --only raster
+          python scripts/render.py --pdf "$PDF" --from slide --to timeline
+      - uses: actions/upload-artifact@v4
+        with:
+          name: prep-${{ inputs.slug }}
+          path: production/${{ inputs.slug }}
+          include-hidden-files: true
+          retention-days: 1
+          if-no-files-found: error
+
+  compose:
+    needs: prepare
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          name: prep-${{ inputs.slug }}
+          path: production/${{ inputs.slug }}
+      - name: Compose shard ${{ matrix.shard }}
+        run: python scripts/compose.py --pdf "${{ inputs.pdf }}" --shard ${{ matrix.shard }} --of ${{ env.SHARDS }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: seg-${{ inputs.slug }}-${{ matrix.shard }}
+          path: production/${{ inputs.slug }}/segments
+          retention-days: 1
+          if-no-files-found: warn
+
+  combine:
+    needs: compose
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install edge-tts
+      - name: Restore prepared artifacts (config, timeline, master srt)
+        uses: actions/download-artifact@v4
+        with:
+          name: prep-${{ inputs.slug }}
+          path: production/${{ inputs.slug }}
+      - name: Restore all composed shards
+        uses: actions/download-artifact@v4
+        with:
+          pattern: seg-${{ inputs.slug }}-*
+          path: production/${{ inputs.slug }}/segments
+          merge-multiple: true
+      - name: Concat + snapshot
+        run: |
+          python scripts/concat.py --pdf "${{ inputs.pdf }}"
+          python scripts/snapshot.py --pdf "${{ inputs.pdf }}"
+      - name: Validate final
+        run: python scripts/validate.py --pdf "${{ inputs.pdf }}" --stage final
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          slug="${{ inputs.slug }}"
+          dir="production/$slug"
+          tag="video/$slug"
+          assets=("$dir/$slug.mp4" "$dir/$slug.srt" "$dir/config/render.lock.json")
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "${assets[@]}" --clobber
+          else
+            gh release create "$tag" "${assets[@]}" \
+              --title "$tag" --notes "Auto-built (sharded) from ${GITHUB_SHA:0:7}"
+          fi

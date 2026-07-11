@@ -86,17 +86,25 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pdf", required=True)
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--shard", type=int, default=0, help="this worker's shard index")
+    ap.add_argument("--of", type=int, default=1, help="total number of shards")
     args = ap.parse_args()
+    if not (0 <= args.shard < args.of):
+        raise SystemExit("--shard must be in [0, --of)")
 
     prod = C.Prod(Path(args.pdf))
     style = C.load_json(prod.style_path, DEFAULT_STYLE)
     tl = C.load_json(prod.timeline_path)
+    # each worker composes only its slice of segments (round-robin by ordinal),
+    # so N parallel CI jobs share the compose cost; combine happens downstream.
+    mine = [s for i, s in enumerate(tl["segments"]) if i % args.of == args.shard]
     built = 0
-    for seg in tl["segments"]:
+    for seg in mine:
         if build_clip(prod, style, seg, args.force):
             built += 1
             print(f"composed {seg['id']}.mp4 ({seg['clip_frames']} frames)")
-    print(f"composed {built} clip(s) ({len(tl['segments'])} total)")
+    print(f"shard {args.shard}/{args.of}: composed {built} of {len(mine)} clip(s) "
+          f"({len(tl['segments'])} total)")
 
 
 if __name__ == "__main__":

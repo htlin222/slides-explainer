@@ -11,8 +11,8 @@ DEFAULT_STYLE = {
         "fps": 30,
         "vcodec": "libx264",
         "pix_fmt": "yuv420p",
-        "crf": 18,
-        "preset": "medium",
+        "crf": 20,
+        "preset": "veryfast",   # static slides encode ~identically; ~4x faster than medium
         "acodec": "aac",
         "abitrate": "192k",
     },
