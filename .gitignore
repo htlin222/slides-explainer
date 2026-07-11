@@ -1,0 +1,22 @@
+# Python env
+.venv/
+__pycache__/
+*.pyc
+
+# Generated media — regenerated deterministically in cloud CI, never committed
+production/*/pages/
+production/*/audio/
+production/*/slides/
+production/*/captions/
+production/*/segments/
+production/*/final.mp4
+production/*/master.srt
+production/*/concat.txt
+production/*/_joined.mp4
+
+# Derived / per-run artifacts (cloud recomputes; lock ships as a release asset)
+production/*/config/timeline.json
+production/*/config/render.lock.json
+
+# OS cruft
+.DS_Store
