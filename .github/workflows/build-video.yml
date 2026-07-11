@@ -14,7 +14,8 @@ on:
       - 'pdf/**'
       - 'scripts/**'
       - 'tools/**'
-      - '.github/workflows/**'
+      # NOTE: workflow/Dockerfile changes do NOT auto-rebuild every video;
+      # trigger a rebuild deliberately with workflow_dispatch when needed.
   workflow_dispatch:
     inputs:
       slug:
@@ -62,4 +63,5 @@ jobs:
       pdf: ${{ matrix.target.pdf }}
     permissions:
       contents: write
+      packages: read
     secrets: inherit

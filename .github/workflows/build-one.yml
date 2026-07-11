@@ -1,12 +1,13 @@
 name: build-one
 
-# Reusable per-slug builder, fully sharded map-reduce:
+# Reusable per-slug builder, fully sharded map-reduce, every job running inside
+# the prebuilt CI image (ffmpeg/poppler/chromium/edge-tts/gh preinstalled) so
+# shard fan-out (up to 20 workers) pays almost no per-job setup cost.
 #   prepare  -> rasterize + keypoint cards
-#   tts      -> N parallel workers, each synthesizes its slice of segments
+#   tts      -> 20 parallel workers, each synthesizes its slice of segments
 #   gather   -> BARRIER: collect all audio, build SRT + timeline (needs all durations)
-#   compose  -> N parallel workers, each renders its slice of segment clips
+#   compose  -> 20 parallel workers, each renders its slice of segment clips
 #   combine  -> gather all clips, concat, snapshot, publish the GH Release
-# Audio and clips move between jobs as artifacts.
 
 on:
   workflow_call:
@@ -20,32 +21,30 @@ on:
 
 permissions:
   contents: write
+  packages: read
 
 env:
   FFMPEG_BIN: ffmpeg
   FFPROBE_BIN: ffprobe
   PDFTOPPM_BIN: pdftoppm
   PDFINFO_BIN: pdfinfo
-  SHARDS: "12"
+  CHROME_BIN: /usr/bin/chromium
+  SHARDS: "20"
+  IMAGE: ghcr.io/${{ github.repository_owner }}/slides-explainer-ci:latest
 
 jobs:
   prepare:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/${{ github.repository_owner }}/slides-explainer-ci:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
           lfs: true
-      - run: sudo apt-get update && sudo apt-get install -y poppler-utils ffmpeg
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - id: chrome
-        uses: browser-actions/setup-chrome@v1
-        with:
-          chrome-version: stable
       - name: Rasterize + keypoint cards
-        env:
-          CHROME_BIN: ${{ steps.chrome.outputs.chrome-path }}
         run: |
           PDF="${{ inputs.pdf }}"
           python scripts/render.py --pdf "$PDF" --pages content --only raster
@@ -62,17 +61,17 @@ jobs:
 
   tts:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/${{ github.repository_owner }}/slides-explainer-ci:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       fail-fast: false
       matrix:
-        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: pip install edge-tts
       - name: TTS cache (per shard)
         uses: actions/cache@v4
         with:
@@ -90,13 +89,13 @@ jobs:
   gather:
     needs: [prepare, tts]
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/${{ github.repository_owner }}/slides-explainer-ci:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: pip install edge-tts
       - uses: actions/download-artifact@v4
         with:
           name: prep-pages-${{ inputs.slug }}
@@ -122,16 +121,17 @@ jobs:
   compose:
     needs: gather
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/${{ github.repository_owner }}/slides-explainer-ci:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       fail-fast: false
       matrix:
-        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
       - uses: actions/download-artifact@v4
         with:
           name: prep-${{ inputs.slug }}
@@ -148,13 +148,13 @@ jobs:
   combine:
     needs: compose
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/${{ github.repository_owner }}/slides-explainer-ci:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: pip install edge-tts
       - uses: actions/download-artifact@v4
         with:
           name: prep-${{ inputs.slug }}
@@ -178,10 +178,11 @@ jobs:
           slug="${{ inputs.slug }}"
           dir="production/$slug"
           tag="video/$slug"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE" || true
           assets=("$dir/$slug.mp4" "$dir/$slug.srt" "$dir/config/render.lock.json")
           if gh release view "$tag" >/dev/null 2>&1; then
             gh release upload "$tag" "${assets[@]}" --clobber
           else
             gh release create "$tag" "${assets[@]}" \
-              --title "$tag" --notes "Auto-built (sharded) from ${GITHUB_SHA:0:7}"
+              --title "$tag" --notes "Auto-built (sharded, containerized) from ${GITHUB_SHA:0:7}"
           fi
