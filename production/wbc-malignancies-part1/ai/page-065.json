@@ -1,0 +1,12 @@
+{
+  "index": 65,
+  "kind": "content",
+  "content_voiceover": "This question tests the two-thousand twenty-two revised classification systems for myelodysplastic syndrome, the International Consensus Classification and the fifth edition World Health Organization classification. Option A is correct, both systems now recommend a unified ten percent threshold for defining dysplasia across all three lineages, replacing the older lineage-specific cutoffs. Option B correctly describes MDS with SF3B1 mutation, low blast counts with at least fifteen percent ring sideroblasts, in the absence of TP53 mutation. Option D is also correct, a patient with two-lineage dysplasia, SF3B1 mutation, and a co-occurring RUNX1 mutation falls outside the SF3B1-defined category and is classified as MDS, not otherwise specified, with multilineage dysplasia. Option E correctly applies the fifth edition WHO criteria for biallelic TP53 inactivation, here demonstrated by two separate TP53 mutations with variant allele frequencies of fifteen and thirty-two percent. The wrong statement is option C. A single TP53 mutation with a normal diploid karyotype, forty-six XY, does not meet the multi-hit requirement that the ICC demands for the category MDS with mutated TP53, which requires either two TP53 mutations, one mutation with seventeen p deletion, or one mutation with copy-neutral loss of heterozygosity. A solitary mutation without a second hit should instead be classified under a low variant allele frequency TP53 category rather than the full multi-hit designation.",
+  "keypoints": [
+    "Unified ten percent dysplasia threshold across ICC and WHO fifth edition",
+    "MDS-SF3B1 requires ring sideroblasts and absence of a TP53 mutation",
+    "Co-occurring RUNX1 excludes the SF3B1 category, becomes MDS NOS with multilineage dysplasia",
+    "Single TP53 mutation with a normal karyotype fails the multi-hit rule for ICC mutated-TP53 MDS"
+  ],
+  "keypoint_voiceover": "Remember four things. Dysplasia threshold is now ten percent for every lineage in both classifications. MDS-SF3B1 needs ring sideroblasts and no TP53 mutation. A second mutation like RUNX1 alongside SF3B1 pushes the diagnosis into MDS not otherwise specified with multilineage dysplasia. And critically, TP53-mutated MDS under the ICC requires a multi-hit state, two mutations, deletion plus mutation, or copy-neutral loss of heterozygosity, so a single mutation with a normal karyotype does not qualify."
+}
