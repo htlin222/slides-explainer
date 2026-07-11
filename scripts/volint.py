@@ -25,6 +25,7 @@ _FIXES = [
     (r"\s*[→➔⇒➞]\s*", " leads to "),   # arrows
     (r"≥", " greater than or equal to "),
     (r"≤", " less than or equal to "),
+    (r"\s*[—–]\s*", ", "),              # em/en dash -> comma pause (TTS-clean)
     (r"([0-9])\s*%", r"\1 percent"),   # "80%" -> "80 percent"
     (r"\s*&\s*", " and "),
     (r"\s+", " "),                      # collapse whitespace (last)
