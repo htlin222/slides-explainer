@@ -1,0 +1,1093 @@
+{
+  "pages": [
+    {
+      "image": "pages/page-001.png",
+      "index": 1,
+      "kind": "title",
+      "segments": [
+        {
+          "id": "seg-001t",
+          "page": 1,
+          "role": "title",
+          "voiceover": "Welcome to this board review on transfusion medicine. Today we'll cover the fundamentals of blood typing, the important pretransfusion testing procedures, and dive into two key areas: Coombs' testing and autoimmune hemolytic anemia, including special considerations for AIHA transfusions. We'll also discuss how certain monoclonal antibody drugs like anti-CD38 and anti-CD47 can interfere with pretransfusion testing."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-002.png",
+      "index": 2,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-002a",
+          "page": 2,
+          "role": "content",
+          "voiceover": "Let's orient to the red cell membrane. Beyond ABO and Rh, there are over thirty blood group systems sitting on that surface, including Kidd, Duffy, MNS, Kell, Lutheran, and Diego. For boards, group them into two mechanistic models. Model one is the protein blood group model, where the blood group gene product itself is the antigen, and polymorphism comes from amino acid differences on that protein. Think Rh, Kidd, and Duffy blood types. Model two is the carbohydrate blood group model, where the gene doesn't make the antigen directly, it makes a transferase enzyme, and that enzyme adds a sugar onto a glycolipid or glycoprotein backbone to build the antigen. ABO and Lewis are the classic carbohydrate examples. This protein versus carbohydrate distinction is the single most useful framework for predicting antibody behavior, since carbohydrate antigens tend to provoke naturally occurring IgM antibodies, while protein antigens usually require exposure through transfusion or pregnancy."
+        },
+        {
+          "id": "seg-002b",
+          "keypoints": [
+            "Model 1, protein blood groups: gene product IS the antigen, e.g. Rh, Kidd, Duffy",
+            "Model 2, carbohydrate blood groups: gene makes a transferase that builds the antigen, e.g. ABO, Lewis",
+            "Over 30 blood group systems exist beyond ABO and Rh",
+            "Mechanism predicts antibody type, naturally occurring versus exposure-induced"
+          ],
+          "page": 2,
+          "role": "keypoint",
+          "voiceover": "Two models to memorize for boards. Protein blood groups, like Rh, Kidd, and Duffy, where the gene product is directly the antigen. And carbohydrate blood groups, like ABO and Lewis, where the gene encodes a transferase enzyme that builds the antigen by adding sugars onto a lipid or protein backbone. Remember there are more than thirty blood group systems total, and this protein versus carbohydrate split is what predicts whether antibodies show up naturally or only after transfusion exposure."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-003.png",
+      "index": 3,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-003a",
+          "page": 3,
+          "role": "content",
+          "voiceover": "This slide drills into model one, the protein antigens. The common pattern is a single nucleotide polymorphism, a SNP, in the gene that produces two allelic forms of the protein, labeled a and b, and these are called antithetical antigens, meaning if you're negative for one you're almost always positive for the other. Kidd blood group, Jk-a and Jk-b, is the textbook example. Now the less common but board-relevant case, especially if you're thinking about Taiwan, is the Mi-a antigen, also called Mur or Mi-three. This arises from a homologous crossover between the glycophorin A and glycophorin B genes, creating a hybrid GP-B-A-B-Mur protein that displays a brand new antigen not present on either parent protein. Here's the number to memorize, about seven point three percent of the Taiwanese population is Mi-a positive, compared to essentially zero in Caucasians, and anti-Mi-a is actually the most common unexpected, irregular antibody found in Taiwan. That combination of high antigen frequency plus ethnic specificity is exactly the kind of fact boards like to test."
+        },
+        {
+          "id": "seg-003b",
+          "keypoints": [
+            "Antithetical antigens from SNPs, classic example Jk-a slash Jk-b in Kidd system",
+            "Mi-a (Mur, Mi-III) arises from GPA-GPB gene crossover, a hybrid glycophorin",
+            "Taiwan: ~7.3% Mi-a positive versus near 0% in Caucasians",
+            "Anti-Mi-a is the most common irregular antibody in Taiwan"
+          ],
+          "page": 3,
+          "role": "keypoint",
+          "voiceover": "Two protein antigen concepts to lock in. First, SNP-driven antithetical pairs, like Jk-a and Jk-b in the Kidd system. Second, the Mi-a antigen, also called Mur or Mi-three, which comes from a crossover hybrid of glycophorin A and B genes. The board fact to remember, about seven percent of Taiwanese are Mi-a positive versus almost no Caucasians, and anti-Mi-a is the single most common irregular antibody encountered in Taiwan."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-004.png",
+      "index": 4,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-004a",
+          "page": 4,
+          "role": "content",
+          "voiceover": "Now a concrete, high-yield example of protein polymorphism, the RhD negative null phenotype. On chromosome one, RHD and RHCE sit as two homologous genes in tandem, flanked by Rh box sequences, with TMEM50A in between. The most common mechanism for RhD negative status isn't a point mutation, it's a complete deletion of the RHD gene, mediated by homologous recombination between those flanking Rh boxes. So a truly RhD negative person has no RHD gene at all, they only retain RHCE, which still produces the RhCcEe protein, just no D antigen whatsoever. This is a true null phenotype, not a weak or altered antigen. The number that matters most for boards is the striking racial difference in prevalence, Rh negative is only about zero point three percent in Taiwan, compared to about fifteen percent in Caucasians. That's roughly a fifty-fold difference, and it has real clinical implications for how often Rh negative blood needs to be stocked and how Rh alloimmunization risk is counseled across different populations."
+        },
+        {
+          "id": "seg-004b",
+          "keypoints": [
+            "RHD and RHCE are tandem homologous genes on chromosome 1, flanked by Rh boxes",
+            "RhD negative usually = complete RHD gene deletion via Rh box recombination, a true null",
+            "Only RHCE remains, still making RhCcEe protein, just no D antigen",
+            "Taiwan Rh negative ~0.3% versus Caucasian ~15%, about a 50-fold difference"
+          ],
+          "page": 4,
+          "role": "keypoint",
+          "voiceover": "The classic protein polymorphism example is RhD negative status. Mechanistically it's usually a complete deletion of the RHD gene through Rh box mediated recombination, leaving only RHCE behind, so it's a true null phenotype, not a weak antigen. The number to memorize for boards, Taiwan Rh negative prevalence is about zero point three percent, versus about fifteen percent in Caucasians, roughly a fifty-fold difference that shapes blood bank inventory and alloimmunization risk."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-005.png",
+      "index": 5,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-005a",
+          "page": 5,
+          "role": "content",
+          "voiceover": "Switching to model two, carbohydrate antigens, using ABO as the prototype. Here the blood group gene does not become the antigen itself, it encodes a glycosyltransferase enzyme. That enzyme takes a precursor glycolipid or glycoprotein backbone and attaches a specific sugar onto it, and that added sugar is what the antibody actually recognizes. Looking at the diagram, the backbone starts with fucose attached to build the H antigen, and then A-transferase adds N-acetylgalactosamine, also called galactosamine, to make the A antigen, while B-transferase adds galactose to make the B antigen. So the entire difference between blood type A and blood type B comes down to which single sugar the transferase enzyme attaches, GalNAc for A, galactose for B. This enzymatic, sugar-building logic is the key conceptual difference from model one, where the protein polymorphism was the antigen directly. For boards, remember it's substrate specificity of the transferase, not the antigen structure itself, that the ABO gene actually controls."
+        },
+        {
+          "id": "seg-005b",
+          "keypoints": [
+            "ABO genes encode glycosyltransferase enzymes, not the antigens directly",
+            "A-transferase adds N-acetylgalactosamine (GalNAc) onto the H antigen backbone",
+            "B-transferase adds galactose onto the H antigen backbone",
+            "H antigen (built by fucosyltransferase) is the shared precursor for both A and B"
+          ],
+          "page": 5,
+          "role": "keypoint",
+          "voiceover": "For ABO, remember the gene product is an enzyme, not the antigen. A-transferase attaches N-acetylgalactosamine, also called galactosamine, onto the H antigen backbone to build the A antigen. B-transferase attaches galactose instead, to build the B antigen. Both start from the same H antigen precursor, which itself is built by a fucosyltransferase adding fucose. One sugar, added by one enzyme, is the whole difference between A and B."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-006.png",
+      "index": 6,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-006a",
+          "page": 6,
+          "role": "content",
+          "voiceover": "Now let's cover the variant, or subgroup, side of the carbohydrate model, because this is where board questions like to get tricky. Normally transferase polymorphism just gives you standard A or standard B. But mutations can disrupt this pathway in three distinct ways, and each produces a different phenotype. First, if the precursor substrate itself is missing or defective, upstream at the H gene level, the A or B transferase has nothing to work on, no substrate, no antigen, and you get the Bombay or parabombay phenotype, even though the person may genetically carry normal ABO genes. Second, a mutation can alter the transferase's specificity so it loses its strict preference and adds both sugars somewhat promiscuously, producing the B(A) or cis-AB phenotype, where A and B genes essentially sit on the same chromosome and get inherited together. Third, a mutation can simply reduce the transferase's function or efficiency without changing its specificity, giving a weak subgroup phenotype like Ael, where antigen is present but in reduced quantity. This variant classification also matters practically in paternity testing, where unexpected ABO phenotypes can otherwise look like exclusionary evidence."
+        },
+        {
+          "id": "seg-006b",
+          "keypoints": [
+            "Bombay/parabombay: precursor or H antigen missing, transferase has no substrate to act on",
+            "Altered transferase specificity -> B(A) or cis-AB phenotype, promiscuous enzyme",
+            "Decreased transferase function -> weak subgroup, e.g. Ael, reduced antigen quantity",
+            "ABO subgroup variants are a classic pitfall in paternity testing"
+          ],
+          "page": 6,
+          "role": "keypoint",
+          "voiceover": "Three ways ABO transferase mutations create subgroups. Lose the precursor substrate entirely, upstream at the H gene, and you get Bombay or parabombay, no antigen despite normal ABO genes. Alter the transferase's specificity, and it becomes promiscuous, giving B(A) or cis-AB phenotype. Just reduce transferase function, and you get a weak subgroup like Ael, with antigen present but diminished. Know these three patterns, they're a classic source of paternity testing pitfalls."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-007.png",
+      "index": 7,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-007a",
+          "page": 7,
+          "role": "content",
+          "voiceover": "This slide lays out the full ABO biosynthetic pathway step by step, and it's worth memorizing the sequence exactly. You start with a precursor structure. Alpha-L-fucosyltransferase, the product of the H gene, adds fucose to build the H antigen. From there, the ABO gene takes over, branching in two directions. Alpha-galactosyltransferase, the B-transferase, adds galactose onto the H antigen to build the B antigen. Alpha-N-acetylgalactosaminyltransferase, the A-transferase, adds galactosamine onto the H antigen to build the A antigen. Notice both A and B transferases require the H antigen as their substrate, they cannot act on the precursor directly. That's why H gene failure is so consequential, if fucosyltransferase never runs, there's no H antigen, and downstream A and B transferases have nothing to modify, regardless of what ABO genotype the person carries. This produces the Bombay, or parabombay, phenotype. One naming note for boards, the old name Bombay has been officially updated to Mumbai, reflecting the city's renaming, so you may see either term used interchangeably in newer references."
+        },
+        {
+          "id": "seg-007b",
+          "keypoints": [
+            "Pathway: precursor -> H antigen (fucosyltransferase, H gene) -> A or B antigen",
+            "B-transferase (alpha-galactosyltransferase) adds galactose to H antigen",
+            "A-transferase (alpha-N-acetylgalactosaminyltransferase) adds galactosamine to H antigen",
+            "H gene failure blocks the whole pathway -> Bombay/parabombay phenotype regardless of ABO genotype",
+            "Naming update: Bombay is now called Mumbai phenotype"
+          ],
+          "page": 7,
+          "role": "keypoint",
+          "voiceover": "Memorize this pathway in order. Precursor becomes H antigen through fucosyltransferase, the H gene product. Then the ABO gene branches, alpha-galactosyltransferase adds galactose to make B antigen, alpha-N-acetylgalactosaminyltransferase adds galactosamine to make A antigen. Both depend entirely on H antigen as substrate, so if the H gene fails, no H antigen forms, and A and B transferases have nothing to act on, producing the Bombay, now renamed Mumbai, phenotype, no matter what ABO genes are present."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-008.png",
+      "index": 8,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-008a",
+          "page": 8,
+          "role": "content",
+          "voiceover": "Let's look at two classic parentage puzzles that hinge on the Bombay and Para Bombay phenomenon. First case: two O type parents produce a child who types as B. Second case: an O type father and an A type mother apparently produce an AB type daughter, which triggered a real Taiwanese court case where the husband accused his wife of infidelity. Both scenarios are explained by a rare mutation in the H gene, not the ABO gene. Remember, the H gene builds the precursor H antigen that A and B transferases then modify. If someone inherits two nonfunctional H alleles, they cannot express H antigen even if they carry functional A or B genes, so they type falsely as O on routine serology, a Para Bombay phenotype. In the court case, DNA confirmed paternity, and repeat testing showed the father was actually a hidden B subgroup or Para Bombay type. High yield pearl: in Bombay and Para Bombay individuals, you can detect the true hidden A or B antigen by testing saliva, since secretors express ABH antigens in body fluids independent of red cell expression."
+        },
+        {
+          "id": "seg-008b",
+          "keypoints": [
+            "Bombay/Para-Bombay = defective H gene (hh), not ABO gene, causes false O typing",
+            "Explains seemingly impossible parent-child ABO combinations",
+            "Saliva testing reveals hidden A/B antigen via secretor status",
+            "Do not assume non-paternity from an ABO discrepancy alone"
+          ],
+          "page": 8,
+          "role": "keypoint",
+          "voiceover": "Remember, Bombay and Para Bombay phenotypes come from a defective H gene, not a defective ABO gene, so a person can carry functional A or B genes yet still type as O on routine serology. This explains seemingly impossible parent-child ABO combinations. The key testing trick: check saliva for A and B antigens, since secretor status reveals the hidden ABO genotype even when red cell typing looks like O."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-009.png",
+      "index": 9,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-009a",
+          "page": 9,
+          "role": "content",
+          "voiceover": "Let's cover ABO subgroups, a favorite board topic. Subgroups are weaker variants of A or B antigen expression caused by less efficient transferase enzymes. Note the ethnic variation: A2 is the most common subgroup among Caucasians, whereas in Taiwanese and Chinese populations, B3 is the most common ABO subgroup, found in roughly 1 in 900 group B individuals, followed by Ael. Serologically, B3 red cells react only weakly, about 1 to 2 plus, with anti-B reagent, and characteristically show a mixed field pattern, meaning some cells agglutinate while others in the same field do not. That mixed field appearance is a key recognition clue on boards for a subgroup rather than a true negative. Overall, ABO subgroups, including the Para Bombay types, account for roughly 0.079%, or about 1 in 1000, of blood donations based on the 2014 Taiwan subgroup database."
+        },
+        {
+          "id": "seg-009b",
+          "keypoints": [
+            "B3 is the most common ABO subgroup in Chinese/Taiwanese (~1 in 900 group B); A2 is most common in Caucasians",
+            "B3 red cells show weak (1-2+), mixed-field reactions with anti-B — a classic subgroup clue",
+            "ABO subgroups overall make up about 0.079% (~1 in 1000) of donors",
+            "Weak subtypes like Ael can cause forward/reverse ABO typing discrepancies"
+          ],
+          "page": 9,
+          "role": "keypoint",
+          "voiceover": "For boards, know that A2 is the most common subgroup among Caucasians, while B3 is the most common ABO subgroup in Chinese and Taiwanese populations, affecting roughly 1 in 900 group B individuals. B3 red cells react weakly, only 1 to 2 plus, with anti-B, and classically show a mixed field pattern. Overall, ABO subgroups make up about 1 in 1000 donations."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-010.png",
+      "index": 10,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-010a",
+          "page": 10,
+          "role": "content",
+          "voiceover": "Here's a high-yield association: blood type O is linked to the lowest plasma levels of von Willebrand factor and Factor VIII compared to non-O blood types. The Shima 1995 data, broken down by ABO genotype, shows OO individuals averaging around 81 IU per deciliter of vWF, compared to roughly 113 to 115 for AA, BB, and AB genotypes, a statistically significant difference. The FVIII table below pools five independent studies, and in every single one, group O consistently shows the lowest Factor VIII coagulant activity relative to A, B, and AB groups. The proposed mechanism relates to increased plasma clearance of vWF, thought to be mediated by ABO-dependent glycosylation effects on vWF's clearance receptors. Why does this matter clinically? Because normal vWF and FVIII levels run roughly 25 to 30% lower in type O individuals, relying on population-wide reference ranges can lead to overdiagnosis of von Willebrand disease in type O patients, and potential underdiagnosis in non-O patients. Boards love testing this ABO-vWF association."
+        },
+        {
+          "id": "seg-010b",
+          "keypoints": [
+            "Blood type O has the lowest vWF and FVIII levels of all ABO types",
+            "Non-O individuals average ~25-30% higher vWF/FVIII than type O",
+            "Clinical pitfall: standard cutoffs risk overdiagnosing vWD in type O patients",
+            "Consistent finding replicated across multiple independent cohort studies"
+          ],
+          "page": 10,
+          "role": "keypoint",
+          "voiceover": "Key fact: blood type O carries the lowest plasma vWF and Factor VIII levels of any ABO type, consistently shown across multiple studies. Non-O individuals run about 25 to 30% higher. Clinically, this means population reference ranges can overdiagnose von Willebrand disease in type O patients, so interpret vWF and FVIII results with ABO type in mind."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-011.png",
+      "index": 11,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-011a",
+          "page": 11,
+          "role": "content",
+          "voiceover": "This 2019 Blood paper gives the mechanistic explanation for why type O platelets function differently. Using microfluidic flow assays, the authors showed that type O platelets translocate farther across a von Willebrand factor surface at higher shear speeds compared to non-O platelets, meaning they roll faster and bind less avidly. Quantitatively, the binding kinetics between type O platelets and vWF were about 40% lower than for non-O platelets. Where do ABO antigens actually sit on the platelet? There are two locations: the mucin-rich stalk region of glycoprotein GPIb alpha, right next to the vWF-binding domain, and platelet membrane glycolipids. Because the ABO antigen sits so close to the actual vWF binding site, it directly interferes with the GPIb alpha to VWF A1 domain interaction. This is a great mechanistic link connecting the epidemiologic ABO-vWF association from the prior slide to real platelet adhesion biology, and it explains why blood type genuinely modulates primary hemostasis, not just a statistical coincidence."
+        },
+        {
+          "id": "seg-011b",
+          "keypoints": [
+            "Type O platelets bind VWF roughly 40% less avidly than non-O platelets",
+            "ABO antigens localize to the GPIbα mucin stalk (near the VWF-binding site) and to membrane glycolipids",
+            "Mechanistic basis for lower hemostatic efficiency in blood type O",
+            "Links ABO type directly to primary hemostasis, not just plasma vWF levels"
+          ],
+          "page": 11,
+          "role": "keypoint",
+          "voiceover": "Type O platelets bind von Willebrand factor roughly 40% less avidly than non-O platelets, and translocate farther across the VWF surface under flow. This happens because ABO antigens sit right on the GPIb alpha mucin stalk, next to the VWF binding site, and on membrane glycolipids, giving a real mechanistic explanation for the ABO-hemostasis link."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-012.png",
+      "index": 12,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-012a",
+          "page": 12,
+          "role": "content",
+          "voiceover": "Here's a classic tumor marker pitfall tested on boards: the relationship between the Lewis blood group and CA19-9. CA19-9 is chemically Sialyl Lewis A, produced when a precursor substrate is acted on by two enzymes in sequence, first FUT3, the Lewis enzyme, converting it to Lewis A antigen, and then a sialyltransferase, often upregulated by adenocarcinoma cells, converting Lewis A into Sialyl Lewis A, which is CA19-9. Now, some people inherit two nonfunctional FUT3 alleles, genotype le over le, giving the Lewis-negative phenotype, Le a-minus b-minus. Without functional FUT3, no Lewis A antigen is ever made, so no CA19-9 can be generated, no matter how much cancer is present or how much sialyltransferase the tumor produces. This occurs in about 9% of Taiwanese and 6% of Caucasians. The board-relevant takeaway: a falsely low or undetectable CA19-9 in a Lewis-negative patient does not rule out pancreatic or biliary adenocarcinoma, you simply cannot use that marker to track disease in these patients."
+        },
+        {
+          "id": "seg-012b",
+          "keypoints": [
+            "CA19-9 = Sialyl-Lewis A, built by FUT3 (Lewis enzyme) plus tumor sialyltransferase",
+            "Le(a-b-) genotype (le/le) means nonfunctional FUT3, so CA19-9 can never be produced",
+            "About 9% of Taiwanese and 6% of Caucasians are Lewis-negative",
+            "Pitfall: an undetectable CA19-9 does NOT exclude adenocarcinoma in Lewis-negative patients"
+          ],
+          "page": 12,
+          "role": "keypoint",
+          "voiceover": "CA19-9 is really Sialyl Lewis A, built by the FUT3 enzyme plus tumor sialyltransferase. Patients who are Lewis-negative, genotype le over le, lack functional FUT3 and can never make CA19-9, regardless of tumor burden. That's about 9% of Taiwanese and 6% of Caucasians. Don't be fooled: an undetectable CA19-9 in these patients does not rule out cancer."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-013.png",
+      "index": 13,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-013a",
+          "page": 13,
+          "role": "content",
+          "voiceover": "Let's walk through the standard pretransfusion testing algorithm, a must-know for boards. Step one: ABO and Rh typing is performed on both the patient and all candidate donor units. Step two: an antibody screen is run, mixing patient serum against a panel of reagent screening cells that carry clinically significant antigens. If the antibody screen is negative, you proceed directly to crossmatch using an abbreviated method, either immediate spin or a computer crossmatch, since a negative screen makes clinically significant incompatibility very unlikely. If the antibody screen is positive, you cannot skip ahead, you must first perform antibody identification using a full antigen panel of reagent red cells to determine antibody specificity. Only after identifying the antibody or antibodies do you proceed to full crossmatch, patient serum against donor cells, and where indicated, confirm the corresponding antigen is negative on the donor unit. This positive versus negative antibody screen branch point is the key decision node tested repeatedly on transfusion medicine boards."
+        },
+        {
+          "id": "seg-013b",
+          "keypoints": [
+            "Workflow: ABO/Rh typing on patient and donor, then antibody screen",
+            "Negative antibody screen leads to an abbreviated crossmatch (immediate spin or computer method)",
+            "Positive antibody screen requires antibody identification via panel cells before crossmatch",
+            "Crossmatch may include confirming the donor unit is negative for the identified antigen"
+          ],
+          "page": 13,
+          "role": "keypoint",
+          "voiceover": "The pretransfusion algorithm: type patient and donor, then run an antibody screen. A negative screen lets you go straight to an abbreviated crossmatch. A positive screen means you must identify the antibody with panel cells first, then perform a full crossmatch, confirming the donor is negative for that antigen. Know this branch point cold for boards."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-014.png",
+      "index": 14,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-014a",
+          "page": 14,
+          "role": "content",
+          "voiceover": "Let's compare the two pillars of pretransfusion testing: ABO grouping and the irregular antibody screen. ABO grouping detects anti-A and anti-B, which are naturally occurring IgM antibodies that react best at room temperature, so a slide test, a tube test with immediate spin, or a gel ABO card is enough to see agglutination. The irregular antibody screen looks for clinically significant alloantibodies, things like anti-E or anti-Mia, which are IgG, react optimally at 37 degrees, and need an antihuman globulin, or AHG, step before you see agglutination, because IgG coated cells don't clump on their own. That's why screening methods differ from ABO typing: you need the traditional three phase tube method, the Taiwan-favored manual polybrene method, or a gel AHG card. The exam takeaway: IgM plus room temperature equals ABO typing, IgG plus 37 degrees plus AHG equals antibody screening."
+        },
+        {
+          "id": "seg-014b",
+          "keypoints": [
+            "ABO typing detects IgM anti-A and anti-B, reacting at room temperature.",
+            "Antibody screening detects IgG alloantibodies like anti-E, requiring 37 degree incubation.",
+            "IgG-coated cells need an antihuman globulin, or AHG, step to agglutinate.",
+            "ABO methods use slide, tube, or gel card; screening methods use tube AHG, polybrene, or gel AHG card."
+          ],
+          "page": 14,
+          "role": "keypoint",
+          "voiceover": "Remember this contrast for boards. ABO grouping picks up IgM anti-A and anti-B, which react at room temperature, using slide, tube, or gel ABO cards. Antibody screening picks up IgG alloantibodies such as anti-E, which need 37 degree incubation and an antihuman globulin step to show agglutination, using the three phase tube method, manual polybrene, or a gel AHG card."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-015.png",
+      "index": 15,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-015a",
+          "page": 15,
+          "role": "content",
+          "voiceover": "This slide shows ABO grouping two ways, the classic tube method and the gel or column agglutination card. In the tube method, forward typing mixes the patient's red cells with known anti-A, anti-B, and anti-D reagents; reverse typing mixes the patient's serum with known A1 and B reagent cells. Here anti-A is 4 plus, anti-B is 0, anti-D is 4 plus, A1 cell is 0, and B cell is 4 plus. Cells agglutinate with anti-A but not anti-B, giving forward type A; serum agglutinates B cells but not A1 cells, confirming reverse type A. Anti-D positive means Rh positive, so this patient is A positive. The gel card runs the same panel in six columns, and you read strength by how far cells migrate through the gel after spinning. Key board point: forward and reverse typing must always agree, and any mismatch signals an ABO discrepancy that needs workup."
+        },
+        {
+          "id": "seg-015b",
+          "keypoints": [
+            "Forward typing tests patient RBCs against known anti-A, anti-B, anti-D reagents.",
+            "Reverse typing tests patient serum against known A1 and B reagent cells.",
+            "Forward and reverse results must match; a mismatch means ABO discrepancy.",
+            "Gel card, or CAT, gives the same result, read by agglutinate position after centrifugation."
+          ],
+          "page": 15,
+          "role": "keypoint",
+          "voiceover": "Forward typing tests the patient's red cells against anti-A, anti-B, and anti-D. Reverse typing tests the patient's serum against known A1 and B reagent cells. In this example, both point to type A positive. Always confirm forward and reverse typing agree, a mismatch is an ABO discrepancy that needs further workup, whether you use the tube method or a gel card."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-016.png",
+      "index": 16,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-016a",
+          "page": 16,
+          "role": "content",
+          "voiceover": "This slide covers the reagent side of antibody screening, the indirect antiglobulin test. Screening cells are commercially prepared group O red cells, chosen specifically because O cells lack A and B antigens, so any agglutination you see is due to an unexpected, clinically significant alloantibody, not anti-A or anti-B. Three screening cell panels, SI, SII, and SIII, are selected to express different combinations of Rh, Kell, Duffy, Kidd, Lewis, MNS, P, and other antigens, so that reacting against one but not another narrows down antibody specificity. A key, high-yield fact for Taiwan-based practice: the local reagent panel includes Mia and Dia positive cells, since these are clinically relevant in the Asian population, but it lacks big K positive cells, because K antigen is rare here. Methods to detect a positive reaction include the antiglobulin tube test, the antiglobulin gel test using an AHG card, and the manual polybrene test."
+        },
+        {
+          "id": "seg-016b",
+          "keypoints": [
+            "Screening cells are group O, so reactions reflect non-ABO alloantibodies only.",
+            "Three-cell panel (SI, SII, SIII) has differing antigen profiles to help identify antibody specificity.",
+            "Taiwan reagent panel includes Mia and Dia positive cells but no big K positive cells.",
+            "Detection methods: AHG tube test, AHG gel card, or manual polybrene test."
+          ],
+          "page": 16,
+          "role": "keypoint",
+          "voiceover": "Screening cells are always group O, so any agglutination reflects a non-ABO alloantibody. The three-cell panel, SI, SII, SIII, carries different antigen combinations so the pattern of reactivity narrows antibody specificity. High-yield local fact: Taiwan's reagent panel includes Mia and Dia positive cells, but lacks big K positive cells. You can detect reactions with the AHG tube test, an AHG gel card, or the manual polybrene method."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-017.png",
+      "index": 17,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-017a",
+          "page": 17,
+          "role": "content",
+          "voiceover": "Here's the classic three phase indirect Coombs test. Phase one, immediate spin at room temperature, mainly picks up IgM antibodies. Phase two, 37 degree incubation in albumin or LISS, favors IgG antibody binding. Phase three, the AHG phase, involves washing the cells three times to remove unbound globulins, adding antihuman globulin reagent, spinning, and reading for agglutination, which means IgG is bound to the red cell surface. This method is time-consuming and technique-dependent, which is why gel and polybrene methods were developed as faster alternatives. Look at the example: screening cell I is negative at immediate spin and 37 degrees, but 2 plus positive at the AHG phase, while SII and SIII stay negative throughout. That pattern means the patient has an IgG antibody against an antigen present on SI but absent from SII and SIII, only detectable after the AHG step."
+        },
+        {
+          "id": "seg-017b",
+          "keypoints": [
+            "Three phases: immediate spin (IgM), 37C incubation (favors IgG), then AHG phase.",
+            "AHG phase = wash x3, add AHG reagent, spin, and read agglutination for bound IgG.",
+            "Method is time and skill intensive, hence gel and polybrene alternatives exist.",
+            "Positive only at AHG phase (like SI at 2+) means an IgG alloantibody detected only after the antiglobulin step."
+          ],
+          "page": 17,
+          "role": "keypoint",
+          "voiceover": "Three phases: immediate spin at room temperature catches IgM, 37 degree incubation favors IgG binding, and the AHG phase, wash three times, add antihuman globulin, spin, and read, detects bound IgG. It's time-consuming and technique-dependent, which is why gel and polybrene methods exist. In the example, SI turns positive only at AHG phase while SII and SIII stay negative, meaning there's an IgG antibody against an antigen unique to SI."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-018.png",
+      "index": 18,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-018a",
+          "page": 18,
+          "role": "content",
+          "voiceover": "This is the manual polybrene method, commonly used in Taiwan for antibody screening. Polybrene is a cationic, positively charged polymer that neutralizes the red cell's normal negative surface charge, the zeta potential, which normally keeps red cells apart and prevents IgG antibodies from bridging them directly. Step one, add low ionic medium, or LIM, to enhance antibody-antigen binding. Step two, add polybrene and centrifuge; this creates nonspecific aggregation regardless of whether antibody is present, because the neutralized charge lets any red cells clump together. Step three, add citrate to neutralize the polybrene's charge. If the only cause was nonspecific charge neutralization, the aggregates disperse; but if a true antigen-antibody reaction occurred, the agglutination persists because antibody is physically bridging the cells. By protocol, nonspecific aggregation should disperse within ten seconds; true agglutination will not fully disperse. If the reaction looks weak or borderline, you can confirm under a microscope."
+        },
+        {
+          "id": "seg-018b",
+          "keypoints": [
+            "Polybrene, a cationic polymer, neutralizes RBC negative surface charge, causing nonspecific aggregation.",
+            "Step 1: LIM enhances antibody binding. Step 2: polybrene plus spin causes clumping. Step 3: citrate reverses nonspecific aggregation.",
+            "True antibody-antigen agglutination persists after citrate; nonspecific clumping disperses within 10 seconds.",
+            "Microscope can confirm weak or equivocal reactions."
+          ],
+          "page": 18,
+          "role": "keypoint",
+          "voiceover": "Polybrene is a cationic polymer that neutralizes red cell surface negative charge, causing nonspecific clumping regardless of antibody. The sequence is low ionic medium, then polybrene plus centrifugation, then citrate to reverse the nonspecific charge effect. True antigen-antibody agglutination persists after citrate is added, while nonspecific aggregation disperses within about ten seconds. For weak or uncertain reactions, confirm under a microscope."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-019.png",
+      "index": 19,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-019a",
+          "page": 19,
+          "role": "content",
+          "voiceover": "The gel card, or column agglutination technique, works by physically trapping agglutinated cells in a gel matrix. Each microtube contains red cells, antibodies or antiserum, and a gel or glass bead matrix. After incubation and centrifugation, agglutinated red cells are too large to pass through the gel and stay trapped near the top, giving a positive reaction, while unagglutinated single cells pass all the way through to the bottom, giving a negative reaction. In this example, the blood typing card shows anti-A 4 plus, anti-B negative, anti-D 4 plus, confirming type A, Rh positive, matching what we saw with the tube method. The antibody screen card, using screening cells one, two, and three coated with IgG, shows all negative results here. The workflow is simple: load cells and antiserum into the reaction chamber, sometimes preloaded like anti-A, anti-B, or AHG; centrifuge, letting the gel or beads block agglutinated cells while unagglutinated cells pass through; then grade the reaction from zero to 4 plus based on how far the cells travelled."
+        },
+        {
+          "id": "seg-019b",
+          "keypoints": [
+            "Gel card traps agglutinated RBCs in gel matrix; unagglutinated cells pass through to the bottom.",
+            "Agglutinated cells near top mean positive; cells at bottom mean negative.",
+            "Reagents like anti-A, anti-B, and AHG are often preloaded in gel card columns.",
+            "Reactions graded 0 to 4+ based on position or spread of cells after centrifugation."
+          ],
+          "page": 19,
+          "role": "keypoint",
+          "voiceover": "The gel card traps agglutinated red cells in a gel or bead matrix, they can't pass through, giving a positive reaction near the top. Unagglutinated cells pass all the way to the bottom, a negative reaction. Cards often come preloaded with anti-A, anti-B, or AHG reagent. After centrifugation, you grade the reaction from zero to 4 plus based on where the cells end up."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-020.png",
+      "index": 20,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-020a",
+          "page": 20,
+          "role": "content",
+          "voiceover": "Let's look at the irregular antibodies most commonly detected in Taiwan, since this is a favorite board question for local practice. Anti-Mia tops the list, followed by anti-E, anti-E plus c, anti-C, and anti-e — together these five make up about sixty percent of all irregular antibodies found here. The key reason is population genetics. Anti-Mia is essentially unique to Asian populations and reflects the Miltenberger blood group system, which most Western antibody panels don't even screen for well. Meanwhile the Rh antibodies, E, C, and e, are common because the E antigen positivity rate in Taiwan is around fifty percent, quite different from Caucasian populations. Interestingly, even though anti-Mia is the single most common antibody, the Mia-positive rate in Taiwan is only about seven point three percent, so finding compatible blood is usually not too difficult. Other less common but still notable antibodies include anti-Jka, anti-Lea, and anti-M. For boards, remember anti-Mia as the antibody almost unique to Chinese and Taiwanese populations, and know that Rh antibodies dominate the rest of the list."
+        },
+        {
+          "id": "seg-020b",
+          "keypoints": [
+            "Anti-Mia is the most common irregular antibody in Taiwan and is nearly unique to Asian populations.",
+            "Anti-E, anti-C, anti-e, and anti-E+c together with anti-Mia make up about sixty percent of cases.",
+            "Taiwan's E antigen positivity is about fifty percent, so Rh antibodies are frequently encountered.",
+            "Despite being most common, Mia antigen positivity is only about seven percent, so compatible blood is usually easy to find.",
+            "Other notable antibodies to know: anti-Jka, anti-Lea, and anti-M."
+          ],
+          "page": 20,
+          "role": "keypoint",
+          "voiceover": "For your exam, remember five things. Anti-Mia is the top irregular antibody in Taiwan and is nearly unique to Asian populations. Anti-Mia plus the Rh antibodies anti-E, anti-C, and anti-e account for roughly sixty percent of all irregular antibodies detected locally. Taiwan's E antigen positivity rate is about fifty percent, which explains why Rh antibodies are so common. Even though Mia is the most frequent antibody, its antigen positivity is only about seven percent, so compatible units are usually easy to find. And don't forget anti-Jka, anti-Lea, and anti-M as the next tier of common antibodies."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-021.png",
+      "index": 21,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-021a",
+          "page": 21,
+          "role": "content",
+          "voiceover": "This slide compares the direct and indirect Coombs tests, also called the direct and indirect antiglobulin tests, and this distinction is tested constantly on boards. The direct Coombs test is an in vivo test — it detects antibodies or complement already bound to the patient's own red cells. You take the patient's blood, wash the red cells to remove unbound antibody, then add anti-human globulin reagent. If the cells agglutinate, that's a positive direct Coombs test, and it's the key test for diagnosing autoimmune hemolytic anemia, or AIHA. The indirect Coombs test works differently — it's essentially antibody screening. You take the recipient's serum, which contains free antibodies, and mix it with donor or reagent red cells. If the recipient has antibodies against those red cell antigens, they'll bind during incubation. Then you add anti-human globulin, and agglutination indicates a positive indirect Coombs test, meaning the patient has a clinically significant antibody in their serum. So remember: direct Coombs tests for antibody already on the patient's cells and is used for AIHA workup, while indirect Coombs tests for free antibody in serum and is used for antibody screening and crossmatching before transfusion."
+        },
+        {
+          "id": "seg-021b",
+          "keypoints": [
+            "Direct Coombs test detects antibody or complement already coating the patient's own RBCs — used to diagnose AIHA.",
+            "Indirect Coombs test detects free antibody in the patient's serum — used for antibody screening and crossmatch.",
+            "Direct Coombs is an in vivo test; indirect Coombs requires in vitro incubation of serum with reagent RBCs.",
+            "Both tests rely on anti-human globulin (AHG) reagent to cause visible agglutination when positive."
+          ],
+          "page": 21,
+          "role": "keypoint",
+          "voiceover": "Two key facts for boards. First, the direct Coombs test, or DAT, detects antibody or complement already bound to the patient's red cells in vivo, and it's the test you order to diagnose autoimmune hemolytic anemia. Second, the indirect Coombs test detects free antibody floating in the patient's serum by incubating it with reagent red cells in vitro, and that's the basis of antibody screening and pretransfusion crossmatching. Both tests rely on anti-human globulin reagent to produce visible agglutination when positive."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-022.png",
+      "index": 22,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-022a",
+          "page": 22,
+          "role": "content",
+          "voiceover": "This diagram shows how red cells are destroyed in autoimmune hemolytic anemia, and it's important to understand the two mechanisms because they guide treatment. IgG or IgM antibodies bind to red cell antigens, and this can trigger complement activation. If complement activation goes all the way to the membrane attack complex, you get complement-mediated lysis directly in the bloodstream — that's intravascular hemolysis. This is managed acutely by keeping the patient warm, especially relevant in cold agglutinin disease, and plasmapheresis in severe cases. More commonly, though, red cells coated with IgG or with complement fragments like C3b are recognized by macrophages in the reticuloendothelial system — this is extravascular hemolysis. Cells coated with complement are cleared mainly in the liver via complement receptors, while IgG-coated cells are cleared mainly in the spleen via Fc-gamma receptors. Because extravascular hemolysis is the dominant pathway in most AIHA, treatment targets this axis first: corticosteroids like prednisone, IVIG to block Fc-gamma receptors, and splenectomy for refractory cases. For antibody production itself, second-line therapy includes rituximab, an anti-CD20 antibody, plus azathioprine or cyclophosphamide as immunosuppressants."
+        },
+        {
+          "id": "seg-022b",
+          "keypoints": [
+            "Intravascular hemolysis: complement-mediated lysis directly in the bloodstream — treat with warming the patient and plasmapheresis.",
+            "Extravascular hemolysis: IgG-coated RBCs cleared by the spleen via Fc-gamma receptors; complement-coated RBCs cleared by the liver via complement receptors.",
+            "First-line treatment targets extravascular hemolysis: prednisone, IVIG, and splenectomy.",
+            "Second-line therapy reduces antibody production: rituximab (anti-CD20), azathioprine, cyclophosphamide."
+          ],
+          "page": 22,
+          "role": "keypoint",
+          "voiceover": "Know your two hemolysis pathways. Intravascular hemolysis is complement-mediated lysis directly in the blood, managed with warming the patient and plasmapheresis. Extravascular hemolysis is more common — IgG-coated cells get cleared in the spleen via Fc-gamma receptors, while complement-coated cells get cleared in the liver via complement receptors. First-line treatment for extravascular hemolysis is prednisone, IVIG, and splenectomy. Second-line therapy aimed at reducing antibody production includes rituximab, azathioprine, and cyclophosphamide."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-023.png",
+      "index": 23,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-023a",
+          "page": 23,
+          "role": "content",
+          "voiceover": "Now let's talk about the reagents used in the direct Coombs test, because knowing mono-specific versus poly-specific AHG is a classic exam point. AHG stands for anti-human globulin. Poly-specific AHG contains both anti-IgG and anti-C3d antibodies combined into a single reagent — so a positive result just tells you the red cells are coated with either IgG, complement, or both, without telling you which. Mono-specific AHG reagents are separate — one tube contains only anti-IgG, another contains only anti-C3d, so if you run both mono-specific reagents you can tell exactly which coating is present. This can be done either by the card method, called gel card testing, or by the traditional tube method, where you can see the anti-C3d, anti-IgG, and combined anti-IgG-plus-anti-C3d reagent bottles side by side. In practice, most labs run mono-specific IgG and C3d and a control together on one card, so you get IgG, C3d, and control results simultaneously without needing to run poly-specific separately every time. Being able to distinguish IgG-only, complement-only, or combined coating patterns is essential because, as we'll see, that pattern actually helps classify the type of immune hemolytic anemia."
+        },
+        {
+          "id": "seg-023b",
+          "keypoints": [
+            "AHG stands for anti-human globulin; poly-specific AHG contains both anti-IgG and anti-C3d in one reagent.",
+            "Mono-specific AHG reagents test anti-IgG and anti-C3d separately, allowing you to identify which one coats the RBC.",
+            "Testing can be performed by the gel card method or the traditional tube method.",
+            "The IgG versus C3d coating pattern helps classify the subtype of immune hemolytic anemia."
+          ],
+          "page": 23,
+          "role": "keypoint",
+          "voiceover": "Remember, AHG means anti-human globulin. Poly-specific AHG combines anti-IgG and anti-C3d into one reagent, so a positive result doesn't tell you which is present. Mono-specific AHG separates them into individual anti-IgG and anti-C3d reagents, letting you pinpoint exactly what's coating the red cells. This can be tested by gel card or tube method. Why does this matter? Because the specific pattern of IgG versus complement coating helps you classify which type of immune hemolytic anemia you're dealing with."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-024.png",
+      "index": 24,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-024a",
+          "page": 24,
+          "role": "content",
+          "voiceover": "This slide shows the practical workflow for ordering Coombs testing in a patient suspected of having AIHA, using an actual National Taiwan University Hospital lab report as an example. The recommended approach is a two-step algorithm. First, order the poly-specific AHG test, labeled here as the direct Coombs polyspecific test, which checks for IgG plus C3 together. If that comes back positive, you then reflex to mono-specific testing to determine whether it's IgG, C3, or both that are positive. Looking at the example report, the polyspecific test was positive with a reaction strength graded as three. That triggered mono-specific testing, which showed C3 positive at a strength of three and IgG positive at a strength of two. This grading system uses a zero to four-plus scale, where zero is negative and four-plus is the strongest reaction, similar to how blood bank agglutination reactions are typically graded. For your exam, remember this reflex testing strategy — poly-specific first as a screen, then mono-specific IgG and C3d individually if positive — and know that reaction strength is reported on a zero to four-plus scale, which correlates with the amount of antibody or complement bound."
+        },
+        {
+          "id": "seg-024b",
+          "keypoints": [
+            "Standard workflow: run poly-specific AHG (IgG+C3) first; if positive, reflex to mono-specific IgG and C3 testing.",
+            "Reaction strength is graded on a 0 to 4+ scale, mirroring standard blood bank agglutination grading.",
+            "A patient can be positive for both IgG and C3 simultaneously, as seen in mixed-pattern AIHA.",
+            "Higher reaction strength generally correlates with greater antibody or complement loading on RBCs."
+          ],
+          "page": 24,
+          "role": "keypoint",
+          "voiceover": "The practical algorithm: start with poly-specific AHG testing for IgG plus C3 together as your screen. If positive, reflex to mono-specific testing to separate out IgG and C3 individually. Results are reported on a zero to four-plus reaction strength scale, just like standard blood bank agglutination grading, and a stronger reaction generally reflects heavier antibody or complement coating on the red cells. Patients can be positive for both IgG and C3 at once, which points toward a mixed pattern of AIHA."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-025.png",
+      "index": 25,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-025a",
+          "page": 25,
+          "role": "content",
+          "voiceover": "This table is one of the highest-yield summaries for immune hemolytic anemia on the boards. Warm AIHA is most common, about half to seventy percent of cases, with DAT usually IgG positive, sometimes IgG plus C3, mediated by IgG antibodies against Rh antigens, and both eluate and plasma show panagglutinin activity. Cold agglutinin disease, sixteen to thirty-two percent, has a DAT positive for C3 only — because IgM fixes complement then detaches — so the eluate is non-reactive but plasma remains panagglutinin reactive, with specificity against the I antigen. Mixed AIHA combines both patterns, roughly seven to eight percent. Paroxysmal cold hemoglobinuria, rare in adults but up to thirty-two percent in children, also shows a C3-only DAT, but the plasma antibody is a unique IgG biphasic hemolysin — the Donath-Landsteiner antibody — targeting the P antigen. Drug-induced immune hemolytic anemia, twelve to eighteen percent, typically shows an IgG-positive DAT with Rh specificity, mimicking warm AIHA. The key exam pearl: a C3-only DAT with a non-reactive eluate points you toward cold agglutinin disease or PCH rather than warm AIHA, and PCH is distinguished by its classic biphasic Donath-Landsteiner hemolysin against the P antigen, often seen post-virally in children."
+        },
+        {
+          "id": "seg-025b",
+          "keypoints": [
+            "WAIHA (48-70%): DAT usually IgG with or without C3, IgG antibody, Rh specificity.",
+            "CAD (16-32%): DAT C3 only, IgM antibody, non-reactive eluate, anti-I specificity.",
+            "PCH: rare in adults, up to 32% in children; C3-only DAT with the Donath-Landsteiner biphasic IgG hemolysin against the P antigen.",
+            "Drug-induced (12-18%): DAT IgG positive, Rh specificity, mimics WAIHA.",
+            "C3-only DAT with a non-reactive eluate should make you think cold agglutinin disease or PCH, not warm AIHA."
+          ],
+          "page": 25,
+          "role": "keypoint",
+          "voiceover": "Five exam pearls from this table. Warm AIHA is the most common type, with an IgG-positive DAT and Rh antibody specificity. Cold agglutinin disease shows a C3-only DAT, a non-reactive eluate, and anti-I specificity, because IgM detaches after fixing complement. Paroxysmal cold hemoglobinuria is rare in adults but important in children, also with a C3-only DAT, but distinguished by the Donath-Landsteiner biphasic hemolysin targeting the P antigen. Drug-induced immune hemolytic anemia mimics warm AIHA with an IgG-positive DAT and Rh specificity. And the biggest testable pearl: whenever you see a C3-only DAT with a non-reactive eluate, think cold agglutinin disease or PCH, not warm AIHA."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-026.png",
+      "index": 26,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-026a",
+          "page": 26,
+          "role": "content",
+          "voiceover": "This figure walks through the mechanism of paroxysmal cold hemoglobinuria, or PCH. It starts with Donath-Landsteiner antibodies, which are produced after a trigger, classically a viral upper respiratory infection in children. In the periphery, where temperatures drop below thirty-seven degrees, these IgG antibodies bind to the P antigen on the red cell surface. This is the key point for boards. The Donath-Landsteiner antibody is a biphasic hemolysin. It attaches to red cells in the cold and fixes complement, specifically C3d, while still cold. Then, as blood returns to the warmer core circulation at thirty-seven degrees, the complement cascade completes and the red cells lyse right there in the vessel. So you get intravascular hemolysis triggered by a cold-to-warm cycle, even though the antibody itself doesn't cause visible agglutination like a typical cold agglutinin. Remember this pattern, cold binding, warm lysis, that's the biphasic hallmark of PCH."
+        },
+        {
+          "id": "seg-026b",
+          "keypoints": [
+            "Donath-Landsteiner antibody is a biphasic IgG hemolysin",
+            "Binds P antigen on RBCs in the cold, fixes complement C3d",
+            "Complement completes and lyses RBCs when warmed to 37 degrees C",
+            "Causes intravascular hemolysis, classic post-viral URI trigger in children"
+          ],
+          "page": 26,
+          "role": "keypoint",
+          "voiceover": "The Donath-Landsteiner antibody is a biphasic IgG hemolysin. It binds the P antigen on red cells in the cold and fixes complement C3d there. Then, when blood warms back to thirty-seven degrees, the complement cascade finishes and causes intravascular hemolysis. This classic cold-then-warm pattern is triggered by a viral infection, usually in children."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-027.png",
+      "index": 27,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-027a",
+          "page": 27,
+          "role": "content",
+          "voiceover": "This slide reinforces PCH, and note the reminder at the top that this is not PNH, paroxysmal nocturnal hemoglobinuria, a common mix-up on boards because the names sound alike. PCH is also called Donath-Landsteiner hemolytic anemia. It's an autoimmune hemolytic anemia caused by a biphasic antibody, one that binds red cells and fixes complement in the cold, then triggers intravascular hemolysis when warmed. It's seen predominantly in pediatric patients, typically following a viral infection. The diagnostic test, the Donath-Landsteiner test, mixes patient serum with red cells at cold temperature first, then incubates at thirty-seven degrees and looks for hemolysis. In the image, tube A is the control, kept at thirty-seven degrees throughout, and shows no hemolysis, clear supernatant. Tube B was chilled first, then warmed, and shows visible hemolysis, a dark, lysed sample. That color difference between A and B is the positive Donath-Landsteiner result."
+        },
+        {
+          "id": "seg-027b",
+          "keypoints": [
+            "PCH equals Donath-Landsteiner hemolytic anemia, NOT PNH -- common board mix-up",
+            "Biphasic antibody: binds RBCs and fixes complement in cold, lyses at 37 degrees C",
+            "Classically seen in children after a viral infection",
+            "Positive Donath-Landsteiner test: hemolysis only after cold-then-warm incubation"
+          ],
+          "page": 27,
+          "role": "keypoint",
+          "voiceover": "PCH, or Donath-Landsteiner hemolytic anemia, is not PNH, a classic board mix-up. It's caused by a biphasic antibody that binds red cells and fixes complement in the cold, then lyses them at thirty-seven degrees. It's typically seen in children after a viral infection. The diagnostic Donath-Landsteiner test shows hemolysis only in the sample chilled first, then warmed."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-028.png",
+      "index": 28,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-028a",
+          "page": 28,
+          "role": "content",
+          "voiceover": "This table is high yield for boards, comparing the three classic cold-induced conditions: paroxysmal cold hemoglobinuria, cold agglutinin disease, and cryoglobulinemia. Age is a great discriminator, PCH favors children, while cold agglutinin disease and cryoglobulinemia favor older adults. Associated conditions differ too. PCH links to syphilis or post-viral infection, cold agglutinin disease links to lymphoma or other lymphoproliferative disorders, or infections like mycoplasma and mono, and cryoglobulinemia links to hepatitis C, autoimmune disease, and lymphoproliferative disorders. Both PCH and cold agglutinin disease cause true hemolysis with a DAT that's C3 positive but IgG negative, while cryoglobulinemia causes no hemolysis at all, it precipitates instead. The antibody itself is the mechanistic key. PCH uses a cold-reacting IgG biphasic antibody against the P antigen. Cold agglutinin disease uses a cold-reacting IgM against I or i antigen that agglutinates and fixes complement. Cryoglobulinemia isn't really an anti-RBC antibody at all, it's a mixture of antibodies and complement that precipitates out of serum when chilled to four degrees."
+        },
+        {
+          "id": "seg-028b",
+          "keypoints": [
+            "PCH: children, post-viral or syphilis, IgG biphasic anti-P, causes hemolysis",
+            "Cold agglutinin disease: adults, lymphoma or infection, IgM anti-I/i, causes hemolysis",
+            "Cryoglobulinemia: adults, HCV or autoimmune disease, NO hemolysis -- precipitates in cold instead",
+            "PCH and cold agglutinin disease both show DAT C3-positive, IgG-negative"
+          ],
+          "page": 28,
+          "role": "keypoint",
+          "voiceover": "PCH occurs in children after viral infection or syphilis, driven by a biphasic IgG against the P antigen, and causes hemolysis. Cold agglutinin disease occurs in adults with lymphoma or infection, driven by IgM against I or i antigen, and also causes hemolysis. Both have a DAT that's C3 positive, IgG negative. Cryoglobulinemia, by contrast, causes no hemolysis, it's antibody and complement precipitating in the cold, linked to hepatitis C and autoimmune disease."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-029.png",
+      "index": 29,
+      "kind": "title",
+      "segments": [
+        {
+          "id": "seg-029t",
+          "page": 29,
+          "role": "title",
+          "voiceover": "Now let's explore several challenging clinical scenarios that can complicate blood transfusion. We'll examine rare blood groups that are difficult to match, cold agglutinin disease where patients develop antibodies against red cells at lower temperatures, warm autoimmune hemolytic anemia, and finally, the growing problem of drug interference—particularly with newer immunotherapy agents like Daratumumab and anti-CD47 monoclonal antibodies."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-030.png",
+      "index": 30,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-030a",
+          "page": 30,
+          "role": "content",
+          "voiceover": "This slide covers rare blood types, defined as antigen frequency under one in a thousand people, shown here for the Taiwanese population specifically. Two board pearls jump out. First, Kell's K antigen is essentially zero percent in Taiwanese, so anti-K problems are uncommon locally. Second, Duffy Fya is ninety-nine point eight percent positive in Taiwanese, meaning Fya-negative blood is extremely scarce here, the opposite of Western populations, where about a third of Caucasians and the majority of Black individuals are Fya-negative. This population difference drives real transfusion challenges, illustrated by the 1986 case of a French missionary with anti-E, anti-c, and anti-Fya antibodies, where only about one in two thousand Taiwanese donors were compatible, requiring blood to be flown in from France. Key operational strategies for rare blood include rare-donor registries, recruiting foreign donors when needed, frozen red cell stockpiles, and weighing clinical urgency, pre-existing alloantibodies, and hemolytic disease of the newborn risk when deciding how to source compatible units."
+        },
+        {
+          "id": "seg-030b",
+          "keypoints": [
+            "Rare blood type = antigen frequency under 1 in 1000, and it's population-specific",
+            "Taiwanese: Kell K near 0%, Duffy Fya about 99.8% positive (Fya-negative units very scarce, opposite of Western populations)",
+            "Sourcing strategies: rare-donor registries, foreign donors, frozen RBC stock",
+            "Selection also weighs transfusion urgency, existing alloantibodies, and HDN risk"
+          ],
+          "page": 30,
+          "role": "keypoint",
+          "voiceover": "Rare blood type means antigen frequency under one in a thousand, and this varies by population. In Taiwanese, Kell's K antigen is nearly absent, and Duffy Fya is almost universally positive, so Fya-negative units are very hard to find, opposite of Western populations. Sourcing options include rare-donor registries, foreign donors, and frozen red cell stock, balanced against transfusion urgency and existing alloantibodies."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-031.png",
+      "index": 31,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-031a",
+          "page": 31,
+          "role": "content",
+          "voiceover": "This case highlights the Jk null phenotype, another example of a difficult-match rare blood type, occurring in roughly one in ten thousand people. Structurally, Jka and Jkb are allelic antigens sitting on the same Kidd glycoprotein, a urea transporter on the red cell membrane. Jk null individuals lack both Jka and Jkb, shown here by a homozygous mutation in intron one on Sanger sequencing, seen classically in Polynesian populations. The clinical problem is that if a Jk null patient is transfused, they can form anti-JK3, an antibody that reacts against essentially every donor red cell that has either Jka or Jkb, making them pan-reactive and nearly untransfusable with ordinary blood. Taiwan actually faced this in 1997, a patient needed Jk-a-b-negative blood, and even after screening over ten thousand potential donors, doctors found only a single compatible donor. That real-world experience is exactly why blood centers now maintain rare donor registries and frozen red cell programs, so a compatible unit can be found quickly in an emergency rather than screening thousands of people from scratch."
+        },
+        {
+          "id": "seg-031b",
+          "keypoints": [
+            "Jk null phenotype: absent Jka and Jkb antigens, about 1 in 10,000 people",
+            "Transfusion risk: anti-JK3 antibody is pan-reactive against nearly all donor RBCs",
+            "Taiwan 1997 case: screened over 10,000 donors, found only 1 compatible unit",
+            "Rare donor registries and frozen RBC stock now used for emergency matching"
+          ],
+          "page": 31,
+          "role": "keypoint",
+          "voiceover": "Jk null individuals lack both Jka and Jkb antigens, roughly one in ten thousand people. If transfused, they can make anti-JK3, which is pan-reactive against nearly every donor red cell. In a 1997 Taiwan case, screening over ten thousand donors found only one compatible match. This is why rare donor registries and frozen red cell stockpiles exist."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-032.png",
+      "index": 32,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-032a",
+          "page": 32,
+          "role": "content",
+          "voiceover": "McLeod syndrome is an even rarer example, an extremely rare blood type occurring far less than one in a thousand, more like one in a hundred thousand to one in a million. It's caused by mutation in the Xk gene on the X chromosome, at Xp21.1. Xk normally encodes the Kx antigen, which is linked by a disulfide bond to the Kell glycoprotein on the red cell membrane. Because it's X-linked, McLeod syndrome primarily affects males, and the disease itself is a form of neuroacanthocytosis, meaning patients develop neurologic and muscular symptoms alongside acanthocytes, spiky red cells, on the peripheral smear. The pedigree here shows a two-year-old boy who was previously transfused and subsequently developed anti-Kx and anti-Km antibodies in his serum, which makes finding compatible blood for future transfusions extremely difficult. As of now, only two McLeod families have been reported in Taiwan. Management strategies mirror other rare phenotypes, screening family members for the same variant and maintaining autologous frozen red cell units for the patient's own future use."
+        },
+        {
+          "id": "seg-032b",
+          "keypoints": [
+            "McLeod syndrome: X-linked mutation in the Xk gene (Xp21.1), Kx antigen absent",
+            "Neuro-acanthocytosis: neuromuscular disease plus acanthocytes on smear, mainly affects males",
+            "Transfused patients can form anti-Kx/anti-Km -- compatible blood is extremely rare",
+            "Management: screen family members and store autologous frozen RBC units"
+          ],
+          "page": 32,
+          "role": "keypoint",
+          "voiceover": "McLeod syndrome is an X-linked mutation in the Xk gene that removes the Kx antigen, linked to the Kell protein. It causes neuroacanthocytosis, neuromuscular disease with acanthocytes, mainly in males. Transfused patients can develop anti-Kx and anti-Km, making compatible blood extremely rare. Management includes screening relatives for the same mutation and storing autologous frozen red cells."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-033.png",
+      "index": 33,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-033a",
+          "page": 33,
+          "role": "content",
+          "voiceover": "Let's cover cold agglutinin disease lab findings and transfusion strategy, a classic board topic. Two values matter most. Antibody titer correlates with clinical severity: the diagnostic threshold is 64, but titers above 512 are considered clinically significant. Thermal amplitude is actually the better predictor of hemolysis, it's the highest temperature at which the antibody still binds red cell antigen. Clinically significant cold agglutinins typically exceed a thermal amplitude of 28 to 30 degrees Celsius, which is why labs test at 4, 22, and 37 degrees. For transfusion, remember, never withhold transfusion when it's indicated. Three practical fixes solve most interference. Prewarming technique resolves the majority of cases, with DTT reserved for difficult ones. Use a standard blood warmer set to 37 degrees during transfusion. And keep the patient warm, especially in cold weather, to reduce further agglutination."
+        },
+        {
+          "id": "seg-033b",
+          "keypoints": [
+            "Diagnostic titer threshold is 64; titers above 512 are clinically significant",
+            "Thermal amplitude above 28 to 30 degrees C predicts hemolysis better than titer",
+            "Never withhold transfusion when clinically indicated",
+            "Prewarming resolves most interference; DTT for refractory cases",
+            "Use a 37 degree blood warmer and keep the patient warm"
+          ],
+          "page": 33,
+          "role": "keypoint",
+          "voiceover": "Remember these high-yield points. The diagnostic titer threshold is 64, but above 512 is clinically significant. Thermal amplitude over 28 to 30 degrees Celsius predicts hemolysis better than titer alone. Never withhold transfusion when it's indicated. Prewarming solves most interference, with DTT for tough cases. And always use a 37 degree blood warmer, keeping the patient warm."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-034.png",
+      "index": 34,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-034a",
+          "page": 34,
+          "role": "content",
+          "voiceover": "This slide walks through a real local case that became a transfusion dispute, a good illustration of ABO discrepancy. A patient with a preceding cold illness developed weakness, chills, jaundice, tachycardia, and fever, then became agitated and somnolent within an hour, with no transfusion given before resuscitation began. Hemoglobin was critically low at 4.4 grams per deciliter, and blood was urgently cross-matched. But the blood bank hesitated to release units, all four typing runs showed AB positive, yet the family insisted the patient was actually type A. The antibody screen was positive against both screening cells, and the serum was incompatible with eight AB units and with both A and O stock units. Simulated results showed strong reactions everywhere, Anti-A 4 plus, Anti-B 3 plus, Anti-D 4 plus, and both A and B reverse cells at 4 plus. The lesson, an extremely potent cold agglutinin distorted both forward and reverse ABO typing at once, a true ABO discrepancy that can dangerously delay transfusion if not recognized."
+        },
+        {
+          "id": "seg-034b",
+          "keypoints": [
+            "Severe anemia, hemoglobin 4.4, urgent transfusion need, but blood bank hesitant to release",
+            "Forward typing repeatedly showed AB positive; family reported the patient was type A",
+            "Both forward and reverse typing abnormal defines a true ABO discrepancy",
+            "Antibody screen positive and multiple cross-matches incompatible, a classic strong cold agglutinin picture",
+            "Delayed recognition of cold agglutinin interference risks dangerous transfusion delay in critical anemia"
+          ],
+          "page": 34,
+          "role": "keypoint",
+          "voiceover": "Key takeaway, severe anemia with a critical hemoglobin needs urgent transfusion, but repeated AB positive typing conflicted with the family's report of type A. Both forward and reverse typing were abnormal, that combination defines a true ABO discrepancy, here caused by an extremely strong cold agglutinin. Recognizing this quickly is essential, because delayed release of blood in a critically anemic patient can be life threatening."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-035.png",
+      "index": 35,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-035a",
+          "page": 35,
+          "role": "content",
+          "voiceover": "This slide compares a normal type A reaction with one distorted by cold agglutinin interference. On the left, the clean control pattern shows Anti-A 4 plus, Anti-B negative, Anti-D positive, and a negative control tube. On the right, interference muddies everything, Anti-A 4 plus, Anti-B an unexpected 3 plus, Anti-D 4 plus, and critically, the control tube itself is positive at 4 plus. That control tube contains only the patient's red cells with no added antibody, so a positive reaction there means the cells are auto-agglutinating, not truly reacting with reagent. This is the single biggest clue you're dealing with interference rather than a real antigen-antibody reaction. Two fixes resolve it, the prewarm technique, warming samples and reagents to eliminate weak cold-reactive binding, and treating the sample with DTT, dithiothreitol, a reducing agent that breaks the disulfide bonds holding IgM pentamers together and eliminates IgM-mediated agglutination."
+        },
+        {
+          "id": "seg-035b",
+          "keypoints": [
+            "A positive control tube, patient cells alone reacting, signals auto-agglutination not a true reaction",
+            "Cold agglutinin interference causes unexpected reactivity in Anti-B and reverse typing cells",
+            "Prewarm technique is first-line to eliminate weak cold-reactive interference",
+            "DTT, dithiothreitol, is a reducing agent that disrupts IgM pentamers for refractory cases"
+          ],
+          "page": 35,
+          "role": "keypoint",
+          "voiceover": "High-yield point, a positive control tube with only the patient's own cells means auto-agglutination, not a true reaction, that's your tip-off for cold agglutinin interference. Two fixes, prewarming resolves most cases by eliminating weak cold-reactive binding, and DTT, a reducing agent, breaks the disulfide bonds of IgM pentamers for the tougher cases."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-036.png",
+      "index": 36,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-036a",
+          "page": 36,
+          "role": "content",
+          "voiceover": "For warm autoimmune hemolytic anemia, the exam-favorite framework is three sequential priorities when releasing blood. First, the unit must be compatible with any true alloantibody, this is non-negotiable, since alloantibodies can cause genuine hemolytic transfusion reactions. Second, once alloantibodies are excluded or accounted for, you select the unit that is least incompatible with the patient's autoantibody, because in warm AIHA, the autoantibody usually reacts against essentially all donor red cells to some degree, so a perfectly compatible unit often doesn't exist, and waiting for one can be dangerous. Third, whenever feasible, transfuse phenotypically matched red cells, meaning extended antigen matching beyond ABO and RhD, specifically to prevent the patient from forming new alloantibodies during a period when serologic testing is already difficult. The slide's practical recommendation is to prioritize matching for Rh antigens C, c, E, e, and Kidd antigens, followed by Ss and Fyb if resources allow."
+        },
+        {
+          "id": "seg-036b",
+          "keypoints": [
+            "Three priorities: compatible with true alloantibody, least incompatible with autoantibody, phenotype-matched RBC when possible",
+            "In warm AIHA, the autoantibody often reacts with all donor cells, a perfectly compatible unit rarely exists",
+            "Phenotype matching prevents new alloimmunization during a period of difficult serologic testing",
+            "Priority antigens for matching are Rh (C, c, E, e) and Kidd, then Ss and Fyb"
+          ],
+          "page": 36,
+          "role": "keypoint",
+          "voiceover": "Remember the three-step algorithm for warm AIHA transfusion, exclude true alloantibodies first, then accept the least incompatible unit against the autoantibody since a perfect match rarely exists, and finally use phenotype-matched cells when possible to avoid new alloimmunization. Priority antigens are Rh, C, c, E, e, and Kidd, then Ss and Fyb."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-037.png",
+      "index": 37,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-037a",
+          "page": 37,
+          "role": "content",
+          "voiceover": "This slide covers phenotype-matched, or extended phenotype-matched, red cell release, used for AIHA patients and also for patients on daratumumab. The purpose is simple, reduce red cell alloimmunization, meaning prevent the patient from forming new red cell antibodies against minor blood group antigens. Three scenarios call for this strategy. First, chronically transfused patients, like those with thalassemia or sickle cell disease, who receive so many units over a lifetime that their alloimmunization risk climbs steeply without matching. Second, patients with autoimmune hemolytic disease, where ongoing antibody activity and frequent transfusion needs make new alloantibody formation especially likely and especially hard to detect against a background of autoantibody. Third, and this is a high-yield, testable point, patients on CD38 or CD47 antibody drugs, such as daratumumab, because these therapeutic antibodies bind red cells and cause pan-reactive agglutination that mimics or masks alloantibodies on the antibody screen, so extended phenotype or genotype matching becomes essential before treatment even starts."
+        },
+        {
+          "id": "seg-037b",
+          "keypoints": [
+            "Goal of phenotype-matched RBC transfusion is to prevent red cell alloimmunization",
+            "Chronically transfused patients (thalassemia, sickle cell disease) need extended matching due to cumulative exposure",
+            "Autoimmune hemolytic disease patients benefit, since it reduces confounding alloantibody formation",
+            "CD38/CD47 drugs like daratumumab cause pan-reactive interference; match phenotype or genotype before therapy starts"
+          ],
+          "page": 37,
+          "role": "keypoint",
+          "voiceover": "Key exam point, phenotype-matched RBC transfusion aims to prevent alloimmunization. It's used in three settings, chronically transfused patients like thalassemia or sickle cell disease, patients with autoimmune hemolytic disease, and patients starting CD38 or CD47 antibody drugs like daratumumab, which cause pan-agglutination on testing. For daratumumab patients especially, get baseline extended typing before therapy begins."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-038.png",
+      "index": 38,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-038a",
+          "page": 38,
+          "role": "content",
+          "voiceover": "This slide gets into the practical mechanics of phenotype-matched red cell release. The core principle, just as you match ABO type for compatibility, minor blood group antigens should also be matched according to the same compatibility rule. Locally, the recommended minor antigen panel covers six antigens, E, e, C, c, Jka, and Jkb, worth memorizing as the core extended panel tested on boards. There's also an important point about RhD itself, current practice already treats RhD as a phenotype-matched strategy, not just a simple positive-or-negative call. Specifically, RhD-negative patients should only receive RhD-negative red cells, while RhD-positive patients can safely receive either RhD-positive or RhD-negative units. Finally, notice that blood bags are labeled with their minor antigen phenotype directly on the bag, as shown in the image, a label might read something like C plus, c negative, E negative, e plus, M plus, Jka plus, Jkb negative. Having this printed directly on the unit is what makes rapid antigen-matched release feasible in practice, without waiting for additional serologic workup on every unit."
+        },
+        {
+          "id": "seg-038b",
+          "keypoints": [
+            "Minor blood group antigens are matched using the same compatibility principle as ABO",
+            "Core recommended minor antigen panel is E, e, C, c, Jka, Jkb",
+            "RhD-negative patients get only RhD-negative units; RhD-positive patients can receive either",
+            "Blood bags are labeled with minor antigen phenotype to speed antigen-matched release"
+          ],
+          "page": 38,
+          "role": "keypoint",
+          "voiceover": "High-yield, minor antigens follow the same compatibility rule as ABO. Memorize the core panel, E, e, C, c, Jka, Jkb. For RhD, negative patients get only RhD-negative units, while positive patients can receive either. And blood bags are pre-labeled with minor antigen phenotype, which is what makes fast antigen-matched release possible."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-039.png",
+      "index": 39,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-039a",
+          "page": 39,
+          "role": "content",
+          "voiceover": "Let's cover the least incompatible red cell workup, used for patients with a red cell autoantibody rather than an alloantibody. Step one, before blaming everything on the autoantibody, confirm the patient doesn't also carry a true alloantibody underneath, something like anti-E or anti-Mia, since that could still cause a real hemolytic reaction. Step two, determine whether the autoantibody is warm or cold reactive, and if it's cold, use a blood warmer for the unit. Step three, it's recommended to pair this with antigen-matched issue whenever feasible. Step four, for the crossmatch itself, test several donor units against the patient's serum and pick the ones with the lowest reaction strength, that's the least incompatible unit. Step five, this is a shared call, the blood bank should communicate the transfusion decision with the clinical team. And finally, transfuse slowly with close observation, following a restrictive transfusion strategy."
+        },
+        {
+          "id": "seg-039b",
+          "keypoints": [
+            "Least incompatible RBC workup applies to autoantibodies, not alloantibodies",
+            "Always rule out a coexisting alloantibody, such as anti-E or anti-Mia, first",
+            "Warm versus cold autoantibody determines whether a blood warmer is needed",
+            "Select the crossmatch unit with the lowest reaction strength",
+            "Transfuse slowly with close monitoring using a restrictive strategy"
+          ],
+          "page": 39,
+          "role": "keypoint",
+          "voiceover": "For boards, remember that least incompatible red cells are for autoantibodies, not alloantibodies, so always exclude a hidden alloantibody like anti-E or anti-Mia first. Classify the autoantibody as warm or cold, since cold autoantibodies need a blood warmer. During crossmatch, choose the unit with the weakest reaction. And always transfuse slowly, under close observation, following a restrictive strategy."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-040.png",
+      "index": 40,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-040a",
+          "page": 40,
+          "role": "content",
+          "voiceover": "Let's talk about daratumumab and other anti-CD38 drugs, and why they complicate the blood bank workup. Red cells express CD38, so the drug binds red cells directly and interferes with pretransfusion testing. ABO typing is unaffected. Minor antigen typing may be interfered with. The traditional antiglobulin antibody screen shows a weak pan-reactive positive across every panel cell, which can mask a real alloantibody underneath. The direct antiglobulin test can be positive or negative, inconsistently. But the manual polybrene method for antibody screening is not affected. So the recommended workup is, before starting the drug, get a baseline direct and indirect Coombs test plus minor antigen phenotyping. During treatment, treat screening and panel cells with DTT, dithiothreitol, since CD38 has five disulfide bonds that DTT can break, eliminating interference. Or simply use manual polybrene for crossmatching. And practically, the blood bank should flag these patients in the system so testing isn't unnecessarily delayed."
+        },
+        {
+          "id": "seg-040b",
+          "keypoints": [
+            "Daratumumab binds CD38 on red cells, causing pan-reactive false-positive antibody screens",
+            "ABO typing is unaffected; minor antigen typing and AHG-based screens are interfered with",
+            "DTT breaks CD38's five disulfide bonds, removing the interference",
+            "Manual polybrene method bypasses the interference entirely",
+            "Get baseline Coombs test and minor phenotype before starting therapy"
+          ],
+          "page": 40,
+          "role": "keypoint",
+          "voiceover": "High-yield point, anti-CD38 drugs like daratumumab bind red cell CD38 and cause a weak pan-reactive antibody screen that mimics a panagglutinin. ABO typing stays reliable, but AHG-based screens and minor typing are affected. The fix is DTT, which breaks CD38's disulfide bonds, or simply using the manual polybrene method, which isn't affected. Always get baseline Coombs testing and phenotype before starting the drug."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-041.png",
+      "index": 41,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-041a",
+          "page": 41,
+          "role": "content",
+          "voiceover": "This slide lays out the blood bank workflow for patients on daratumumab, broken into three phases: before, during, and after treatment. Before starting the drug, get a baseline direct and indirect Coombs test, an antibody screen, and minor antigen typing for Rh, Kidd, Duffy, MNS, and Ss systems. During treatment, transfuse antigen-matched red cells and use either manual polybrene antibody testing or DTT treatment for the crossmatch. After treatment, continue transfusing antigen-matched red cells, and for up to six months after the last dose, you still need to use the manual polybrene method for antibody testing, because the drug can linger in circulation that long. One local practice point here, in this institution, manual polybrene testing and matching replaces the DTT treatment workflow that's more common in Western protocols. And the asterisk note emphasizes why minor antigen matching matters, you pre-type the patient's minor blood group antigens so you can transfuse antigen-compatible units and avoid provoking new alloantibody formation."
+        },
+        {
+          "id": "seg-041b",
+          "keypoints": [
+            "Workflow has three phases: before, during, and after daratumumab therapy",
+            "Baseline Coombs test, antibody screen, and minor typing before starting the drug",
+            "During and after treatment, transfuse antigen-matched red cells",
+            "Manual polybrene testing needed for up to six months after the last dose",
+            "This institution uses manual polybrene instead of DTT treatment"
+          ],
+          "page": 41,
+          "role": "keypoint",
+          "voiceover": "Remember the three-phase daratumumab workflow, before treatment get baseline Coombs testing, antibody screen, and minor phenotyping. During and after treatment, transfuse antigen-matched red cells, and continue manual polybrene testing for up to six months after the last dose, since the drug persists that long. Note this protocol substitutes manual polybrene for the DTT treatment used in Western practice."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-042.png",
+      "index": 42,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-042a",
+          "page": 42,
+          "role": "content",
+          "voiceover": "This table compares anti-CD38 and anti-CD47 drugs and how each interferes with transfusion testing. Red cell expression, CD47 is expressed at a higher density than CD38. DTT sensitivity, CD38 is destroyed by DTT, but CD47 is not. Common drugs, for anti-CD38 that's daratumumab and isatuximab, for anti-CD47 that's magrolimab and evorpacept. For interference patterns, ABO typing isn't affected by anti-CD38 but reverse typing is affected by anti-CD47. Minor antigen typing requiring anti-human globulin, both interfere. Antibody screening by AHG gel card, both interfere. Antibody screening by manual polybrene, CD38 is not affected, but CD47 is affected. And DTT treatment of red cells removes CD38 interference, but cannot remove CD47 interference. The exam takeaway, DTT and manual polybrene both solve anti-CD38 problems, but neither solves anti-CD47 problems, making anti-CD47 the trickier drug class."
+        },
+        {
+          "id": "seg-042b",
+          "keypoints": [
+            "CD47 is expressed at higher density on red cells than CD38",
+            "DTT destroys CD38 but cannot destroy CD47",
+            "Anti-CD47 interferes with ABO reverse typing; anti-CD38 does not",
+            "Manual polybrene avoids anti-CD38 interference but not anti-CD47 interference",
+            "Anti-CD47 interference cannot be removed by DTT or the MP method"
+          ],
+          "page": 42,
+          "role": "keypoint",
+          "voiceover": "Key contrast for boards, both anti-CD38 and anti-CD47 interfere with antihuman globulin-based testing, but only anti-CD38, like daratumumab, can be neutralized, either with DTT, since CD38 has disulfide bonds, or by switching to manual polybrene. Anti-CD47 drugs like magrolimab resist both fixes, and anti-CD47 uniquely interferes with ABO reverse typing too."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-043.png",
+      "index": 43,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-043a",
+          "page": 43,
+          "role": "content",
+          "voiceover": "This table covers leukoreduction and irradiation requirements across blood products, high-yield for boards. Red cells and platelets both need a standard blood set, should be leukoreduced to reduce febrile reactions, HLA alloimmunization, and CMV risk, and both need irradiation to prevent transfusion-associated graft-versus-host disease, especially for stem cell transplant recipients. Plasma and cryoprecipitate need a standard set, but leukoreduction doesn't apply and irradiation isn't needed, since they're essentially acellular. Granulocyte concentrates need a standard set, cannot be leukoreduced, since that would remove the white cells you're giving, and almost always need irradiation because they're loaded with viable lymphocytes. Hematopoietic stem cells are the outlier, no standard set needed, cannot be leukoreduced, and absolutely cannot be irradiated, since that would kill the very stem cells you're transplanting. One footnote, cellular therapy products resemble stem cells but vary by manufacturer, so confirm handling with the supplier."
+        },
+        {
+          "id": "seg-043b",
+          "keypoints": [
+            "RBCs and platelets: leukoreduce and irradiate, especially for transplant recipients",
+            "Plasma and cryoprecipitate: no leukoreduction, no irradiation needed",
+            "Granulocyte concentrates cannot be leukoreduced but almost always need irradiation",
+            "Hematopoietic stem cells can never be irradiated or leukoreduced",
+            "Irradiation across products prevents transfusion-associated graft-versus-host disease"
+          ],
+          "page": 43,
+          "role": "keypoint",
+          "voiceover": "Quick recall, RBCs and platelets get both leukoreduced and irradiated. Plasma and cryoprecipitate need neither, they're acellular. Granulocytes can never be leukoreduced, but almost always need irradiation because they're full of live lymphocytes. And stem cells are the exception that can never be irradiated, since that would kill the graft you're trying to infuse. Irradiation across the board exists to prevent Ta-GVHD."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-044.png",
+      "index": 44,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-044a",
+          "page": 44,
+          "role": "content",
+          "voiceover": "Let's wrap up with high-yield points specific to Taiwan. The most common irregular red cell antibodies here are anti-Mia and anti-E, different from Western populations where anti-K tends to dominate. That's because antigen prevalence differs, Mia positivity in Taiwan is about seven percent, and E antigen positivity is around fifty percent, both much higher than in Caucasian populations. Next, severe transfusion reactions with respiratory distress point to two classic mimickers, TACO and TRALI, distinguishing them is a frequent board question. There's also transfusion-associated graft-versus-host disease, know its prevention, at-risk populations, and clinical features, including a rise in pro-BNP. Finally, some TRALI cases are caused by donor anti-leukocyte antibodies, so blood centers now preferentially use male donors for plasma products, since males lack pregnancy-related HLA sensitization, a policy Taiwan implemented in 2015."
+        },
+        {
+          "id": "seg-044b",
+          "keypoints": [
+            "Most common irregular antibodies in Taiwan: anti-Mia and anti-E",
+            "Mia positivity about 7.3%; E antigen positivity about 50% in Taiwan",
+            "Severe dyspnea after transfusion: think TACO versus TRALI",
+            "TRALI can be caused by donor anti-leukocyte antibodies",
+            "Taiwan uses male-only plasma donors since 2015 to reduce TRALI risk"
+          ],
+          "page": 44,
+          "role": "keypoint",
+          "voiceover": "Board pearls, Taiwan's top irregular antibodies are anti-Mia and anti-E, reflecting local antigen frequencies of roughly seven percent Mia-positive and fifty percent E-positive. For dyspnea after transfusion, always distinguish TACO from TRALI. And remember TRALI can come from donor anti-leukocyte antibodies, which is why Taiwan has used male-only plasma donors since 2015."
+        }
+      ]
+    }
+  ],
+  "pdf": "pdf/5-1_輸血醫學介紹_羅仕錡醫師.pdf",
+  "slug": "transfusion-medicine"
+}
