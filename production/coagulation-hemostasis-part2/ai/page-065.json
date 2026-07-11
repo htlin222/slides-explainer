@@ -1,0 +1,12 @@
+{
+  "index": 65,
+  "kind": "content",
+  "content_voiceover": "This table is essential for board exams. It shows the minimum factor level needed for normal hemostasis, alongside the approximate factor level at which PT and aPTT actually turn abnormal. Notice that fibrinogen only needs fifty to one hundred milligrams per deciliter for adequate hemostasis, but PT doesn't prolong until fibrinogen drops to around one hundred, and aPTT not until around sixty. Prothrombin needs to fall to fifteen percent before aPTT prolongs, but only fifty percent for PT. Factor seven is exquisitely sensitive on PT, since even a modest drop to fifty percent will prolong it, which is why an isolated PT prolongation with a normal aPTT should make you think of factor seven deficiency or early warfarin effect. On the aPTT side, factors eight, nine, eleven, and twelve are the intrinsic pathway factors, and note that factor twelve can drop profoundly, down to about twenty percent, before aPTT prolongs, yet clinically factor twelve deficiency doesn't cause bleeding at all despite a markedly prolonged aPTT. Keep this table in mind whenever you're asked which factor deficiency explains an isolated PT or aPTT abnormality on the boards.",
+  "keypoints": [
+    "Hemostasis requirements are lower than the factor levels needed to prolong PT or aPTT.",
+    "A factor VII drop to fifty percent already prolongs PT, explaining isolated PT prolongation.",
+    "Factor XII must fall very low before aPTT prolongs, and its deficiency does not cause bleeding.",
+    "Fibrinogen and prothrombin have different threshold levels for PT versus aPTT prolongation."
+  ],
+  "keypoint_voiceover": "Remember this sensitivity table for boards. Factor levels needed for normal hemostasis are generally lower than the levels at which PT or aPTT actually become abnormal. Factor seven's high sensitivity explains isolated PT prolongation, while factor twelve can be very low without prolonging aPTT much, and without causing any bleeding at all."
+}

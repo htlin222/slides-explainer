@@ -1,0 +1,12 @@
+{
+  "index": 66,
+  "kind": "content",
+  "content_voiceover": "This slide bundles three board questions from the 109th year exam testing factor level thresholds and mixing study concepts. Question thirty one asks which factor level would actually cause abnormal bleeding during surgery, and the answer is D, von Willebrand factor antigen at twenty five percent, since a low vWF antigen reflects clinically significant von Willebrand disease, whereas factor twelve at five percent, factor seven at twenty percent, factor eleven at thirty five percent, and factor nine at sixty percent are all still within levels adequate for surgical hemostasis. Question fifty two asks you to rank bleeding risk after a molar extraction for four patients, and the answer is B greater than D greater than C greater than A. Patient B has a true acquired factor eight inhibitor causing genuine factor eight deficiency, so the highest risk. Patient D has ITP with a platelet count of thirty thousand, a real but more moderate risk. Patient C has congenital factor seven deficiency at twenty five percent, still above the ten percent threshold needed for hemostasis, so lower risk. Patient A's prolonged aPTT and apparent low factor eight are actually due to a lupus anticoagulant artifact rather than true factor deficiency, so despite the abnormal lab values this patient carries the lowest actual bleeding risk. Question fifty four asks what can cause an isolated prolonged aPTT, and here all four listed causes, heparin, direct oral anticoagulants, von Willebrand disease, and lupus anticoagulant, are each accepted as valid causes, making the answer one plus two plus three plus four.",
+  "keypoints": [
+    "Factor level thresholds for hemostasis vary by factor; vWF deficiency at twenty five percent still bleeds.",
+    "Rank bleeding risk by true factor activity, not just by abnormal lab values.",
+    "A lupus anticoagulant can artifactually lower a factor VIII assay without causing real bleeding.",
+    "Isolated prolonged aPTT differential includes heparin, DOACs, vWD, and lupus anticoagulant."
+  ],
+  "keypoint_voiceover": "Three testing pearls here. Judge bleeding risk by the true factor activity behind the number, not just by whether a test is abnormal, since a lupus anticoagulant can fake a low factor eight without real bleeding risk. And remember the broad differential for an isolated prolonged aPTT: heparin, DOACs, von Willebrand disease, and lupus anticoagulant."
+}

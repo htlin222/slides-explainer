@@ -1,0 +1,12 @@
+{
+  "index": 171,
+  "kind": "content",
+  "content_voiceover": "This page opens with a classic question on vitamin K deficiency physiology. Vitamin K is required for gamma carboxylation of factors two, seven, nine, and ten, not factor one, or fibrinogen. Because factor seven has the shortest half life, PT prolongs first, but with more severe deficiency, aPTT prolongs as well since factors two, nine, and ten are also affected. Fibrin degradation products are not increased in isolated vitamin K deficiency because there's no primary fibrinolytic activation, this is a coagulation factor synthesis problem, not a clot breakdown problem. So the correct combination is prolonged aPTT together with prolonged PT. The second question, from this year's exam, revisits DOAC dosing strategy in venous thromboembolism. The distractor groups edoxaban together with apixaban and rivaroxaban as drugs that can be started without a heparin lead in. That grouping is incorrect. Only apixaban and rivaroxaban truly work as single drug approaches from day one. Edoxaban, like dabigatran, still requires at least five days of parenteral anticoagulation before starting, because both were studied that way in their pivotal trials.",
+  "keypoints": [
+    "Vitamin K deficiency prolongs both PT and aPTT, since factors II, VII, IX, X are affected",
+    "Fibrinogen, factor I, is not vitamin K dependent, and FDP is not increased in isolated vitamin K deficiency",
+    "Only rivaroxaban and apixaban are true single drug, no lead in, DOAC approaches for VTE",
+    "Edoxaban, like dabigatran, requires at least 5 days of parenteral anticoagulation before starting"
+  ],
+  "keypoint_voiceover": "Two testable facts to lock in. Vitamin K deficiency prolongs both PT and aPTT, but does not raise FDP or affect fibrinogen. And for DOAC dosing in VTE, only rivaroxaban and apixaban skip the heparin lead in, edoxaban needs it just like dabigatran, a pairing that repeatedly shows up as a trap answer."
+}

@@ -1,0 +1,12 @@
+{
+  "index": 69,
+  "kind": "content",
+  "content_voiceover": "Moving to the 112th year exam. Question ten asks which is the best laboratory test for diagnosing DIC, and the answer is D, a high D-dimer. While thrombocytopenia, prolonged PT, prolonged aPTT, and hypofibrinogenemia can all occur in DIC, none of them alone is as sensitive or specific as an elevated D-dimer, which reflects the combined process of thrombin generation and secondary fibrinolysis that defines DIC. That's why D-dimer, or fibrin degradation products, carries the heaviest weight in the ISTH DIC scoring system. Question fifty nine asks for the common causes of prolongation of both PT and aPTT together, and the answer is one plus three plus four, meaning liver disease, superwarfarin poisoning, and DIC. These three conditions cause a global deficiency or consumption of multiple clotting factors across both the extrinsic and intrinsic pathways. Heparin at usual doses prolongs aPTT much more than PT, and dysfibrinogenemia tends to affect thrombin time and reptilase time more specifically, so those two options are excluded from this combination answer.",
+  "keypoints": [
+    "D-dimer is the single best test for DIC, more sensitive than platelet count, PT, aPTT, or fibrinogen alone.",
+    "Combined PT and aPTT prolongation: think liver disease, superwarfarin poisoning, or DIC.",
+    "Heparin at typical doses prolongs aPTT far more than PT.",
+    "Dysfibrinogenemia is better detected by thrombin time than by PT or aPTT."
+  ],
+  "keypoint_voiceover": "For boards, D-dimer is the standout best single test for DIC. And when both PT and aPTT are prolonged together, your top differential is liver disease, superwarfarin poisoning, or DIC, since these globally deplete clotting factors across both pathways."
+}

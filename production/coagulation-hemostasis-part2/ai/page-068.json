@@ -1,0 +1,12 @@
+{
+  "index": 68,
+  "kind": "content",
+  "content_voiceover": "This slide has two classic testing questions. Question twenty two describes a two year old boy with bleeding gums and bruising, a positive family history through the maternal uncle, a normal PT, and a prolonged PTT, and asks which factor deficiency fits, with the answer being factor eight alone, choice D. The family pattern through a maternal uncle is the giveaway for X-linked inheritance, making hemophilia A the diagnosis, while factor ten, tissue factor, and factor seven are all part of the extrinsic or common pathway and would prolong the PT, which here is normal. Question thirty five asks which statement about coagulation testing is incorrect, and the answer is E. The wrong statement claims that to assess low molecular weight heparin effect you can check the blood antithrombin level, but that's not how you monitor LMWH. Antithrombin level tells you about the cofactor's availability, not the anticoagulant's actual activity, and the correct way to monitor LMWH effect is an anti-factor Xa assay. The other statements in this question are actually true: blood type O individuals do have lower baseline von Willebrand factor levels than type A or B, factor thirteen deficiency classically shows an entirely normal aPTT, PT, and bleeding time despite being a real bleeding disorder, and dysfibrinogenemia can sometimes present with a normal thrombin time depending on the specific mutation.",
+  "keypoints": [
+    "Isolated prolonged PTT with normal PT and an X-linked family history points to hemophilia A.",
+    "Extrinsic and common pathway factors (X, tissue factor, VII) prolong PT, not isolated aPTT.",
+    "LMWH effect is monitored by an anti-factor Xa assay, not by antithrombin level.",
+    "Blood type O carries lower baseline vWF; factor XIII deficiency has entirely normal screening coagulation tests."
+  ],
+  "keypoint_voiceover": "A maternal-uncle bleeding history with normal PT and prolonged PTT is classic hemophilia A. And remember for boards, LMWH activity is monitored by anti-factor Xa level, not by checking antithrombin, which only reflects the cofactor's availability rather than the drug's actual effect."
+}

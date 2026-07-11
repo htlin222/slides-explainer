@@ -1,0 +1,12 @@
+{
+  "index": 170,
+  "kind": "content",
+  "content_voiceover": "This page covers how anticoagulant drugs interfere with coagulation testing, a frequently tested topic. The first question asks which drugs cause a falsely abnormal diluted Russell viper venom time, the dRVVT, which is used to detect lupus anticoagulant. Direct oral anticoagulants, unfractionated heparin, and direct thrombin inhibitors all directly inhibit factor Xa or thrombin within the test tube, which prolongs phospholipid dependent clotting assays and can produce a false positive lupus anticoagulant result. Warfarin is not grouped with these direct interferents in this context. The second question addresses how new oral anticoagulants affect routine coagulation panels. Direct thrombin inhibitors tend to prolong the aPTT more sensitively, while factor Xa inhibitors tend to prolong the PT more sensitively. A normal PT and aPTT generally suggests low drug levels and lower emergent bleeding risk, though exceptions exist. The key error to spot is the assumption that the degree of PT or aPTT prolongation reliably predicts drug concentration or bleeding risk in a linear fashion, it does not, so that assumption is the incorrect statement.",
+  "keypoints": [
+    "DOACs, unfractionated heparin, and direct thrombin inhibitors can cause false positive lupus anticoagulant on dRVVT testing",
+    "Direct thrombin inhibitors prolong aPTT more sensitively; factor Xa inhibitors prolong PT more sensitively",
+    "Normal PT and aPTT suggest low DOAC levels and lower bleeding risk, but exceptions exist",
+    "PT or aPTT prolongation does not linearly correlate with drug concentration or bleeding risk"
+  ],
+  "keypoint_voiceover": "Remember, direct acting anticoagulants including DOACs, heparin, and direct thrombin inhibitors can falsely prolong the dRVVT and mimic lupus anticoagulant. For routine coagulation testing, direct thrombin inhibitors affect aPTT most, while factor Xa inhibitors affect PT most. And don't assume prolongation severity predicts bleeding risk in a linear way, that relationship is unreliable."
+}

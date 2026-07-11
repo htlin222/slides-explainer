@@ -1,0 +1,11 @@
+{
+  "index": 72,
+  "kind": "content",
+  "content_voiceover": "This is a high-yield vignette from the newest exam, the 114th year. A three year old boy is admitted with fever, and his labs show thrombocytopenia at forty thousand, prolonged PT and aPTT, low fibrinogen at ninety, markedly elevated D-dimer, elevated liver enzymes, elevated bilirubin, and elevated ammonia. Both severe hepatitis and DIC can produce this entire panel, since liver failure impairs synthesis of clotting factors and fibrinogen, consumes platelets through portal hypertension and splenic sequestration, and even raises D-dimer through impaired clearance. So the question asks which single finding best distinguishes DIC as the cause from hepatitis, and the answer is E, schistocytes on the peripheral blood smear. Schistocytes represent mechanical red cell fragmentation against fibrin strands deposited in the microvasculature, a hallmark of the microangiopathic hemolysis that defines DIC, and this finding would not be expected from hepatic synthetic failure alone. Elevated PT and aPTT, thrombocytopenia, hypofibrinogenemia, and even a high D-dimer are all findings that overlap between severe liver disease and DIC, so none of them can reliably separate the two, which is why examining the peripheral smear for schistocytes is the key discriminating step.",
+  "keypoints": [
+    "Severe hepatitis and DIC can both cause thrombocytopenia, prolonged PT/aPTT, low fibrinogen, and high D-dimer.",
+    "Schistocytes on peripheral smear indicate microangiopathic hemolysis, specific to DIC, not liver failure.",
+    "Always request a peripheral smear when trying to distinguish DIC from hepatic coagulopathy."
+  ],
+  "keypoint_voiceover": "When hepatitis and DIC labs overlap this completely, the peripheral smear is your tiebreaker. Schistocytes point specifically to the microangiopathic hemolysis of DIC, something hepatic synthetic failure alone cannot explain."
+}
