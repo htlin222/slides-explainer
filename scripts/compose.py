@@ -92,7 +92,7 @@ def main():
     if not (0 <= args.shard < args.of):
         raise SystemExit("--shard must be in [0, --of)")
 
-    prod = C.Prod(Path(args.pdf))
+    prod = C.Prod(Path(args.pdf)).ensure()   # artifacts drop empty dirs; recreate segments/
     style = C.load_json(prod.style_path, DEFAULT_STYLE)
     tl = C.load_json(prod.timeline_path)
     # each worker composes only its slice of segments (round-robin by ordinal),
