@@ -1,0 +1,13 @@
+{
+  "index": 19,
+  "kind": "content",
+  "content_voiceover": "Here is a board style test question on cytogenetic and molecular abnormalities in childhood ALL. It asks which statements are correct. Statement one says Ph-like associated molecular changes include IGH-CRLF2 rearrangement, ABL class fusions, JAK2 rearrangement, and EPOR rearrangement, and that is correct, these are the classic Ph-like signaling lesions. Statement two says the ETV6 RUNX1 fusion gene is associated with excellent prognosis, and that is also correct, it's one of the most favorable genetic subtypes in pediatric ALL. Statement three says iAMP21 carries a worse prognosis and requires more intensive chemotherapy, which is correct as well, intrachromosomal amplification of chromosome 21 is a recognized high risk feature. Statement four claims that translocations involving DUX4, MEF2D, and ZNF384 are common in adolescents and all carry poor prognosis. This is false, these three subtypes are biologically distinct and do not uniformly carry poor prognosis, DUX4 rearranged ALL in particular tends to have a favorable outcome. So the correct combination is statements one, two, and three, which corresponds to answer B.",
+  "keypoints": [
+    "Ph-like ALL molecular lesions include IGH-CRLF2, ABL class fusions, JAK2 and EPOR rearrangements",
+    "ETV6 RUNX1 fusion confers excellent prognosis",
+    "iAMP21 confers worse prognosis and needs intensified chemotherapy",
+    "DUX4, MEF2D, and ZNF384 rearrangements do not all carry poor prognosis, statement four is false",
+    "Correct answer is B, statements one plus two plus three"
+  ],
+  "keypoint_voiceover": "Key points for this question. Ph-like ALL includes IGH-CRLF2, ABL class fusions, JAK2, and EPOR rearrangements. ETV6 RUNX1 is a favorable fusion. iAMP21 is high risk and needs intensified therapy. But DUX4, MEF2D, and ZNF384 rearrangements are not uniformly poor prognosis, so statement four is wrong, making the correct answer B, statements one, two, and three."
+}

@@ -1,0 +1,13 @@
+{
+  "index": 23,
+  "kind": "content",
+  "content_voiceover": "This flow chart details induction, early intensification, consolidation, and reintensification specifically for T cell ALL, again split into non ETP on the left and ETP on the right. Both subtypes get Induction I, MRD1 is checked but any result proceeds to Induction II C, since T-ALL is uniformly treated more intensively at this stage. After Induction II C, MRD2 is checked. If it's less than zero point zero one percent, patients get standard EI plus and are simply treated as high risk going forward. If MRD2 is zero point zero one percent or higher, non ETP patients still get EI plus, but ETP patients specifically move to V-EI instead. All patients with MRD2 at or above zero point zero one percent then proceed to an MRD3 checkpoint. Less than zero point zero one percent allows consolidation as high risk. Zero point zero one to zero point zero nine percent triggers a menu of Tx options, shown in the yellow box on the right, ETP patients get V-EI, while non ETP patients can receive dasatinib if drug sensitivity is identified, a high dose Ara-C based reintensification regimen, or nelarabine based therapy. Finally, MRD3 of zero point one percent or higher after Tx options leads straight to HSCT.",
+  "keypoints": [
+    "Both non-ETP and ETP T-ALL get Induction I then Induction II C",
+    "MRD2 at zero point zero one percent threshold determines EI plus versus V-EI for ETP",
+    "MRD3 stratifies into consolidation as high risk, Tx options, or transplant pathway",
+    "Tx options include dasatinib, high dose Ara-C based regimen, or nelarabine for non-ETP",
+    "MRD3 at zero point one percent or higher leads to HSCT"
+  ],
+  "keypoint_voiceover": "Key points on this T-ALL induction and intensification flow chart. Both ETP and non ETP get Induction I and Induction II C. MRD2 at zero point zero one percent determines whether ETP patients switch to V-EI. MRD3 then stratifies patients into consolidation as high risk, a menu of Tx options like dasatinib or nelarabine, or straight to HSCT if MRD3 is zero point one percent or higher."
+}

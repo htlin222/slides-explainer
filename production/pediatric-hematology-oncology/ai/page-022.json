@@ -1,0 +1,13 @@
+{
+  "index": 22,
+  "kind": "content",
+  "content_voiceover": "This slide details the MRD based risk stratification algorithm used in the TPOG B-ALL protocol. On the left, starting from a provisional high risk assignment, patients get Induction I, then MRD1 is checked. If MRD1 is less than five percent, they proceed to the somewhat less intensive Induction II B, if five percent or higher, they get the more intensive Induction II C. After that block, MRD2 is checked, less than one percent keeps the patient in the high risk group and they get standard EI plus intensification, while one percent or higher escalates them to very high risk with augmented EI plus therapy. On the right, we zoom into what happens when MRD2 is positive. Any detectable MRD2 triggers blinatumomab, recommended per protocol, followed by an MRD3 check. Depending on whether MRD2 was zero point zero one to zero point nine nine percent versus one percent or higher, and what MRD3 shows afterward, patients are directed toward continuation as high risk, optional reintensification, escalation to very high risk with one to three cycles of reintensification, or ultimately HSCT or CAR T therapy if MRD remains at or above zero point zero one percent and is not decreasing. The footnotes flag important exceptions, hyperdiploid B-ALL with MRD2 one percent or higher can have MRD3 checked immediately after consolidation, before blinatumomab, to finalize risk classification, and B-ALL with persistent MRD positivity after week seven of continuation can still access blinatumomab through the national insurance program if it hasn't been used yet.",
+  "keypoints": [
+    "MRD1 threshold of five percent determines Induction II-B versus II-C",
+    "MRD2 threshold of one percent separates high risk from very high risk",
+    "Any positive MRD2 triggers blinatumomab, followed by MRD3 reassessment",
+    "Persistent or rising MRD after blinatumomab leads to reintensification or HSCT and CAR T",
+    "Hyperdiploid B-ALL has a special exception allowing earlier MRD3 checking"
+  ],
+  "keypoint_voiceover": "Key points on this MRD algorithm. MRD1 at five percent separates Induction II-B from II-C. MRD2 at one percent separates high risk from very high risk. Any positive MRD2 triggers blinatumomab followed by MRD3 reassessment, and persistent or rising MRD after that leads to reintensification or ultimately transplant or CAR T therapy. Hyperdiploid B-ALL has a special earlier MRD3 checkpoint."
+}

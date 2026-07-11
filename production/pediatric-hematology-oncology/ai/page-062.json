@@ -1,0 +1,12 @@
+{
+  "index": 62,
+  "kind": "content",
+  "content_voiceover": "This slide brings the four molecular subgroups of medulloblastoma to life using data pooled from seven series across four gene expression platforms. The age distribution panels at the top show that WNT tumors have a bimodal pattern peaking around age four to nine and again in the teens, SHH tumors are U shaped, most common in infants and then again in older adolescents and adults, Group 3 tumors cluster heavily in young children and decline with age, and Group 4 tumors peak broadly across childhood and adolescence. Overall, when you stratify the whole cohort by age, zero to three years accounts for about twenty one percent of cases, four to sixteen years is the bulk at sixty seven percent, and adults over seventeen make up twelve percent. The bottom row of survival curves is the real board takeaway, looking at all patients, WNT tumors have the best prognosis by far with survival near one hundred percent, Group 3 has the worst prognosis, and SHH and Group 4 fall in between. Notice the infant panel circled in the figure, Group 3 tumors in infants have a particularly poor outcome. This confirms that molecular subgrouping, not just histology, drives prognosis and increasingly treatment stratification in medulloblastoma.",
+  "keypoints": [
+    "Four molecular subgroups, WNT, SHH, Group 3, and Group 4, each have distinct age distributions",
+    "WNT tumors carry the best prognosis, near one hundred percent survival",
+    "Group 3 tumors carry the worst prognosis, especially in infants",
+    "Molecular subgrouping predicts outcome independent of histology"
+  ],
+  "keypoint_voiceover": "For boards, memorize the prognosis ranking, WNT is best, close to one hundred percent survival, Group 3 is worst, particularly in infants, and SHH and Group 4 sit in between. This molecular classification is now a core part of medulloblastoma risk stratification."
+}

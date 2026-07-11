@@ -1,0 +1,12 @@
+{
+  "index": 61,
+  "kind": "content",
+  "content_voiceover": "Medulloblastoma is the prototypical embryonal tumor of childhood, and this table organizes exactly what you need for boards. Primary site is the cerebellum. On special exam, brain MRI classically shows a solid, homogeneously enhancing mass in the posterior fossa, and because thirty percent of patients have leptomeningeal spread at diagnosis, staging always requires whole spine MRI and lumbar puncture for CSF cytology. Risk stratification uses three inputs, age, the preoperative Chang staging system which looks at tumor size, local extension, and metastases, and postoperative factors including extent of residual tumor, histology, and molecular subtype. The table two three point eight spells out the classic average risk versus high risk criteria, average risk means negative CSF cytology, a normal spine MRI, less than one point five square centimeters of residual tumor, undifferentiated histology, and age greater than three years, while high risk means positive CSF cytology, positive spine MRI, greater than one point five square centimeters residual, large cell anaplastic histology, and age less than three years. Molecular subtyping is now done by RNA expression profiling, which we'll cover on the next couple of slides. Treatment is multimodal, surgical resection, radiotherapy, and chemotherapy, with autologous stem cell transplant reserved for very high risk patients.",
+  "keypoints": [
+    "Medulloblastoma arises in the cerebellum and can seed the leptomeninges",
+    "Staging requires whole spine MRI and lumbar puncture, thirty percent have spinal spread",
+    "High risk features include age under three, positive CSF cytology, and greater than one point five centimeters squared residual tumor",
+    "Treatment combines surgery, radiation, and chemotherapy, with transplant for very high risk disease"
+  ],
+  "keypoint_voiceover": "Key testable facts for medulloblastoma, it's a posterior fossa cerebellar tumor, thirty percent have leptomeningeal spread so you always image the whole spine and send CSF cytology. High risk disease means age under three, positive CSF cytology or spine MRI, more than one point five square centimeters of residual tumor, or large cell anaplastic histology. Treatment is surgery, radiation, and chemotherapy, with transplant reserved for the highest risk group."
+}
