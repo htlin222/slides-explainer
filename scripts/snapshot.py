@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import subprocess
+import sys
 from pathlib import Path
 
 import common as C
@@ -51,7 +52,7 @@ def main():
         "git_commit": git_commit(),
         "tools": {
             "ffmpeg": C.tool_version([C.FFMPEG, "-version"]),
-            "edge_tts": C.tool_version([str(C.ROOT / ".venv/bin/python"), "-c",
+            "edge_tts": C.tool_version([sys.executable, "-c",
                                         "import edge_tts;print('edge-tts',edge_tts.__version__)"]),
             "chrome": C.tool_version([C.CHROME, "--version"]),
             "pdftoppm": C.tool_version([C.PDFTOPPM, "-v"]),

@@ -19,7 +19,9 @@ import sys
 from pathlib import Path
 
 SCRIPTS = Path(__file__).resolve().parent
-PY = str(SCRIPTS.parent / ".venv/bin/python")
+# Reuse whichever interpreter runs this driver: local `.venv/bin/python` or the
+# CI system python. Keeps stage subprocesses on the same env with no hardcoding.
+PY = sys.executable
 
 # (name, script, accepts_pages, accepts_force)
 STAGES = [
