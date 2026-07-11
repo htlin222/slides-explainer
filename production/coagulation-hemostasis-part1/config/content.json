@@ -1,0 +1,1504 @@
+{
+  "pages": [
+    {
+      "image": "pages/page-001.png",
+      "index": 1,
+      "kind": "title",
+      "segments": [
+        {
+          "id": "seg-001t",
+          "page": 1,
+          "role": "title",
+          "voiceover": "Welcome to Coagulation and Hemostasis: Part One. In this presentation, we'll explore the essential mechanisms of blood clotting and hemostasis."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-002.png",
+      "index": 2,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-002a",
+          "page": 2,
+          "role": "content",
+          "voiceover": "This diagram walks through the platelet adhesion cascade at a site of vessel injury, moving left to right with blood flow. First, circulating platelets tether loosely to von Willebrand factor exposed on the subendothelium through the platelet receptor GP1b. That interaction is low affinity and shear dependent, so platelets don't stick firmly, they roll along the surface, slowing down. As they roll over exposed collagen, receptors like GPVI and integrin alpha2 beta1 engage collagen directly, converting rolling into firm adhesion. Once adherent, platelets activate, change shape, and recruit more platelets through GPIIb-IIIa binding fibrinogen, building the aggregate into stable adhesion. Board relevance, this VWF-GP1b axis is the basis of von Willebrand disease and Bernard-Soulier syndrome, while the GPIIb-IIIa aggregation step is deficient in Glanzmann thrombasthenia and is the target of drugs like abciximab and tirofiban."
+        },
+        {
+          "id": "seg-002b",
+          "keypoints": [
+            "VWF-GP1b binding → platelet rolling (shear-dependent)",
+            "Collagen-GPVI/α2β1 → firm adhesion",
+            "GPIIb/IIIa + fibrinogen → aggregation",
+            "GP1b defect → Bernard-Soulier syndrome",
+            "GPIIb/IIIa defect → Glanzmann thrombasthenia"
+          ],
+          "page": 2,
+          "role": "keypoint",
+          "voiceover": "Remember the two receptor pairs. GP1b binding VWF gives rolling and adhesion, and its deficiency causes Bernard-Soulier syndrome. GPIIb-IIIa binding fibrinogen gives aggregation, and its deficiency causes Glanzmann thrombasthenia. That contrast is a classic board pairing, one affects adhesion, the other affects aggregation, and GPIIb-IIIa is also the pharmacologic target of the antiplatelet agents abciximab, eptifibatide, and tirofiban."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-003.png",
+      "index": 3,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-003a",
+          "page": 3,
+          "role": "content",
+          "voiceover": "This is the classic electron microscopy diagram of a resting discoid platelet on the left and an activated, spread platelet with pseudopods on the right. Focus on the storage organelles, since boards love asking what's deficient in each platelet storage disorder. Alpha granules contain von Willebrand factor, fibrinogen, platelet-derived growth factor, and platelet factor 4, and their absence causes Gray Platelet Syndrome, named for the pale appearance on smear. Dense bodies, also called delta granules, store ADP, ATP, serotonin, and calcium, and their absence causes delta storage pool disease with impaired secondary aggregation. The dense tubular system functions like the platelet's sarcoplasmic reticulum, sequestering calcium for activation signaling. The surface-connected canalicular system expands the membrane surface area for granule content release and receptor exposure. And the microtubule coil beneath the membrane maintains the platelet's resting discoid shape, which is lost as the platelet spreads and forms pseudopods upon activation."
+        },
+        {
+          "id": "seg-003b",
+          "keypoints": [
+            "α-granules: VWF, fibrinogen, PDGF, PF4 → absent in Gray Platelet Syndrome",
+            "Dense (δ) granules: ADP, ATP, serotonin, Ca2+ → absent in δ-storage pool disease",
+            "Dense tubular system = intracellular Ca2+ store",
+            "Microtubule coil maintains discoid shape, lost on activation"
+          ],
+          "page": 3,
+          "role": "keypoint",
+          "voiceover": "Two granule types matter most for boards. Alpha granules hold VWF, fibrinogen, and growth factors, and are missing in Gray Platelet Syndrome. Dense granules hold ADP, ATP, serotonin, and calcium, and are missing in delta storage pool disease, which impairs the aggregation response. The dense tubular system is the platelet's calcium reservoir, analogous to sarcoplasmic reticulum in muscle."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-004.png",
+      "index": 4,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-004a",
+          "page": 4,
+          "role": "content",
+          "voiceover": "This figure links von Willebrand factor, factor eight, and platelets across three panels. At baseline, VWF multimers circulate coiled up, with factor eight bound to the N-terminus of VWF, and that binding is what protects factor eight from rapid proteolytic clearance, essentially giving it a longer half-life. With vessel injury, VWF adheres to the exposed subendothelial matrix. Under high shear stress, those VWF multimers uncoil, exposing binding sites that let platelets adhere and become activated. Activated platelets then flip phosphatidylserine to their outer membrane surface, creating a procoagulant surface that recruits and concentrates factor eight, setting up the tenase complex for the coagulation cascade. The end result is bleeding cessation by a combined platelet-fibrin plug, followed by thrombolysis and tissue repair. High-yield point for boards, because factor eight rides on VWF, von Willebrand disease can present with a secondarily low factor eight level, which sometimes mimics mild hemophilia A on initial workup."
+        },
+        {
+          "id": "seg-004b",
+          "keypoints": [
+            "VWF binds and protects FVIII (N-terminus) → prolongs FVIII half-life",
+            "High shear uncoils VWF multimers → exposes platelet-binding site",
+            "Activated platelets expose phosphatidylserine → procoagulant surface",
+            "VWD can present with low FVIII, mimicking hemophilia A"
+          ],
+          "page": 4,
+          "role": "keypoint",
+          "voiceover": "The key testable fact here is that VWF is a carrier protein for factor eight, protecting it from clearance. So in von Willebrand disease, factor eight levels can be secondarily low, which can look like hemophilia A on initial labs. Also remember that shear-induced unfolding of VWF multimers is what exposes the platelet-binding site, and activated platelets expose phosphatidylserine to support the coagulation cascade."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-005.png",
+      "index": 5,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-005a",
+          "page": 5,
+          "role": "content",
+          "voiceover": "This slide distills primary hemostasis into two discrete steps, adherence and aggregation. Adherence happens first, platelet glycoprotein Ib-IX complex binds von Willebrand factor that's anchored to the exposed subendothelium, tethering the platelet to the injury site. Aggregation happens next, activated platelets express glycoprotein IIb-IIIa, which binds fibrinogen, and because fibrinogen is a bivalent molecule, it bridges adjacent platelets together, building the platelet plug. This two-receptor model is a favorite board framework because each step maps to a distinct bleeding disorder. Loss of GP Ib-IX function or expression causes Bernard-Soulier syndrome, which classically presents with giant platelets and thrombocytopenia on smear. Loss of GPIIb-IIIa causes Glanzmann thrombasthenia, which presents with a normal platelet count and normal size but a flat aggregation response to essentially all agonists except ristocetin."
+        },
+        {
+          "id": "seg-005b",
+          "keypoints": [
+            "Adherence: platelet GP Ib/IX binds VWF on subendothelium",
+            "Aggregation: platelet GPIIb/IIIa binds fibrinogen, bridges platelets",
+            "GP Ib/IX defect → Bernard-Soulier (giant platelets, thrombocytopenia)",
+            "GPIIb/IIIa defect → Glanzmann thrombasthenia (normal count, poor aggregation)"
+          ],
+          "page": 5,
+          "role": "keypoint",
+          "voiceover": "Memorize this pairing cold for boards. GP Ib-IX plus VWF equals adherence, and its defect is Bernard-Soulier syndrome with giant platelets and thrombocytopenia. GPIIb-IIIa plus fibrinogen equals aggregation, and its defect is Glanzmann thrombasthenia, with a normal platelet count but absent aggregation to agonists other than ristocetin."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-006.png",
+      "index": 6,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-006a",
+          "page": 6,
+          "role": "content",
+          "voiceover": "This slide outlines the standard hemostasis workup. It always starts with a personal and family bleeding history plus physical exam, marked here with double asterisks because a good history is actually the single most sensitive screening tool, more so than any individual lab test. From there, first-level testing splits into two arms. The platelet arm includes the platelet count from a routine CBC, plus platelet function tests, specifically the PFA-100 closure time and formal platelet aggregometry, which assess how well platelets adhere and aggregate rather than just how many there are. The plasmatic coagulation arm covers the classic trio, PT, aPTT, and thrombin time, which interrogate the extrinsic, intrinsic, and common pathways respectively. For boards, remember the pattern-recognition logic, isolated platelet-type bleeding, mucocutaneous, petechiae, points you toward the platelet arm, while deep bleeding into joints or muscles points you toward the coagulation factor arm."
+        },
+        {
+          "id": "seg-006b",
+          "keypoints": [
+            "Bleeding history + physical exam = most sensitive first screen",
+            "Platelets: count + function tests (PFA-100, aggregometry)",
+            "Coagulation factors: PT, aPTT, thrombin time",
+            "Mucocutaneous bleeding → platelet workup; deep bleeding → factor workup"
+          ],
+          "page": 6,
+          "role": "keypoint",
+          "voiceover": "Keep two tracks in mind. Platelet studies, count plus function testing with PFA-100 or aggregometry, evaluate primary hemostasis. Coagulation studies, PT, aPTT, and thrombin time, evaluate secondary hemostasis. And never skip the bleeding history and exam, it's the highest-yield screening step of all and guides which track to pursue first."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-007.png",
+      "index": 7,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-007a",
+          "page": 7,
+          "role": "content",
+          "voiceover": "The PFA-100 is a platelet function analyzer that measures closure time, essentially recreating high-shear in vivo primary hemostasis inside a small cartridge. Blood is aspirated through a tiny 150 micron aperture coated with collagen plus either ADP or epinephrine. As platelets contact that surface under high shear, they adhere, activate, and aggregate, progressively occluding the aperture, and the time to full occlusion is the closure time. A prolonged closure time, in the setting of a normal platelet count, points toward a qualitative platelet function defect, such as von Willebrand disease, aspirin or other antiplatelet effect, or an intrinsic platelet disorder. The epinephrine cartridge is more sensitive for detecting aspirin effect, while the collagen-ADP cartridge is more specific and less affected by aspirin. Boards favorite pitfall, the PFA-100 gives falsely prolonged results in severe thrombocytopenia below about one hundred thousand, or significant anemia with hematocrit under twenty-five percent, so it's not reliable in those settings and doesn't replace formal aggregometry."
+        },
+        {
+          "id": "seg-007b",
+          "keypoints": [
+            "Closure time = high-shear in vitro platelet plug formation test",
+            "Cartridges: collagen/ADP and collagen/epinephrine (aspirin-sensitive)",
+            "Screens for VWD and platelet function defects; replaced bleeding time",
+            "False prolongation if platelets <100k or hematocrit <25%"
+          ],
+          "page": 7,
+          "role": "keypoint",
+          "voiceover": "The PFA-100 reports closure time, how long it takes platelets to occlude a collagen-coated aperture under high shear, using ADP or epinephrine agonist cartridges. It screens for von Willebrand disease and platelet function defects and has largely replaced the old bleeding time test. But watch for the pitfall, severe thrombocytopenia or significant anemia falsely prolongs the closure time, so interpret results in that context."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-008.png",
+      "index": 8,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-008a",
+          "page": 8,
+          "role": "content",
+          "voiceover": "This is the classic normal platelet aggregation tracing tested on boards. It's a light transmission aggregometry trace after adding low-dose ADP, one micromolar, to platelet-rich plasma. As platelets aggregate, more light passes through, so this inverted optical density axis moves downward. Point one is baseline before the agonist. Point two is shape change, a tiny transient blip as discoid platelets become spiny spheres, before true aggregation starts. Point three marks onset of the primary wave, driven directly by the exogenous ADP. The bracket at four spans that primary aggregation phase. Point five is peak aggregation, where the secondary wave from platelets releasing their own ADP and thromboxane A2 pushes amplitude to maximum. Point six is disaggregation, the gradual decline as aggregates fall apart. Knowing this six-point anatomy, baseline, shape change, primary wave, secondary wave peak, and disaggregation, is the key to reading any aggregometry tracing."
+        },
+        {
+          "id": "seg-008b",
+          "keypoints": [
+            "1→2: baseline then shape change (pre-aggregation blip)",
+            "3→4: primary wave = response to exogenous ADP",
+            "5 = peak = secondary wave (endogenous ADP/TXA2 release)",
+            "6 = disaggregation"
+          ],
+          "page": 8,
+          "role": "keypoint",
+          "voiceover": "Six landmarks: baseline, then shape change, a quick blip before any real aggregation. The primary wave, driven by the ADP you added. Peak aggregation, that's the secondary wave from platelets releasing their own granule contents. And finally disaggregation as the clump falls apart."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-009.png",
+      "index": 9,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-009a",
+          "page": 9,
+          "role": "content",
+          "voiceover": "This is a real printed light transmission aggregometry report, paired with lumiaggregometry, so optical aggregation and ATP release are measured simultaneously from the same sample. The agonist is arachidonic acid at 0.5 millimolar. Traces one and two show a brisk response, sixty-nine percent amplitude aggregation with a slope of 94 and a lag time under a minute, plus 1.16 nanomoles of ATP secreted, confirming intact dense granule release. Traces three and four are essentially flat, zero percent amplitude, zero slope, lag time over ten minutes, meaning no aggregation and no ATP secretion to arachidonic acid. Arachidonic acid is the classic agonist boards use to probe the cyclooxygenase-thromboxane pathway directly, bypassing surface receptors, so an absent response points to a COX-1 defect. That's exactly the pattern seen with aspirin or another irreversible COX-1 inhibitor, and it's the textbook way LTA detects aspirin effect."
+        },
+        {
+          "id": "seg-009b",
+          "keypoints": [
+            "AA-induced LTA = go-to test for aspirin/COX-1 defect",
+            "Trace 1-2: normal, 69% amplitude, ATP release 1.16 nmol",
+            "Trace 3-4: flat, 0% amplitude, no ATP release",
+            "Lumiaggregometry = optical + ATP (dense granule) in one run"
+          ],
+          "page": 9,
+          "role": "keypoint",
+          "voiceover": "Arachidonic acid tests the cyclooxygenase-thromboxane pathway directly. Here trace one and two show a normal robust response, sixty-nine percent aggregation with ATP release confirming intact dense granules. Trace three and four are essentially flat, no aggregation, no ATP release, the classic pattern of aspirin or another COX-1 inhibitor effect."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-010.png",
+      "index": 10,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-010a",
+          "page": 10,
+          "role": "content",
+          "voiceover": "Figure A is the normal reference tracing: weak agonists like epinephrine one micromolar, curve one, and collagen two milligrams per milliliter, curve two, produce a biphasic response. The primary wave reflects the exogenous agonist itself, and the secondary wave follows once activated platelets release their own dense and alpha granule contents, amplifying aggregation. Strong agonists like thrombin or high-dose collagen skip straight to a single wave because they trigger enough endogenous release that the two phases merge. Figure B is from a real patient with epistaxis and menorrhagia, mucocutaneous bleeding. Her ADP response is attenuated with a primary wave that actually falls apart, deaggregation, and no secondary wave at all; there's also no response whatsoever to epinephrine. Electron microscopy confirmed absent dense granules, making this dense granule storage pool disease. Remember this pattern for boards: an intact primary wave but absent or collapsing secondary wave, plus flat epinephrine response, points straight to a secretion or storage pool defect rather than a receptor or fibrinogen-binding problem."
+        },
+        {
+          "id": "seg-010b",
+          "keypoints": [
+            "Weak agonists (low ADP, epi, low collagen) → biphasic; strong agonists → monophasic",
+            "Primary wave = exogenous agonist; secondary wave = endogenous ADP/granule release",
+            "Absent 2° wave + no epi response + absent dense granules on EM = δ-storage pool disease",
+            "Presents with epistaxis, menorrhagia (mucocutaneous bleeding)"
+          ],
+          "page": 10,
+          "role": "keypoint",
+          "voiceover": "Weak agonists like epinephrine or low-dose ADP give a biphasic curve, primary wave from the agonist itself, secondary wave from platelets releasing their own granules. In this patient the secondary wave is absent, the primary wave even collapses, and there's no response to epinephrine at all. Electron microscopy showed absent dense granules, dense granule storage pool disease, presenting with epistaxis and menorrhagia."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-011.png",
+      "index": 11,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-011a",
+          "page": 11,
+          "role": "content",
+          "voiceover": "This table is a board favorite: distinguishing platelet or vessel disorders from coagulation factor disorders using history and exam. Petechiae are characteristic of platelet or vessel disorders, but rare in coagulation disorders; deep dissecting hematomas and hemarthrosis flip that, characteristic of coagulation disorders, rare with platelet problems. Superficial ecchymoses are large and solitary in coagulation disorders, small and multiple in platelet disorders. Delayed bleeding after trauma points to a coagulation factor problem, since clot formation is what's failing, not the initial platelet plug. Bleeding from superficial cuts is minimal in coagulation disorders but persistent, often profuse, in platelet disorders. Sex matters: eighty to ninety percent of inherited coagulation disorders, hemophilia A and B, are X-linked and male-only, while platelet disorders are relatively more common in females. And positive family history is common in coagulation disorders but rare in platelet disorders, except von Willebrand disease and hereditary hemorrhagic telangiectasia, the key exceptions to memorize."
+        },
+        {
+          "id": "seg-011b",
+          "keypoints": [
+            "Petechiae = platelet/vessel; hemarthrosis/deep hematoma = coagulation factor",
+            "Ecchymoses: small/multiple (platelet) vs large/solitary (coagulation)",
+            "Delayed bleeding → coagulation factor disorder",
+            "80-90% inherited coagulation d/o = X-linked males; platelet d/o more common in females",
+            "Family hx rare in platelet d/o except vWD, HHT"
+          ],
+          "page": 11,
+          "role": "keypoint",
+          "voiceover": "Petechiae and small multiple bruises point to platelets or vessels. Deep hematomas, hemarthrosis, large solitary bruises, and delayed bleeding point to a coagulation factor problem. Most inherited coagulation disorders are X-linked and male-only, while platelet disorders skew female. And family history is common in coagulation disorders but rare in platelet disorders, except von Willebrand disease and hereditary hemorrhagic telangiectasia."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-012.png",
+      "index": 12,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-012a",
+          "page": 12,
+          "role": "content",
+          "voiceover": "These clinical photos show the mucocutaneous bleeding pattern typical of a platelet disorder, and they set up the case coming in the next few slides, an inherited thrombocytopenia that can mimic immune thrombocytopenic purpura. Top row: symmetric ecchymoses scattered along both forearms and dense, confluent purpura over both lower legs, exactly the small, multiple, superficial pattern the previous table told you to expect with platelet problems, in contrast to the large solitary bruises of a coagulation factor disorder. There's also a deep bruise over the upper arm and shoulder. Bottom row shows oral involvement, gingival bleeding at the gumline and a hematoma inside the cheek and oral mucosa, both classic sites for platelet-type bleeding because mucosal surfaces depend heavily on an intact platelet plug rather than the coagulation cascade. When you see this combination, spontaneous ecchymoses plus gum and mucosal bleeding, in a patient with thrombocytopenia, think platelet quantity or quality problem first, and remember that inherited causes like MYH9-related disorders can look identical to acquired ITP on exam alone."
+        },
+        {
+          "id": "seg-012b",
+          "keypoints": [
+            "Multiple, small, superficial ecchymoses = platelet-type bleeding pattern",
+            "Mucosal bleeding: gingival + oral cavity = classic platelet-disorder sites",
+            "Mimics ITP clinically — inherited causes must be excluded"
+          ],
+          "page": 12,
+          "role": "keypoint",
+          "voiceover": "Widespread small ecchymoses on the limbs plus gingival and oral mucosal bleeding, that's the classic platelet-type bleeding pattern, mucosal and superficial rather than deep. Clinically this can look identical to immune thrombocytopenic purpura, which is exactly why inherited causes need to be ruled out before you commit to a diagnosis of ITP."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-013.png",
+      "index": 13,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-013a",
+          "page": 13,
+          "role": "content",
+          "voiceover": "These photos continue the same case and add two teaching points. First, several of these bruises are large, confluent hematomas over the knee, thigh, and hip, larger than the small petechial pattern you'd expect from platelet dysfunction alone, a reminder that with more severe thrombocytopenia, platelet-type bleeding can still look impressively large even though the mechanism is still a platelet plug problem, not a coagulation factor deficiency; deep muscle or joint hemarthrosis-type bleeding still shouldn't be present. Second, one photo shows a young child with bruising on both legs, underscoring that inherited thrombocytopenias present across the lifespan, including in children, and a pediatric or lifelong bruising history should always raise suspicion for an inherited platelet disorder rather than a purely acquired process like classic adult ITP. Taken together with the prior photos, this bruising pattern, its severity, and the pediatric case are exactly the clinical picture that turns out, on the next slide, to be an MYH9-related inherited thrombocytopenia masquerading as ITP."
+        },
+        {
+          "id": "seg-013b",
+          "keypoints": [
+            "Severe thrombocytopenia → large confluent bruises, not just petechiae",
+            "Pediatric/lifelong bruising history → suspect inherited platelet disorder",
+            "Sets up next case: MYH9-related disorder mimicking ITP"
+          ],
+          "page": 13,
+          "role": "keypoint",
+          "voiceover": "Large confluent bruises over the knee and hip show that severe thrombocytopenia can still produce big ecchymoses, not just petechiae. And bruising in a child points toward a lifelong, inherited process rather than acquired disease. This is the clinical picture behind the upcoming case of an MYH9-related inherited thrombocytopenia mimicking ITP."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-014.png",
+      "index": 14,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-014a",
+          "page": 14,
+          "role": "content",
+          "voiceover": "This is a case report on the R1933X mutation in the MYH9 gene causing May-Hegglin anomaly, a patient who was initially thought to have idiopathic thrombocytopenic purpura. The peripheral smear on the left shows a giant platelet, nearly the size of a red cell, alongside a neutrophil containing a pale blue, spindle-shaped cytoplasmic inclusion, a so-called Dohle-like body. The bone marrow smear on the right confirms the same inclusion within a myeloid precursor. This combination, macrothrombocytopenia plus neutrophil inclusions, is the morphologic signature that separates MYH9-related disease from ITP, since ITP never produces leukocyte inclusions. MYH9 encodes nonmuscle myosin heavy chain IIA, essential for normal platelet budding from megakaryocytes, and mutations cause an autosomal dominant spectrum, historically split into May-Hegglin anomaly, Sebastian syndrome, Fechtner syndrome, and Epstein syndrome, the latter two also featuring nephritis, sensorineural deafness, and cataracts. Recognizing the smear findings avoids unnecessary steroids or IVIG."
+        },
+        {
+          "id": "seg-014b",
+          "keypoints": [
+            "MYH9 gene, nonmuscle myosin IIA, autosomal dominant",
+            "Giant platelets + neutrophil Dohle-like inclusion bodies",
+            "Inclusions absent in ITP - key differentiator",
+            "Spectrum: May-Hegglin, Sebastian, Fechtner, Epstein syndromes",
+            "Fechtner/Epstein add nephritis, deafness, cataracts"
+          ],
+          "page": 14,
+          "role": "keypoint",
+          "voiceover": "MYH9-related disease is an autosomal dominant disorder of nonmuscle myosin heavy chain IIA. Look for the smear pair, giant platelets plus pale blue Dohle-like inclusions inside neutrophils, a finding never seen in ITP. The clinical spectrum spans May-Hegglin, Sebastian, Fechtner, and Epstein syndromes, with Fechtner and Epstein additionally causing nephritis, sensorineural deafness, and cataracts."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-015.png",
+      "index": 15,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-015a",
+          "page": 15,
+          "role": "content",
+          "voiceover": "This pedigree from the same MYH9 case demonstrates classic autosomal dominant inheritance, affected individuals appear in generations one, two, and three, and both males and females are affected, with roughly half of each generation's offspring inheriting the trait. Platelet counts are labeled for several family members, ranging from about seven thousand to thirty-five thousand per microliter, numbers that look alarmingly low, yet these patients are typically asymptomatic or have only mild bruising, because the giant platelets are functionally competent per platelet even though the total count is reduced. A key board pitfall is that automated hematology analyzers often misclassify giant platelets as red cells or misidentify platelet clumps, producing a falsely low or spuriously variable platelet count, so any unexplained thrombocytopenia with a family history and mild bleeding symptoms warrants manual peripheral smear review before starting immunosuppressive therapy for presumed ITP."
+        },
+        {
+          "id": "seg-015b",
+          "keypoints": [
+            "Autosomal dominant: affected across every generation, both sexes",
+            "Platelet counts markedly low (7,000-35,000/uL) yet mild symptoms",
+            "Automated analyzers can misclassify giant platelets, falsifying counts",
+            "Manual smear review is essential to avoid ITP misdiagnosis"
+          ],
+          "page": 15,
+          "role": "keypoint",
+          "voiceover": "This family tree shows autosomal dominant transmission of the MYH9 disorder, with affected members in every generation and platelet counts as low as seven thousand per microliter, despite only mild bleeding. Remember that automated counters can miscount giant platelets, so a manual smear is required to catch this before someone is mislabeled with ITP and started on unnecessary steroids."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-016.png",
+      "index": 16,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-016a",
+          "page": 16,
+          "role": "content",
+          "voiceover": "This is a Blood journal image case, a seven-year-old boy of Pakistani origin referred for thrombocytopenia with an incidental note of possible IgA deficiency. The peripheral smear shows a markedly enlarged platelet, approaching the size of a small lymphocyte, but notably pale and gray rather than displaying the normal fine purple granularity of a healthy platelet. That pale, agranular appearance on Wright stain is the morphologic hallmark of Gray Platelet Syndrome, an inherited macrothrombocytopenia caused by biallelic NBEAL2 mutations, which impair packaging of proteins into platelet alpha granules. Alpha granules normally store von Willebrand factor, fibrinogen, and growth factors like PDGF and TGF-beta, so their absence produces the gray color and mild to moderate mucocutaneous bleeding. The IgA deficiency mentioned here is an incidental association, not part of the diagnostic criteria. Board pearl, the size plus color together point to a specific diagnosis, not just generic macrothrombocytopenia."
+        },
+        {
+          "id": "seg-016b",
+          "keypoints": [
+            "Giant, pale gray platelets on smear = alpha-granule deficiency",
+            "Gray Platelet Syndrome: NBEAL2 mutation, autosomal recessive",
+            "Alpha granules store VWF, fibrinogen, PDGF, TGF-beta",
+            "Distinguish from Bernard-Soulier and MYH9 disorders by gray color"
+          ],
+          "page": 16,
+          "role": "keypoint",
+          "voiceover": "A giant, pale gray platelet on a Wright-stained smear is the signature of Gray Platelet Syndrome, caused by autosomal recessive NBEAL2 mutations that block alpha-granule packaging. Since alpha granules carry von Willebrand factor, fibrinogen, and growth factors, their absence produces both the gray color and a mild bleeding tendency. The color, not just the size, is what separates this from other giant platelet disorders."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-017.png",
+      "index": 17,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-017a",
+          "page": 17,
+          "role": "content",
+          "voiceover": "This slide, from the Gunay-Aygun natural history study of Gray Platelet Syndrome in Blood 2010, shows why this disorder is progressive rather than static. The scatter plot on the top left tracks platelet count against age across the patient cohort, and the trend line declines steadily from over two hundred thousand in infancy toward the twenty to fifty thousand range by adulthood. The bone marrow reticulin stains, panels B through E, show progressively increasing fibrosis, believed to result from abnormal release of growth factors like PDGF and TGF-beta from megakaryocytes that cannot properly package them into alpha granules. The electron micrographs below confirm the ultrastructural defect directly, both platelets show a normal dense tubular system and open canalicular system, but the alpha granules are essentially absent or severely reduced, explaining the gray appearance seen on light microscopy. Exam takeaway, unlike Bernard-Soulier or MYH9 disease which have relatively stable counts, Gray Platelet Syndrome worsens over decades with progressive marrow fibrosis and splenomegaly."
+        },
+        {
+          "id": "seg-017b",
+          "keypoints": [
+            "Platelet count declines progressively with age in Gray Platelet Syndrome",
+            "Bone marrow reticulin fibrosis worsens over time",
+            "EM: alpha granules (AG) absent/reduced; DTS and OCS preserved",
+            "GPS is progressive - unlike relatively static BSS/MYH9 counts"
+          ],
+          "page": 17,
+          "role": "keypoint",
+          "voiceover": "Gray Platelet Syndrome is progressive, platelet counts fall steadily with age and bone marrow fibrosis worsens over decades, likely from unpackaged growth factors leaking out of megakaryocytes. Electron microscopy confirms a normal dense tubular system and open canalicular system but near-absent alpha granules. Contrast this progressive course with the relatively stable thrombocytopenia seen in Bernard-Soulier syndrome and MYH9-related disease."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-018.png",
+      "index": 18,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-018a",
+          "page": 18,
+          "role": "content",
+          "voiceover": "This slide is titled Bernard-Soulier Syndrome misdiagnosed as ITP, and the peripheral smear illustrates exactly why that mistake happens so often. Multiple arrows point to giant platelets, several approaching the size of the surrounding red cells or even small lymphocytes, set against a background of thrombocytopenia, findings that superficially resemble ITP on a quick smear glance. Bernard-Soulier Syndrome is caused by deficiency or dysfunction of the platelet GPIb-IX-V complex, the receptor that binds von Willebrand factor to initiate platelet adhesion, so unlike ITP it is not immune mediated, and it will not respond to steroids or IVIG. The key laboratory clue is absent ristocetin-induced platelet aggregation that is not corrected by adding normal plasma, which distinguishes it from von Willebrand disease, where mixing with normal plasma restores the response. Flow cytometry showing absent or markedly reduced CD42b, the GPIb marker, confirms the diagnosis. Boards love this pairing, giant platelets plus thrombocytopenia should always prompt review before labeling a patient with ITP."
+        },
+        {
+          "id": "seg-018b",
+          "keypoints": [
+            "BSS classically mimics ITP: thrombocytopenia + giant platelets on smear",
+            "Deficient GPIb-IX-V complex - the VWF receptor",
+            "Absent ristocetin aggregation, NOT corrected by normal plasma (vs VWD)",
+            "Flow cytometry: absent/reduced CD42b (GPIb) confirms diagnosis",
+            "Not immune-mediated - steroids/IVIG are ineffective"
+          ],
+          "page": 18,
+          "role": "keypoint",
+          "voiceover": "Bernard-Soulier Syndrome is a classic ITP mimic because it also causes thrombocytopenia, but the smear shows giant platelets that should trigger suspicion. It's caused by loss of the GPIb-IX-V receptor for von Willebrand factor, so ristocetin-induced aggregation is absent and, critically, is not corrected by adding normal plasma, unlike von Willebrand disease. Flow cytometry showing low CD42b confirms it, and since it isn't immune mediated, steroids and IVIG won't help."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-019.png",
+      "index": 19,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-019a",
+          "page": 19,
+          "role": "content",
+          "voiceover": "This is a Glanzmann thrombasthenia case, Ms Jeng, a twenty-five-year-old woman with a lifelong history of easy bruising, prolonged epistaxis and gum bleeding, prolonged bleeding after cuts, and mild menorrhagia without anemia, a classic mild to moderate mucocutaneous bleeding pattern. Her bleeding time is markedly prolonged at over twelve minutes, and PFA-100 closure times are prolonged on both cartridges, collagen-epinephrine over three hundred seconds and collagen-ADP over two hundred seventy-four seconds. Von Willebrand factor antigen and ristocetin cofactor activity are both normal, at one hundred eight percent and sixty-four point five percent, essentially excluding von Willebrand disease as the cause. The aggregometry traces are the diagnostic key, flat, minimal responses to collagen, ADP, and arachidonic acid, meaning the platelets fail to aggregate to essentially every physiologic agonist, but the ristocetin trace on the far right shows a normal agglutination response. This dissociation, absent aggregation but preserved ristocetin agglutination, is pathognomonic for Glanzmann thrombasthenia, a defect of integrin alphaIIb-beta3, GPIIb-IIIa, because ristocetin agglutination depends on GPIb binding VWF, not on GPIIb-IIIa."
+        },
+        {
+          "id": "seg-019b",
+          "keypoints": [
+            "Absent aggregation to ADP, collagen, and AA on aggregometry",
+            "Normal ristocetin-induced agglutination - the key distinguishing clue",
+            "Diagnosis: Glanzmann thrombasthenia, GPIIb/IIIa (integrin aIIbb3) defect",
+            "Normal VWF:Ag and VWF:RCo exclude von Willebrand disease",
+            "Opposite pattern from Bernard-Soulier, where ristocetin response is abnormal"
+          ],
+          "page": 19,
+          "role": "keypoint",
+          "voiceover": "The diagnostic pattern here is absent platelet aggregation to collagen, ADP, and arachidonic acid, but a normal ristocetin agglutination response, which is the signature of Glanzmann thrombasthenia, a defect in the GPIIb-IIIa fibrinogen receptor. Normal von Willebrand factor levels rule out von Willebrand disease. Remember the contrast with Bernard-Soulier syndrome, where it's the ristocetin response that fails instead."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-020.png",
+      "index": 20,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-020a",
+          "page": 20,
+          "role": "content",
+          "voiceover": "This slide shows the normal control for platelet glycoprotein flow cytometry, the test used to diagnose Glanzmann thrombasthenia. On flow cytometry, CD41 marks glycoprotein IIb and CD61 marks glycoprotein IIIa, and in a healthy subject both are essentially one hundred percent positive, and they co-express together as the intact GPIIb-IIIa complex, the fibrinogen receptor on platelets. The bottom panels show PAC-1 binding, an antibody that only binds the activated conformation of GPIIb-IIIa. At baseline, PAC-1 positivity is low, around six percent, but after stimulating with five micromolar ADP, PAC-1 binding jumps to about ninety-two percent, confirming normal agonist-induced activation of the integrin. Keep this normal pattern in mind as your reference point, because the next slide will show a patient with Glanzmann thrombasthenia where GPIIb-IIIa expression and activation are both markedly reduced. For boards, remember Glanzmann thrombasthenia is an autosomal recessive disorder of GPIIb-IIIa, ITGA2B or ITGB3 mutations, causing failure of platelet aggregation despite a normal platelet count."
+        },
+        {
+          "id": "seg-020b",
+          "keypoints": [
+            "CD41=GPIIb, CD61=GPIIIa, both ~100% in normal",
+            "PAC-1 detects the activated GPIIb/IIIa conformation",
+            "Baseline PAC-1 ~6% -> 5µM ADP ~92%",
+            "Normal reference for Glanzmann thrombasthenia workup"
+          ],
+          "page": 20,
+          "role": "keypoint",
+          "voiceover": "In the normal control, CD41 and CD61, marking GPIIb and GPIIIa, are both fully expressed at one hundred percent, and they pair together as the intact fibrinogen receptor. PAC-1 antibody detects the activated form of this receptor, and stimulation with five micromolar ADP boosts PAC-1 binding from a baseline of six percent up to ninety-two percent. This is the healthy baseline you compare against when working up suspected Glanzmann thrombasthenia."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-021.png",
+      "index": 21,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-021a",
+          "page": 21,
+          "role": "content",
+          "voiceover": "This is the flow cytometry from an affected patient, and the contrast with the normal control is the key teaching point. GPIIb, CD41, is only forty percent positive instead of one hundred percent, GPIIIa, CD61, is only twenty-nine percent, and critically the dual-positive GPIIb-IIIa complex is just seven point two percent, far below normal. This markedly reduced surface expression of the fibrinogen receptor is the diagnostic hallmark of Glanzmann thrombasthenia. Functionally, PAC-1 binding also fails to activate appropriately, rising only from two point nine percent at baseline to fourteen point three percent after five micromolar ADP, nowhere near the ninety percent plus response seen in the normal control. This combination, absent or severely reduced GPIIb-IIIa expression plus failure of agonist-induced activation, confirms Glanzmann thrombasthenia. For boards, remember these patients have a normal platelet count and normal platelet morphology, but absent aggregation to all agonists except ristocetin, which distinguishes it from Bernard-Soulier syndrome where ristocetin-induced aggregation is also absent."
+        },
+        {
+          "id": "seg-021b",
+          "keypoints": [
+            "GPIIb 40%, GPIIIa 29%, dual GPIIb/IIIa complex only 7.2%",
+            "PAC-1: baseline 2.9% -> 5µM ADP only 14.3% (blunted)",
+            "Diagnostic pattern for Glanzmann thrombasthenia",
+            "Normal platelet count/morphology, aggregation absent except to ristocetin"
+          ],
+          "page": 21,
+          "role": "keypoint",
+          "voiceover": "This patient shows markedly reduced GPIIb and GPIIIa expression, with the dual-positive complex down to just seven percent of normal. PAC-1 activation is also blunted, rising only to fourteen percent after ADP stimulation compared to over ninety percent in a normal control. This pattern of low receptor expression with failed activation is diagnostic of Glanzmann thrombasthenia, a disorder with normal platelet count but absent aggregation to all agonists except ristocetin."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-022.png",
+      "index": 22,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-022a",
+          "page": 22,
+          "role": "content",
+          "voiceover": "This table summarizes the glycoprotein and PAC-1 data across the normal control and two affected family members, labeled here as the patients. Both patients show the same pattern, GPIIb around forty to forty-five percent, GPIIIa around twenty-nine to thirty-one percent, and the critical GPIIb-IIIa dual-positive fraction only seven to ten percent of normal. PAC-1 activation after ADP is similarly blunted in both, eleven to fourteen percent compared to the normal ninety-two percent. Seeing this defect replicated in two family members strongly suggests an inherited, likely autosomal recessive pattern, consistent with Glanzmann thrombasthenia. For boards, the key numeric takeaway is that flow cytometry quantifying GPIIb-IIIa complex expression, not just the individual subunits, is the confirmatory test, and severity roughly correlates with residual expression, type one having less than five percent, type two five to twenty percent, and a variant type having normal expression but a dysfunctional receptor."
+        },
+        {
+          "id": "seg-022b",
+          "keypoints": [
+            "Both affected relatives: GPIIb/IIIa complex only 7-10% of normal",
+            "PAC-1 activation blunted in both (11-14% vs normal 92%)",
+            "Concordant findings support an inherited autosomal recessive defect",
+            "GT subtypes by residual expression: <5% severe, 5-20% moderate, normal-expression variant type"
+          ],
+          "page": 22,
+          "role": "keypoint",
+          "voiceover": "Two affected family members both show the same defect, GPIIb-IIIa complex expression only seven to ten percent of normal, with PAC-1 activation blunted to eleven to fourteen percent after ADP. This concordance across relatives supports an inherited autosomal recessive pattern typical of Glanzmann thrombasthenia. Remember the subtyping by residual GPIIb-IIIa expression, less than five percent is the most severe, five to twenty percent is moderate, and a variant type has normal expression but a dysfunctional receptor."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-023.png",
+      "index": 23,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-023a",
+          "page": 23,
+          "role": "content",
+          "voiceover": "We now shift topics to von Willebrand disease, and this slide illustrates the classic mucocutaneous bleeding pattern. You see bruising and ecchymoses on the thigh, an image referencing menorrhagia or heavy menstrual bleeding, and two photos of oral and gingival bleeding. This mucocutaneous pattern, bruising, epistaxis, gum bleeding, menorrhagia, and prolonged bleeding after dental extraction or minor cuts, is the hallmark of a primary hemostasis defect, whether that's a platelet disorder or von Willebrand disease, in contrast to the deep muscle and joint bleeding, hemarthroses, seen in factor deficiencies like hemophilia, which reflect a secondary hemostasis or coagulation factor problem. Von Willebrand disease is the most common inherited bleeding disorder, affecting roughly one percent of the population, though clinically significant disease is much less common. For boards, always link the bleeding phenotype to the pathophysiology, mucocutaneous equals platelet-type or VWF problem, deep tissue equals clotting factor problem, and menorrhagia is often the presenting symptom that brings women with VWD to medical attention."
+        },
+        {
+          "id": "seg-023b",
+          "keypoints": [
+            "Mucocutaneous bleeding: bruising, epistaxis, gum bleeding, menorrhagia",
+            "Pattern reflects a primary hemostasis defect (platelet/VWF), not deep tissue bleeding",
+            "VWD = most common inherited bleeding disorder (~1% prevalence)",
+            "Menorrhagia is often the presenting symptom in women"
+          ],
+          "page": 23,
+          "role": "keypoint",
+          "voiceover": "Von Willebrand disease classically presents with mucocutaneous bleeding, bruising, gum bleeding, epistaxis, and menorrhagia, reflecting a primary hemostasis defect rather than the deep joint and muscle bleeding seen in factor deficiencies. It is the most common inherited bleeding disorder, affecting about one percent of people, and menorrhagia is frequently the symptom that leads to diagnosis in women."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-024.png",
+      "index": 24,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-024a",
+          "page": 24,
+          "role": "content",
+          "voiceover": "This is the classification table for von Willebrand disease, and you need to know this cold for boards. Type one is a quantitative defect, low but qualitatively normal VWF, and it's the most common form, accounting for roughly seventy to eighty percent of cases. Type one C is a variant with increased clearance of VWF. Type three is the most severe, essentially absent or undetectable VWF, causing very low factor VIII levels too since VWF is its carrier protein. Type two encompasses qualitative defects, often with low VWF levels as well, and it splits into four subtypes. Type two A shows loss of the high molecular weight multimers, which are the most hemostatically active, so ristocetin-induced platelet aggregation is reduced. Type two B is a gain-of-function mutation causing spontaneous binding to platelet GPIb, which also depletes high molecular weight multimers and can cause mild thrombocytopenia, this is the one where you must never give DDAVP because it worsens the thrombocytopenia. Type two M is a defect in VWF function, like binding to platelet GPIb or collagen, but with a normal multimer pattern. Type two N is a defect in VWF's binding to factor VIII, which mimics mild hemophilia A but has an autosomal, not X-linked, inheritance pattern, so it can affect females."
+        },
+        {
+          "id": "seg-024b",
+          "keypoints": [
+            "Type 1: partial quantitative deficiency, most common (~70-80%)",
+            "Type 3: complete absence of VWF, most severe, low FVIII",
+            "Type 2A/2B: loss of high-molecular-weight multimers",
+            "Type 2B: gain of function, spontaneous platelet binding, DDAVP contraindicated",
+            "Type 2N: defective FVIII binding, mimics hemophilia A but autosomal"
+          ],
+          "page": 24,
+          "role": "keypoint",
+          "voiceover": "Type one is a partial quantitative deficiency and the most common form of von Willebrand disease, while type three is a complete absence with markedly low factor VIII. Type two covers qualitative defects, with two A and two B both losing high molecular weight multimers, but two B is a gain-of-function mutation causing spontaneous platelet binding, so DDAVP is contraindicated because it worsens thrombocytopenia. Type two M has a functional defect with normal multimers, and type two N impairs factor VIII binding, mimicking hemophilia A but with autosomal inheritance."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-025.png",
+      "index": 25,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-025a",
+          "page": 25,
+          "role": "content",
+          "voiceover": "This diagram maps out the domain structure of pre-pro-VWF and it's loaded with board-relevant, testable detail. The precursor is cleaved by signal peptidase to remove the signal peptide, then furin cleaves between the propeptide and the mature protein at the D prime-D3 boundary, releasing the VWF propeptide, which is actually required for proper multimer assembly and is co-secreted alongside mature VWF. The mature VWF subunit contains, from N to C terminus, the D prime and D3 domains which bind factor VIII, the A1 domain which binds platelet GPIb-alpha, mediating platelet adhesion under high shear, the A2 domain which contains the ADAMTS13 cleavage site, the enzyme that trims ultra-large multimers, deficiency of which causes TTP, the A3 domain which binds subendothelial collagen, and the C1 and C2 domains which contain the RGD sequence binding platelet GPIIb-IIIa. Multimerization occurs through disulfide bonds at the N-terminal D prime-D3 region, while dimerization occurs through the C-terminal CK, or cystine knot, domain. This structure-function map explains why different mutation locations produce different VWD subtypes, a mutation in A1 affects GPIb binding and gives type two M, a mutation in A2 near the ADAMTS13 site increases susceptibility to cleavage and gives type two A, and a mutation in D prime-D3 impairs factor VIII binding and gives type two N."
+        },
+        {
+          "id": "seg-025b",
+          "keypoints": [
+            "A1 domain binds GPIbα (shear-dependent platelet adhesion)",
+            "A2 domain has the ADAMTS13 cleavage site (deficiency -> TTP)",
+            "A3 domain binds collagen; D'-D3 binds factor VIII",
+            "C1/C2 domains bind GPIIb/IIIa via an RGD motif",
+            "N-terminal D'-D3 = multimerization; C-terminal CK = dimerization"
+          ],
+          "page": 25,
+          "role": "keypoint",
+          "voiceover": "Know the VWF domain map. A1 binds platelet GPIb-alpha for shear-dependent adhesion, A2 contains the ADAMTS13 cleavage site, whose deficiency causes TTP, A3 binds subendothelial collagen, and D prime-D3 binds factor VIII. The C1 and C2 domains bind GPIIb-IIIa through an RGD motif. Multimerization happens at the N-terminal D prime-D3 region while dimerization happens through the C-terminal CK domain, and mutations in these specific domains map directly onto the different VWD type two subtypes."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-026.png",
+      "index": 26,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-026a",
+          "page": 26,
+          "role": "content",
+          "voiceover": "This is the condensed MCMDM-1 VWD bleeding questionnaire, the tool Bowman and colleagues validated in 2008 as a shortened version of the original bleeding assessment tool. For boards, you don't need to memorize every cell, but understand the structure. Twelve bleeding symptom categories are each scored from minus one up to four, based on severity and treatment required. A score of zero is the default normal, and negative scores like minus one for surgery or tooth extraction actually reward a truly negative history, meaning multiple bleeding challenges with no bleeding at all lower the total score below zero. Scores of two typically trigger the label consultation only, three usually needs antifibrinolytics, surgical hemostasis, or curettage, and four means blood transfusion, replacement therapy, or desmopressin was required. All twelve category scores get summed into one total assigned score, which is then used to decide whether a patient's bleeding history is abnormal enough to justify VWD testing. Recognize this as the type of standardized bleeding assessment tool, or BAT, that's become standard of care before ordering VWF assays."
+        },
+        {
+          "id": "seg-026b",
+          "keypoints": [
+            "12 bleeding symptom categories, scored -1 to 4",
+            "Negative scores reward true negative challenges (surgery, tooth extraction)",
+            "Score 2 = consultation only; 3-4 = active intervention required",
+            "Sum of all categories = total assigned score -> triggers VWD workup"
+          ],
+          "page": 26,
+          "role": "keypoint",
+          "voiceover": "This condensed bleeding assessment tool sums scores across twelve categories, each rated minus one to four based on severity and treatment needed. A negative score means a true negative challenge, like surgery without bleeding. Higher scores, three and four, reflect need for antifibrinolytics, surgical hemostasis, or transfusion. The total assigned score is what determines whether the bleeding history is abnormal enough to pursue VWD testing."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-027.png",
+      "index": 27,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-027a",
+          "page": 27,
+          "role": "content",
+          "voiceover": "This figure from Tosetto's 2007 paper is the classic likelihood ratio curve for von Willebrand disease based on the Vicenza bleeding assessment tool. The x axis is the bleeding score, and the y axis, on a log scale, is the likelihood ratio for having VWD. Notice the shape, it's fairly flat and low, well under one, for scores below zero, meaning a very negative bleeding history essentially rules out VWD. Then there's a rise around scores of zero to three where the likelihood ratio hovers near one to three, not very discriminating. But once you cross a bleeding score of four, the curve shoots up dramatically, and this is the key exam number, a bleeding score of four or higher gives one hundred percent sensitivity and eighty seven percent specificity for VWD. That's why bleeding score of four is the widely quoted cutoff for when to pursue VWF laboratory testing in a patient with a suspicious history. Remember that the bleeding score is a continuum, but four is the actionable threshold worth memorizing for boards."
+        },
+        {
+          "id": "seg-027b",
+          "keypoints": [
+            "Vicenza bleeding assessment tool: likelihood ratio for VWD vs bleeding score",
+            "BS >= 4: sensitivity 100%, specificity 87%",
+            "BS < 0: essentially rules out VWD",
+            "BS = 4 is the standard threshold to trigger VWF testing"
+          ],
+          "page": 27,
+          "role": "keypoint",
+          "voiceover": "The Vicenza bleeding score has one key cutoff to memorize, a score of four or higher gives one hundred percent sensitivity and eighty seven percent specificity for von Willebrand disease. Scores below zero make VWD very unlikely, while a score of four and above is the trigger point for laboratory testing."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-028.png",
+      "index": 28,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-028a",
+          "page": 28,
+          "role": "content",
+          "voiceover": "This table is the high-yield reference for VWD lab testing, split into screening and confirmatory tests. Screening includes VWF antigen, VWF ristocetin cofactor activity, factor eight activity, and the RCo to antigen ratio. Type 1 shows mild parallel decreases in antigen and activity; type 3 is undetectable across the board; type 2 variants show a disproportionately low RCo to antigen ratio, below zero point seven, in types 2A, 2B, and 2M. Factor eight is especially low in type 2N, since that variant impairs VWF's ability to protect factor eight, and it's severely low in type 3 too. Confirmatory tests refine the type 2 subtype: multimer analysis, which is abnormal in 2A and 2B; collagen binding, abnormal in 2A, 2B, and some 2M; VWF platelet binding, increased in 2B; low dose ristocetin-induced platelet aggregation, increased in 2B and platelet-type VWD; factor eight binding, decreased in 2N; and VWF propeptide ratio, elevated in type 1C. Gene sequencing is most helpful for confirming type 2 variants."
+        },
+        {
+          "id": "seg-028b",
+          "keypoints": [
+            "Screening: VWF:Ag, VWF:RCo, FVIII:C, RCo/Ag ratio",
+            "RCo/Ag ratio <0.7 -> think type 2 (2A, 2B, 2M)",
+            "FVIII:C markedly low -> type 2N or type 3",
+            "Confirmatory: multimers, VWF:CB, LD-RIPA (up in 2B), VWF:FVIIIB (low in 2N)"
+          ],
+          "page": 28,
+          "role": "keypoint",
+          "voiceover": "Screening tests are VWF antigen, VWF ristocetin cofactor activity, factor eight activity, and their ratio. A low RCo to antigen ratio under zero point seven points to type 2 disease. Markedly low factor eight suggests type 2N or type 3. Confirmatory testing then narrows the type 2 subtype using multimers, collagen binding, ristocetin-induced platelet aggregation which is increased in 2B, and factor eight binding which is low in 2N."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-029.png",
+      "index": 29,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-029a",
+          "page": 29,
+          "role": "content",
+          "voiceover": "This table pairs each confirmatory assay with its principle and interpretation, exactly the detail boards like to test. VWF multimer analysis, by two-dimensional immunoelectrophoresis, shows all sizes present in normal, type 1, 2M, and 2N; complete absence in type 3; loss of both large and intermediate multimers in type 2A; and loss of only large multimers in type 2B. Collagen binding, a functional assay of VWF binding to collagen types 1 and 3, is proportionally low relative to antigen in type 1, absent in type 3, and disproportionately low relative to antigen in types 2A and 2B. Ristocetin-induced platelet aggregation tests platelet agglutination across a range of ristocetin doses, and enhanced agglutination at low dose ristocetin is the hallmark of type 2B, though this looks identical to platelet-type VWD, a gain of function GPIb defect, so genetic testing distinguishes the two. Factor eight binding assay measures VWF's capacity to bind factor eight directly, and it's low specifically in type 2N."
+        },
+        {
+          "id": "seg-029b",
+          "keypoints": [
+            "VWF multimers: absent large+intermediate = 2A; absent large only = 2B",
+            "Collagen binding (VWF:CB): disproportionately low vs Ag in 2A/2B",
+            "Low-dose RIPA increased in type 2B AND platelet-type VWD (need genetics to differentiate)",
+            "VWF:FVIIIB low -> confirms type 2N (defective FVIII binding site)"
+          ],
+          "page": 29,
+          "role": "keypoint",
+          "voiceover": "Multimer analysis distinguishes 2A, missing large and intermediate multimers, from 2B, missing only large multimers. Collagen binding is disproportionately reduced relative to antigen in both 2A and 2B. Low dose ristocetin-induced platelet aggregation is increased in type 2B, but this looks identical to platelet-type VWD without genetic testing. Factor eight binding assay is the confirmatory test for type 2N."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-030.png",
+      "index": 30,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-030a",
+          "page": 30,
+          "role": "content",
+          "voiceover": "This is step one of the practical VWD diagnostic algorithm, is VWF activity low. It tests platelet-dependent VWF activity together with VWF antigen. Activity clearly above one hundred international units per deciliter is not consistent with VWD. Activity between fifty and one hundred requires asking whether the sample was drawn during a period of wellness, since VWF is an acute phase reactant that rises with stress, inflammation, pregnancy, or estrogen; if the sample was drawn during illness, you retest at baseline before concluding anything. Activity between thirty and fifty is labeled low VWF, sometimes mild type 1. Activity below thirty international units per deciliter is more classic for type 1 or type 2 VWD. The key exam point is that VWF is an acute phase reactant, and blood type O individuals run roughly twenty five to thirty percent lower baseline levels than non-O, both of which matter when interpreting a borderline result."
+        },
+        {
+          "id": "seg-030b",
+          "keypoints": [
+            "VWF activity >100 IU/dL: not consistent with VWD",
+            "50-100 IU/dL: check if drawn during wellness; if not, retest at baseline",
+            "30-50 IU/dL: 'low VWF' / possible mild type 1",
+            "<30 IU/dL: classic type 1 or type 2 VWD",
+            "VWF is an acute-phase reactant; blood type O = ~25-30% lower baseline"
+          ],
+          "page": 30,
+          "role": "keypoint",
+          "voiceover": "Step one asks whether VWF activity is low. Above one hundred rules out VWD. Between fifty and one hundred, check if the sample was drawn during wellness, and retest at baseline if not. Thirty to fifty is labeled low VWF. Below thirty is classic type 1 or type 2 disease. Remember, VWF is an acute phase reactant, and blood type O individuals have lower baseline levels."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-031.png",
+      "index": 31,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-031a",
+          "page": 31,
+          "role": "content",
+          "voiceover": "This is the full diagnostic algorithm for VWD from the 2021 James et al Blood Advances guideline, tying together everything from the last few slides. Start with a suspected VWD patient and apply a bleeding assessment tool; a negative score rules out VWD, a positive score triggers CBC, PT, PTT, then VWF antigen, platelet-dependent VWF activity, and factor eight activity. VWF levels above fifty rule out VWD. Levels thirty to fifty are ambiguous, proceed only if there's a bleeding history. Levels below thirty, or thirty to fifty with bleeding, move to the platelet-dependent activity to antigen ratio. A ratio above zero point seven means type 1, confirmed with a DDAVP trial, normalized levels define type 1C. A ratio below zero point seven means type 2, further split by collagen binding or multimer analysis, abnormal points to type 2A or 2B, confirmed genetically, normal points to type 2M. Separately, factor eight disproportionately lower than VWF triggers factor eight binding or genetic testing to confirm type 2N. This figure is the testable roadmap linking bleeding score, screening, and confirmatory testing into one pathway."
+        },
+        {
+          "id": "seg-031b",
+          "keypoints": [
+            "BAT positive -> CBC, PT/PTT -> VWF:Ag, activity, FVIII:C",
+            "VWF >50: r/o VWD; 30-50 + bleeding, or <30 -> activity/Ag ratio",
+            "Ratio >0.7 = type 1 (confirm with DDAVP); <0.7 = type 2",
+            "Abnormal VWF:CB/multimer -> type 2A/2B (genetics); normal -> type 2M",
+            "FVIII << VWF -> check VWF:FVIIIB/genetics -> confirm type 2N"
+          ],
+          "page": 31,
+          "role": "keypoint",
+          "voiceover": "The full algorithm starts with the bleeding assessment tool, then screening labs, VWF antigen, activity, and factor eight. Levels above fifty rule out VWD; below thirty, or thirty to fifty with bleeding, move to the activity to antigen ratio. Above zero point seven is type 1, confirmed with DDAVP. Below zero point seven is type 2, split by collagen binding or multimers into 2A, 2B, or 2M. Disproportionately low factor eight points you toward type 2N."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-032.png",
+      "index": 32,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-032a",
+          "page": 32,
+          "role": "content",
+          "voiceover": "This is the classic multimer gel that every boards question on von Willebrand disease references, from Ruggeri's original 1982 paper. You're looking at electrophoresis of plasma VWF, separated from high molecular weight multimers on the left down to low molecular weight on the right. Normal plasma shows a full, dense ladder across the entire range. Type 1 VWD shows the same pattern but faint throughout, because it's a purely quantitative defect, less VWF but normal multimer distribution. Type 2, subtypes A and B, shows selective loss of the high molecular weight multimers, the large bands up top are missing or reduced, while the smaller ones remain, that's the qualitative defect. Type 3 shows essentially nothing, a blank lane, because VWF is virtually absent. For boards, the pattern to memorize is quantitative loss with preserved distribution equals type 1, loss of just the large multimers equals type 2A or 2B, and complete absence equals type 3."
+        },
+        {
+          "id": "seg-032b",
+          "keypoints": [
+            "Type 1: uniformly faint ladder = quantitative defect",
+            "Type 2A/2B: selective loss of HMW multimers = qualitative defect",
+            "Type 3: absent multimers, virtually no VWF",
+            "Multimer analysis distinguishes quantitative vs qualitative VWD"
+          ],
+          "page": 32,
+          "role": "keypoint",
+          "voiceover": "On multimer analysis, type 1 VWD shows a full but faint ladder, low quantity but normal distribution. Type 2A and 2B both show selective loss of the high molecular weight multimers while smaller ones persist, a qualitative defect. Type 3 shows a blank lane with essentially no VWF at all. This test is what separates quantitative from qualitative VWD subtypes on boards."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-033.png",
+      "index": 33,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-033a",
+          "page": 33,
+          "role": "content",
+          "voiceover": "This slide shows a real DDAVP challenge test, used to diagnose type 1C VWD, the enhanced clearance variant. Look at the numbers, before infusion, factor VIII is 58.6%, VWF antigen 39.4%, VWF activity 26.6%, all low but not dramatically so. One hour after DDAVP, everything spikes appropriately, factor VIII to 375%, VWF antigen to 211%, VWF activity to 171%, confirming the patient can actually release VWF from endothelial stores, so DDAVP responsiveness is intact. But by four hours, levels have crashed back down, factor VIII to 128%, VWF antigen to 126%, VWF activity to 96%. Calculate the percent drop from peak to four hours for VWF antigen, that's roughly a 40% decrease, well above the 30% threshold that defines type 1C. The mechanism is accelerated clearance of VWF from plasma, not a synthesis or secretion problem. This is a high-yield distinction because type 1C patients need more frequent DDAVP dosing or tranexamic acid coverage since the boost doesn't last."
+        },
+        {
+          "id": "seg-033b",
+          "keypoints": [
+            "Type 1C VWD = enhanced VWF clearance, not decreased synthesis",
+            "Diagnostic: >30% decrease from peak VWF level at 4-hr post-DDAVP",
+            "Normal 1-hr rise (DDAVP responsive) but rapid 4-hr fall",
+            "Clinical implication: shorter DDAVP effect, may need repeat dosing/TXA"
+          ],
+          "page": 33,
+          "role": "keypoint",
+          "voiceover": "Type 1C VWD is diagnosed by the DDAVP challenge test, drawing levels pre-infusion, at one hour, and at four hours. The one-hour level rises normally, showing intact release, but by four hours VWF has dropped over 30% from its peak, confirming accelerated clearance rather than a secretion defect. This matters clinically because the hemostatic benefit of DDAVP is short-lived, so these patients often need more frequent dosing or adjunct tranexamic acid."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-034.png",
+      "index": 34,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-034a",
+          "page": 34,
+          "role": "content",
+          "voiceover": "RIPA, ristocetin-induced platelet agglutination, tests how well VWF bridges platelets via GPIb in response to increasing ristocetin concentrations. In normal plasma, you see a dose-dependent response, agglutination increases as ristocetin concentration rises from 0.8 up through 1.1 milligrams per milliliter. In type 2A, agglutination is essentially flat even at ristocetin concentrations of 1.0 and 2.0, because the high molecular weight multimers needed for platelet binding are missing. Type 2B is the opposite and the key testable pattern, agglutination occurs at abnormally low ristocetin concentrations, as low as 0.2 to 0.5 milligrams per milliliter, well below where normal plasma responds. That's because the type 2B mutation is a gain-of-function change in the A1 domain that causes VWF to bind platelet GPIb spontaneously, even at low ristocetin. This low-dose RIPA hypersensitivity is the classic distinguishing feature of type 2B VWD from platelet-type, or pseudo, VWD, which looks similar but the defect is on the platelet receptor, not VWF itself, and is distinguished using a mixing study with normal platelet-poor plasma."
+        },
+        {
+          "id": "seg-034b",
+          "keypoints": [
+            "Normal RIPA: dose-dependent agglutination, threshold ~0.8-1.1 mg/mL ristocetin",
+            "Type 2A: absent/reduced agglutination even at high ristocetin",
+            "Type 2B: enhanced agglutination at LOW ristocetin (<0.6 mg/mL) - hallmark finding",
+            "Type 2B mechanism: gain-of-function A1 domain mutation",
+            "2B vs platelet-type VWD: mixing study differentiates (plasma vs platelet defect)"
+          ],
+          "page": 34,
+          "role": "keypoint",
+          "voiceover": "RIPA is dose-dependent in normal plasma. Type 2A shows little to no agglutination even at high ristocetin because HMW multimers are missing. Type 2B is the high-yield pattern, agglutination at low ristocetin concentrations, under about 0.6 milligrams per milliliter, because of a gain-of-function mutation that makes VWF bind platelets spontaneously. When you see enhanced low-dose RIPA, think type 2B versus platelet-type pseudo-VWD, and use a mixing study to tell them apart."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-035.png",
+      "index": 35,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-035a",
+          "page": 35,
+          "role": "content",
+          "voiceover": "Acquired VWD syndrome, or AVWS, has three main mechanisms worth knowing for boards. Panel A is antibody-mediated, autoantibodies bind VWF and accelerate its clearance or directly inhibit its function, this is seen with lymphoproliferative disorders and autoimmune conditions like lupus. Panel B is the cardiovascular mechanism, and it's the one most likely to show up as a vignette, severe aortic stenosis, LVAD, or ECMO create high shear, turbulent blood flow that mechanically unfolds VWF, exposing it to ADAMTS13 cleavage, this selectively destroys the high molecular weight multimers and increases degradation fragments, functionally mimicking type 2A. This is the mechanism behind Heyde syndrome, aortic stenosis plus GI angiodysplasia bleeding, which resolves after valve replacement. Panel C is adsorption, malignant cells, particularly in lymphoproliferative and myeloproliferative disorders, adsorb VWF onto their surface and remove it from circulation. All three pathways converge on the same endpoint, VWF deficiency with loss of high molecular weight multimers and increased bleeding risk."
+        },
+        {
+          "id": "seg-035b",
+          "keypoints": [
+            "AVWS mechanism A: autoantibodies increase VWF clearance/inhibition",
+            "AVWS mechanism B: shear stress (severe AS, LVAD, ECMO) degrades HMW multimers",
+            "AVWS mechanism C: adsorption of VWF onto malignant cell surfaces",
+            "High shear mechanism = Heyde syndrome (AS + GI bleeding), resolves post-valve replacement"
+          ],
+          "page": 35,
+          "role": "keypoint",
+          "voiceover": "Acquired VWD has three mechanisms, autoantibody-mediated clearance or inhibition, shear-induced degradation from severe aortic stenosis, LVAD, or ECMO which selectively strips high molecular weight multimers, and adsorption of VWF onto malignant cell surfaces. The shear stress mechanism underlies Heyde syndrome, aortic stenosis with GI angiodysplasia bleeding, which classically improves after valve replacement restores normal flow."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-036.png",
+      "index": 36,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-036a",
+          "page": 36,
+          "role": "content",
+          "voiceover": "This table from the Mayo Clinic experience, 22 patients followed over 25 years, ranks the underlying disorders found in acquired VWD. Monoclonal gammopathy of undetermined significance, MGUS, is the single most common association at 27%, followed by multiple myeloma at 15%, non-Hodgkin lymphoma and myeloproliferative disorders each around 10%. Wilms tumor accounts for 8%, notable because it's the classic pediatric association tested on boards. Drugs contribute 7%, chronic lymphocytic leukemia and hypothyroidism each 5%, and carcinoma and hairy cell leukemia round out the rare causes. The high-yield takeaway is that lymphoproliferative and plasma cell disorders, MGUS, myeloma, and lymphoma together, account for over half of all acquired VWD cases, so any older patient with new mucocutaneous bleeding and an unexplained monoclonal protein should raise suspicion for AVWS. Hypothyroidism is also worth remembering as a reversible cause you can fix by simply correcting thyroid function."
+        },
+        {
+          "id": "seg-036b",
+          "keypoints": [
+            "MGUS is the #1 cause of acquired VWD (27%)",
+            "Lymphoproliferative/plasma cell disorders (MGUS+myeloma+NHL) = >50% of cases",
+            "Wilms tumor = classic pediatric association",
+            "Hypothyroidism (5%) is a reversible, correctable cause"
+          ],
+          "page": 36,
+          "role": "keypoint",
+          "voiceover": "MGUS is the leading cause of acquired VWD at 27%, and together with multiple myeloma and non-Hodgkin lymphoma, lymphoproliferative and plasma cell disorders make up over half of all cases. Remember Wilms tumor as the classic pediatric association, and hypothyroidism as a reversible cause you can correct medically rather than with VWF replacement."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-037.png",
+      "index": 37,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-037a",
+          "page": 37,
+          "role": "content",
+          "voiceover": "This is the practical surgical management table for VWD, worth memorizing the logic rather than every number. For type 1, desmopressin is first line, given IV or subcutaneously at 0.3 micrograms per kilogram, or intranasally at 300 micrograms, that's 150 micrograms per nostril, plus tranexamic acid as an adjunct. For type 2, you can still try desmopressin or go straight to VWF concentrate, but remember the critical exception, DDAVP is contraindicated in type 2B, because it can worsen thrombocytopenia by releasing more of the abnormal high-affinity VWF that binds platelets. Type 3 has no endogenous VWF to release, so it always requires VWF or factor VIII concentrate, never DDAVP. For concentrate dosing, the bigger the procedure, the higher the target and the longer the duration, dental extraction needs 25 IU per kilogram with a peak above 50 for just one day, minor surgery needs a peak above 80 with trough above 50 for 3 to 5 days, and major surgery needs a peak above 100 on day one, tapering troughs down to 30 by days 7 through 10, since duration lasts a full week to ten days."
+        },
+        {
+          "id": "seg-037b",
+          "keypoints": [
+            "Type 1: DDAVP (IV/SC 0.3 mcg/kg or intranasal 150 mcg/nostril) + TXA",
+            "Type 2: DDAVP or VWF concentrate + TXA - DDAVP CONTRAINDICATED in 2B",
+            "Type 3: VWF/FVIII concentrate only (no endogenous VWF to release)",
+            "Major surgery: peak VWF:Act >=100 IU/dL, taper trough to >=30 by day 7-10"
+          ],
+          "page": 37,
+          "role": "keypoint",
+          "voiceover": "For surgical VWD management, type 1 gets desmopressin plus tranexamic acid. Type 2 can use desmopressin or VWF concentrate, but never DDAVP in type 2B, since it can worsen thrombocytopenia. Type 3 always needs VWF or factor VIII concentrate since there's no endogenous VWF to mobilize. Dosing and duration scale with procedure size, from a single day for dental extraction up to seven to ten days for major surgery."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-038.png",
+      "index": 38,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-038a",
+          "page": 38,
+          "role": "content",
+          "voiceover": "Before you can call something immune thrombocytopenia, you have to earn that diagnosis by excluding mimics, and this table is the board-style checklist for doing that. Number one, always first, is pseudothrombocytopenia from EDTA-dependent platelet agglutinins, an artifact with zero clinical importance but a trap if you miss it. Next, think about drug, herbal, or food-induced thrombocytopenia, especially if a patient has recurrent acute episodes rather than one persistent low count. Screen for HIV, which causes isolated thrombocytopenia in advanced disease and improves with antiretroviral therapy, and for hepatitis C, which can drive immune-mediated platelet destruction. Don't forget systemic lupus and lymphoproliferative disorders, which can mimic ITP serologically but need different primary treatment. Myelodysplasia can present with isolated thrombocytopenia alone, so a bone marrow exam matters in the right clinical context. The high-yield trap is TTP, which classically presents with only thrombocytopenia and anemia, no fever, no neuro findings, and the anemia gets misattributed to bleeding, so always check a smear for schistocytes before anchoring on ITP. Finally, consider congenital or hereditary thrombocytopenia, particularly in young patients who fail to respond to standard ITP therapy."
+        },
+        {
+          "id": "seg-038b",
+          "keypoints": [
+            "Pseudothrombocytopenia (EDTA artifact) excluded first, always",
+            "TTP can look like isolated thrombocytopenia + anemia, no neuro signs",
+            "HIV and HCV both cause immune-mediated thrombocytopenia",
+            "SLE, MDS, drug-induced ITP are key mimickers",
+            "Refractory ITP in young patients → consider congenital thrombocytopenia"
+          ],
+          "page": 38,
+          "role": "keypoint",
+          "voiceover": "Five things to burn in before calling it ITP. Pseudothrombocytopenia is excluded first, every time, it's just an EDTA artifact. TTP is the dangerous mimic, it can look like isolated thrombocytopenia plus anemia with no neurologic signs at all. Screen HIV and hepatitis C, both cause immune-mediated low platelets. Keep lupus, myelodysplasia, and drug-induced thrombocytopenia on your differential. And if a young patient isn't responding to ITP treatment, think congenital thrombocytopenia."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-039.png",
+      "index": 39,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-039a",
+          "page": 39,
+          "role": "content",
+          "voiceover": "These two smears illustrate exactly what pseudothrombocytopenia looks like under the microscope. On the left is a Wright-stained peripheral smear showing clumps of platelets aggregating together instead of sitting as single dispersed cells, and on the right is a lower-power view showing the same clumping concentrated near the feathered edge of the smear. The mechanism is that EDTA, the anticoagulant in the purple-top tube, chelates calcium, which exposes a cryptic epitope on the platelet glycoprotein IIb-IIIa complex. In a small subset of patients, pre-existing autoantibodies recognize this newly exposed epitope and cross-link platelets into clumps ex vivo, in the tube, not in the body. Automated hematology analyzers count these clumps as artifact or count far fewer discrete platelets, so the machine spits out a falsely low platelet count, sometimes even in the 10 to 20 thousand range, that has no clinical correlate whatsoever. The board pearl is that this is purely a laboratory phenomenon with no bleeding risk and no clinical significance, but it can trigger unnecessary workups, bone marrow biopsies, or even inappropriate steroid or IVIG therapy if a smear review isn't performed first. Always review the peripheral smear on any unexpected severe thrombocytopenia before acting on the number."
+        },
+        {
+          "id": "seg-039b",
+          "keypoints": [
+            "EDTA chelates calcium → exposes cryptic GPIIb-IIIa epitope",
+            "Pre-existing autoantibody cross-links platelets into visible clumps",
+            "Clumps → automated counter reports falsely LOW platelet count",
+            "In vitro artifact only — no clinical bleeding risk",
+            "Always check peripheral smear before acting on an isolated low platelet count"
+          ],
+          "page": 39,
+          "role": "keypoint",
+          "voiceover": "EDTA in the collection tube chelates calcium and exposes a hidden epitope on glycoprotein two-b three-a, and in susceptible patients a pre-existing antibody cross-links platelets into visible clumps right there in the tube. The automated counter can't see those clumped platelets properly, so it reports a falsely low count. This is purely an in vitro artifact, there's no real bleeding risk. The takeaway for boards, always review the peripheral smear before you act on an unexplained low platelet count."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-040.png",
+      "index": 40,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-040a",
+          "page": 40,
+          "role": "content",
+          "voiceover": "This graph is the confirmatory test for pseudothrombocytopenia, and it's a classic board figure. It plots measured platelet count over four hours for the same blood sample drawn into two different anticoagulants, EDTA in dark blue and sodium citrate in pink. Both start around the same baseline, roughly 190 to 200 thousand, but look what happens over time. The EDTA sample crashes rapidly, dropping to about 60 thousand by one hour and settling near 40 thousand by four hours, because ongoing EDTA-mediated clumping keeps consuming countable single platelets. The citrate sample declines much more gently, staying above 120 thousand even at four hours, because citrate doesn't expose that same cryptic GPIIb-IIIa epitope the way EDTA does. The clinical application is straightforward and testable, if you see an unexpectedly low platelet count with no bleeding symptoms, redraw the sample into a sodium citrate tube, or alternatively do a fresh fingerstick smear, and if the citrate or fingerstick count comes back substantially higher, you've confirmed EDTA-induced pseudothrombocytopenia rather than true thrombocytopenia, and you can spare the patient an unnecessary workup."
+        },
+        {
+          "id": "seg-040b",
+          "keypoints": [
+            "EDTA sample: platelet count crashes to ~40k by 4 hours",
+            "Sodium citrate sample: stays above 120k over same time period",
+            "Divergence confirms EDTA-dependent clumping, not true thrombocytopenia",
+            "Fix: redraw in citrate tube or do a fresh fingerstick smear",
+            "Correct low count on repeat testing → avoid unnecessary ITP workup"
+          ],
+          "page": 40,
+          "role": "keypoint",
+          "voiceover": "This graph is your confirmatory test. Same blood sample, two tubes, over four hours the EDTA tube crashes down to around forty thousand platelets while the citrate tube barely drifts, staying above one hundred twenty thousand. That gap confirms EDTA-dependent clumping rather than real thrombocytopenia. Practically, if you see a surprising low platelet count with no bleeding, redraw in citrate or do a fingerstick smear, and a normal repeat count saves the patient from an unnecessary bone marrow biopsy or steroid course."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-041.png",
+      "index": 41,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-041a",
+          "page": 41,
+          "role": "content",
+          "voiceover": "This is the modern, unified view of ITP pathophysiology from Cooper's 2019 New England Journal review, and it's important because it moves past the old teaching that ITP is purely peripheral platelet destruction. There are really two parallel arms happening at once. On the destruction side, cytotoxic T cells directly attack platelets and inhibit megakaryocytes, while B cells, activated through Th cell CD40 to CD154 signaling, differentiate into plasma cells that secrete antiplatelet and antimegakaryocyte autoantibodies. These antibody-coated platelets get recognized by Fc-gamma receptors on splenic and hepatic macrophages, triggering Syk-mediated phagocytosis, that's the classic mechanism everyone learns. But the second arm is production failure, those same autoantibodies bind megakaryocytes and impair their maturation, directly reducing platelet output from the bone marrow, so it isn't just increased peripheral clearance, it's also decreased central production. Layered on top is immune dysregulation, T helper cells are skewed toward Th1 and Th17 inflammatory phenotypes, and regulatory T cell control is impaired, removing the normal brake on this autoimmune process. The board-relevant takeaway is that ITP is a combined disorder of increased destruction and impaired production, which is exactly why TPO receptor agonists, which boost production, work as a distinct treatment mechanism from immunosuppression."
+        },
+        {
+          "id": "seg-041b",
+          "keypoints": [
+            "ITP = increased platelet destruction PLUS impaired platelet production",
+            "Antibody-coated platelets cleared via Fc-gamma receptor phagocytosis (Syk signaling)",
+            "Autoantibodies also impair megakaryocyte maturation → reduced production",
+            "Th1/Th17 skewing + impaired regulatory T-cell control drive autoimmunity",
+            "Dual mechanism explains why TPO-RAs work via a different pathway than steroids"
+          ],
+          "page": 41,
+          "role": "keypoint",
+          "voiceover": "Remember ITP as a two-hit disease, not just one. Hit one, antibody-coated platelets get phagocytosed by splenic macrophages through Fc-gamma receptors, that's peripheral destruction. Hit two, those same autoantibodies impair megakaryocyte maturation, so the marrow makes fewer platelets to begin with. Add in Th1, Th17 skewing and defective regulatory T cells sustaining the autoimmunity. That's exactly why thrombopoietin receptor agonists, which boost production, are a fundamentally different treatment strategy than steroids, which suppress destruction."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-042.png",
+      "index": 42,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-042a",
+          "page": 42,
+          "role": "content",
+          "voiceover": "This slide maps out the current treatment ladder for ITP, and the headline point at the top is critical for boards, there is currently no biomarker that predicts which patient will respond to which therapy or how quickly, so treatment selection remains largely empiric and based on shared decision making. First-line therapy is corticosteroids, either prednisolone or dexamethasone, sometimes combined with IVIG for rapid platelet rise in urgent bleeding situations, but the response rate to first-line steroids is only about 20 to 30 percent durably, which is lower than many people assume and explains why so many patients progress to second-line therapy. Second-line options branch into several distinct mechanisms, TPO receptor agonists to boost production, rituximab to deplete B cells and reduce autoantibody production, fostamatinib which is a Syk inhibitor blocking the phagocytic signal in macrophages, and splenectomy which removes the primary site of antibody-mediated platelet clearance, chosen through shared decision making with the patient. For refractory ITP that fails second-line therapy, third-line strategies include splenectomy if not already done, multi-modal combination therapies combining agents with different mechanisms, and increasingly TPO-RA combined with immunomodulatory agents, alongside enrollment in investigational products and clinical trials."
+        },
+        {
+          "id": "seg-042b",
+          "keypoints": [
+            "No validated biomarker predicts ITP treatment response — decision is empiric",
+            "First-line steroids/IVIG: only ~20-30% durable response rate",
+            "Second-line: TPO-RA, rituximab, fostamatinib (Syk inhibitor), splenectomy",
+            "Fostamatinib blocks Syk signaling → prevents Fc-receptor platelet phagocytosis",
+            "Refractory ITP: multi-modal combos, often TPO-RA + immunomodulatory agent"
+          ],
+          "page": 42,
+          "role": "keypoint",
+          "voiceover": "Key exam point, no biomarker exists to predict ITP treatment response, so this is shared decision making. First-line steroids and IVIG only give a durable response in about twenty to thirty percent of patients. Second-line brings in four different mechanisms, TPO receptor agonists, rituximab, the Syk inhibitor fostamatinib, and splenectomy. And for refractory disease, expect multi-modal combinations, often pairing a TPO-RA with an immunomodulatory agent."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-043.png",
+      "index": 43,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-043a",
+          "page": 43,
+          "role": "content",
+          "voiceover": "This table compares the two major TPO receptor agonists, eltrombopag and romiplostim, and the dosing details here are classic board fodder. Eltrombopag is an oral pill taken once daily, starting at 50 milligrams, but critically, East Asian patients need a lower starting dose of 25 milligrams and a lower maximum of 50 milligrams instead of 75, because of pharmacogenomic differences in drug clearance that raise plasma concentrations at any given dose in that population, that East Asian dosing distinction is a frequently tested detail. Romiplostim, by contrast, is subcutaneous, given once weekly, and titrated between 1 and 10 micrograms per kilogram based on the platelet count response. Pharmacokinetically eltrombopag peaks fast, in 2 to 6 hours, with a half-life of about 26 to 35 hours, while romiplostim peaks slower and much more variably, 7 to 50 hours with a median of 14, and has a long, highly variable half-life ranging from 1 to 34 days. Response rates are actually a bit higher for romiplostim, 79 to 88 percent, versus 66 to 81 percent for eltrombopag. Side effect profiles diverge too, eltrombopag uniquely carries a risk of elevated liver enzymes requiring monitoring, while both agents share headache and confusion, and importantly both carry a risk of bone marrow reticulofibrosis, so bone marrow surveillance is a consideration with either long-term."
+        },
+        {
+          "id": "seg-043b",
+          "keypoints": [
+            "Eltrombopag: oral once daily; East Asians need lower dose (25mg start, 50mg max)",
+            "Romiplostim: subcutaneous once weekly, titrated 1-10 mcg/kg by platelet response",
+            "Response rate: eltrombopag 66-81%, romiplostim 79-88%",
+            "Eltrombopag uniquely risks elevated liver enzymes — monitor LFTs",
+            "Both TPO-RAs carry risk of bone marrow reticulofibrosis"
+          ],
+          "page": 43,
+          "role": "keypoint",
+          "voiceover": "High-yield dosing detail, eltrombopag is oral daily, but East Asian patients need a lower starting dose of twenty-five milligrams and a lower max of fifty, due to pharmacogenomic differences in clearance. Romiplostim is weekly subcutaneous, titrated by platelet response. Response rates run a bit higher for romiplostim, seventy-nine to eighty-eight percent, versus sixty-six to eighty-one for eltrombopag. Eltrombopag uniquely needs liver enzyme monitoring, and both drugs carry a shared risk of bone marrow reticulofibrosis."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-044.png",
+      "index": 44,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-044a",
+          "page": 44,
+          "role": "content",
+          "voiceover": "Thrombotic microangiopathy, or TMA, is not itself a diagnosis, it's a pathology term. It describes thrombosis occurring in small vessels, specifically capillaries and arterioles, triggered by endothelial injury. Think of TMA as the final common pathway that many different conditions funnel into. The biopsy image on the right shows a classic finding, an arteriole with a thickened, thrombosed wall compressing the glomerulus, and the smear on the left shows fragmented red cells, the hallmark of microangiopathic hemolysis. For boards, the key concept is that TMA is descriptive, not etiologic, so whenever you see the term TMA you should immediately start generating a differential, things like TTP, hemolytic uremic syndrome, complement mediated atypical HUS, DIC, malignant hypertension, HELLP syndrome, drug induced TMA, and transplant associated TMA. The unifying triad clinically is microangiopathic hemolytic anemia, thrombocytopenia, and organ injury from the microvascular thrombi. Recognizing that TMA is a syndrome with many causes, rather than a single disease, is exactly the kind of framework question that shows up on hematology boards."
+        },
+        {
+          "id": "seg-044b",
+          "keypoints": [
+            "TMA = pathology term, not a diagnosis",
+            "Thrombosis in capillaries + arterioles from endothelial injury",
+            "Broad differential: TTP, HUS, aHUS, DIC, HELLP, drug- or transplant-associated",
+            "Triad: MAHA + thrombocytopenia + organ injury"
+          ],
+          "page": 44,
+          "role": "keypoint",
+          "voiceover": "Remember TMA as a pathologic description, not a specific disease, thrombosis in small vessels from endothelial injury. It's the shared endpoint for a long differential, TTP, HUS, atypical HUS, DIC, HELLP, and drug or transplant related TMA. Clinically it presents as the triad of microangiopathic hemolytic anemia, thrombocytopenia, and end organ injury from microvascular clots."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-045.png",
+      "index": 45,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-045a",
+          "page": 45,
+          "role": "content",
+          "voiceover": "This table addresses a high yield trap on boards, comorbid conditions that can independently cause microangiopathic hemolytic anemia and thrombocytopenia, separate from classic TTP. Look at the pattern across every row, autoimmunity with ANA, ANCA, or antiphospholipid antibodies, HIV infection, hematopoietic stem cell transplant, solid organ transplant, malignant hypertension, pregnancy, and neoplastic disease. Each of these has its own mimic, vasculitis or catastrophic antiphospholipid syndrome for autoimmunity, fungemia or viremia in HIV and transplant patients, antirejection or GVHD drugs, severe hypertension causing endothelial injury, preeclampsia and HELLP in pregnancy, and drug induced TMA or tumor embolism in malignancy. But notice that atypical HUS, AHUS, appears in almost every single row as a differential. That's the exam pearl, complement mediated TMA can be unmasked or triggered by any of these systemic stressors, so a normal ADAMTS13 level in a sick patient with MAHA and thrombocytopenia should prompt you to think about AHUS and these comorbid triggers, not just assume it's not TTP and stop there. Management often involves excluding infection, adjusting the offending drug, biopsy when needed, and empiric anti C5 therapy for suspected AHUS."
+        },
+        {
+          "id": "seg-045b",
+          "keypoints": [
+            "AHUS is a recurring differential across nearly every comorbid TMA trigger",
+            "Autoimmune disease, HIV, HSCT, solid organ transplant, malignant HTN, pregnancy, malignancy all cause MAHA + thrombocytopenia independent of TTP",
+            "Exclude infection and offending drugs before empiric anti-C5 therapy",
+            "Normal ADAMTS13 does not rule out AHUS"
+          ],
+          "page": 45,
+          "role": "keypoint",
+          "voiceover": "When MAHA and thrombocytopenia occur with autoimmune disease, HIV, transplant, malignant hypertension, pregnancy, or cancer, don't stop at ruling out TTP, atypical HUS shows up as a differential in nearly every one of these settings. Work up infection, review culprit drugs, consider biopsy, and think about empiric anti-C5 therapy for suspected complement mediated TMA once other causes are excluded."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-046.png",
+      "index": 46,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-046a",
+          "page": 46,
+          "role": "content",
+          "voiceover": "This table gives the actual prevalence data behind the classic TTP pentad, and these numbers are worth memorizing because boards love asking which feature is most common versus least common. Neurologic symptoms are very common overall, headache and confusion occur in about sixty percent of patients, and if you break neurologic findings down, mild deficits like headache or confusion occur in about twenty five percent while severe findings, coma, focal deficits, or seizures, occur in fully fifty percent, so when neurologic involvement happens in TTP it tends to be severe. Renal involvement is the opposite pattern, mild proteinuria or renal insufficiency is common at forty percent, but severe acute renal failure is uncommon, only about five percent, which is a key differentiator from HUS where renal failure dominates. Digestive symptoms, nausea, vomiting, diarrhea, abdominal pain, occur in about half of patients and can mimic other diagnoses early on. Bleeding symptoms like purpura or menorrhagia are seen in only twenty percent, since TTP is primarily a thrombotic, not a hemorrhagic, disorder despite the low platelet count. And the hematologic numbers are dramatic, platelet counts under twenty times ten to the ninth per liter in ninety five percent of patients, and hemoglobin under eight in eighty percent, reflecting severe consumptive thrombocytopenia and hemolysis."
+        },
+        {
+          "id": "seg-046b",
+          "keypoints": [
+            "Headache/confusion ~60%; severe neuro findings (coma, seizures, focal deficits) ~50%",
+            "Severe renal failure only ~5% in TTP, unlike HUS",
+            "Platelet count <20 in 95%; hemoglobin <8 in 80%",
+            "Bleeding symptoms only ~20% -- TTP is thrombotic, not hemorrhagic"
+          ],
+          "page": 46,
+          "role": "keypoint",
+          "voiceover": "Lock in these TTP prevalence numbers for boards, headache or confusion in sixty percent, with severe neurologic findings like coma or seizures in fully half of patients. Renal failure is usually mild, severe renal failure occurs in only about five percent, which helps distinguish TTP from HUS. Platelets drop below twenty in ninety five percent of patients and hemoglobin falls below eight in eighty percent, while overt bleeding is uncommon at only twenty percent."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-047.png",
+      "index": 47,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-047a",
+          "page": 47,
+          "role": "content",
+          "voiceover": "This smear is the single most important morphology image for TMA on the boards, and you need to be able to spot these findings instantly. The arrows point to schistocytes, fragmented red blood cells that form when RBCs are sheared apart passing through vessels partially occluded by platelet rich microthrombi, and helmet cells, a specific schistocyte shape with a crescent, helmet like outline. These fragments are the morphologic signature of mechanical intravascular hemolysis, and finding more than about one percent schistocytes on a smear in the right clinical context is essentially required to diagnose MAHA. You'll also see polychromasia, larger bluish gray red cells reflecting a robust reticulocyte response to the ongoing hemolysis, and occasional nucleated RBCs, which signal marrow stress from severe hemolysis pushing out immature erythroid precursors early. Finally notice the striking absence of platelets on this field, consistent with the severe consumptive thrombocytopenia of TTP or other TMAs, since platelets are being consumed to form the microvascular thrombi. On an exam, if you're shown a smear like this with fragments and no platelets, your differential should immediately jump to TMA, and specifically TTP if severe thrombocytopenia and neurologic findings are present without another clear cause."
+        },
+        {
+          "id": "seg-047b",
+          "keypoints": [
+            "Schistocytes and helmet cells = mechanical hemolysis signature",
+            "Polychromasia = brisk reticulocyte response to hemolysis",
+            "Nucleated RBCs reflect marrow stress",
+            "Absent/scant platelets on smear = consumptive thrombocytopenia"
+          ],
+          "page": 47,
+          "role": "keypoint",
+          "voiceover": "On boards, recognize schistocytes and helmet cells instantly as the morphologic fingerprint of microangiopathic hemolysis, RBCs sheared apart by microvascular thrombi. Polychromasia shows the marrow is responding with reticulocytes, and nucleated red cells signal marrow stress. The scarcity of platelets on the field reflects consumptive thrombocytopenia, and together these findings should trigger a TMA workup."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-048.png",
+      "index": 48,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-048a",
+          "page": 48,
+          "role": "content",
+          "voiceover": "This slide gets into the molecular mechanism that underlies TTP, and it's a favorite for board questions on ADAMTS13 biology. On the left, under flowing blood, VWF strings anchored to the vessel wall recruit platelets through the platelet receptor GPIb, and ADAMTS13, the metalloprotease, sits right at that site to regulate VWF length. On the right is the domain map of VWF, with the A1 domain binding GPIb and collagen, the A2 domain containing the actual ADAMTS13 cleavage site at tyrosine 1605 to methionine 1606, and the A3 domain also binding collagen. The critical concept is that ADAMTS13 can only access and cleave that Tyr1605-Met bond in the A2 domain when VWF is unfolded by shear force, shown here by the arrows labeled Force pulling the A2 domain open. Under high shear in the microcirculation, VWF stretches out, exposing the cleavage site, and ADAMTS13 trims the ultra large multimers down to a manageable size. If ADAMTS13 is deficient or inhibited, as in TTP, those ultra large VWF multimers stay uncleaved and hyperreactive, recruiting excessive platelets and driving microvascular thrombosis. Know that ADAMTS13 itself has a modular structure too, metalloprotease, disintegrin, thrombospondin repeats, cysteine rich and spacer domains, and CUB domains, which mediate substrate recognition."
+        },
+        {
+          "id": "seg-048b",
+          "keypoints": [
+            "ADAMTS13 cleaves VWF at Tyr1605-Met1606 within the A2 domain",
+            "Cleavage site is exposed only when shear force unfolds A2",
+            "A1 domain binds GPIb/collagen; A3 binds collagen",
+            "ADAMTS13 deficiency = uncleaved ultra-large VWF multimers -> platelet hyperaggregation"
+          ],
+          "page": 48,
+          "role": "keypoint",
+          "voiceover": "For boards, know that ADAMTS13 cleaves VWF specifically at tyrosine 1605 to methionine within the A2 domain, and this site is only exposed when shear force unfolds VWF in flowing blood. The A1 domain mediates platelet GPIb and collagen binding, while A3 binds collagen. When ADAMTS13 is deficient, ultra large VWF multimers go uncleaved, staying hyperadhesive and driving excessive platelet recruitment, which is the molecular basis of TTP."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-049.png",
+      "index": 49,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-049a",
+          "page": 49,
+          "role": "content",
+          "voiceover": "This figure ties together everything about ADAMTS13 into the actual pathogenesis of TTP, and it's essentially a must know diagram for boards. On the left, under normal flowing blood, VWF multimers are anchored to the vessel wall and platelets attach through GPIb, forming small platelet VWF aggregates. What happens next branches into two pathways depending on ADAMTS13. When ADAMTS13 is present and functional, it continuously cleaves the stretched VWF, limiting how large these platelet aggregates can grow, so platelets and VWF fragments are released back into circulation, this is normal hemostasis, a self limited, regulated process. But when ADAMTS13 is absent or severely deficient, whether from an inherited mutation as in congenital TTP or an autoantibody as in acquired immune TTP, there is nothing to cleave the VWF, so platelet VWF aggregation continues unchecked. The bottom right panel shows the result, massive, uncontrolled platelet rich thrombi building up on the vessel wall, which is exactly what causes the diffuse microvascular thrombosis of TTP, consuming platelets, causing mechanical hemolysis as red cells shear through the narrowed vessels, and producing ischemic organ injury in the brain, kidneys, heart, and elsewhere. This single figure explains why plasma exchange, which replaces functional ADAMTS13 and removes autoantibody, is the cornerstone emergency treatment for acquired TTP."
+        },
+        {
+          "id": "seg-049b",
+          "keypoints": [
+            "ADAMTS13 present: cleaves stretched VWF, limits platelet aggregate size, normal hemostasis",
+            "ADAMTS13 absent (mutation or autoantibody): unchecked VWF-platelet aggregation",
+            "Result: diffuse microvascular platelet-VWF thrombi = TTP",
+            "Explains why plasma exchange (replace ADAMTS13, remove autoantibody) is first-line TTP therapy"
+          ],
+          "page": 49,
+          "role": "keypoint",
+          "voiceover": "This figure is the core pathogenesis diagram for TTP. With functional ADAMTS13, VWF gets cleaved as it stretches, capping platelet aggregate size, that's normal hemostasis. Without ADAMTS13, from either a genetic mutation or an autoantibody, VWF-platelet aggregation runs unchecked, building the diffuse microvascular thrombi that define TTP. This is exactly why plasma exchange, restoring ADAMTS13 and clearing the autoantibody, is emergency first-line therapy."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-050.png",
+      "index": 50,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-050a",
+          "page": 50,
+          "role": "content",
+          "voiceover": "This table compares the two most commonly tested clinical prediction scores for identifying severe ADAMTS13 deficiency, meaning iTTP, in patients presenting with microangiopathic hemolytic anemia and thrombocytopenia. The PLASMIC score has seven components, each worth one point: platelet count under thirty times ten to the ninth per liter, creatinine under two milligrams per deciliter, evidence of hemolysis defined as indirect bilirubin over two, reticulocytes over two point five percent, or undetectable haptoglobin, INR under one point five, MCV under ninety femtoliters, no active cancer, and no history of solid organ or stem cell transplant. A PLASMIC score of five or higher has a sensitivity of ninety-nine percent and specificity of fifty-seven percent for severe ADAMTS13 deficiency, making it the preferred bedside tool because it's highly sensitive and easy to calculate before ADAMTS13 results return. The modified French score uses just two variables, platelet count under thirty and creatinine under two point two six, and a score of one or higher has sensitivity of ninety-eight point eight percent but much lower specificity at forty-eight percent. For boards, know that PLASMIC is the more widely used and validated score, that both scores are meant to rapidly triage patients for empiric plasma exchange while awaiting ADAMTS13 activity, and that low specificity means these scores overcall TTP, so ADAMTS13 testing remains essential to confirm the diagnosis."
+        },
+        {
+          "id": "seg-050b",
+          "keypoints": [
+            "PLASMIC: 7 factors, score ≥5 → 99% sens, 57% spec for severe ADAMTS13 deficiency",
+            "Components: plt <30, Cr <2, hemolysis, INR <1.5, MCV <90, no cancer, no transplant",
+            "French score: 2 factors (plt <30, Cr <2.26), score ≥1 → 98.8% sens, 48% spec",
+            "High sensitivity scores triage for empiric plasma exchange pending ADAMTS13"
+          ],
+          "page": 50,
+          "role": "keypoint",
+          "voiceover": "PLASMIC is the seven-factor score, and a score of five or higher gives ninety-nine percent sensitivity for severe ADAMTS13 deficiency, though specificity is only fifty-seven percent. Its components are low platelets, low creatinine, evidence of hemolysis, a near-normal INR, a normal MCV, and the absence of active cancer or transplant history. The modified French score is simpler, just platelets and creatinine, with similarly high sensitivity around ninety-nine percent but even lower specificity near forty-eight percent. Both are designed to be highly sensitive so you don't miss iTTP, which is why they drive the decision to start empiric plasma exchange while confirmatory ADAMTS13 activity testing is pending."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-051.png",
+      "index": 51,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-051a",
+          "page": 51,
+          "role": "content",
+          "voiceover": "This algorithm walks through management of suspected immune TTP based on pretest probability and ADAMTS13 results. Patients with high probability of iTTP, meaning a high PLASMIC or French score, should start therapeutic plasma exchange, steroids, and caplacizumab immediately while sending ADAMTS13 activity, because delaying treatment for confirmatory testing risks mortality. Patients with low to intermediate probability start TPE and steroids alone, holding caplacizumab until the diagnosis is more certain, since caplacizumab carries bleeding risk and shouldn't be used empirically in low-probability patients. Once ADAMTS13 activity results return, they reclassify patients into three groups. A positive result, ADAMTS13 activity under ten percent, confirms iTTP, so you continue TPE, steroids, and caplacizumab, and add rituximab for durable B-cell depletion and remission. A borderline result, ten to twenty percent, requires clinical judgement and consideration of alternative diagnoses like DIC, malignant hypertension, or complement-mediated TMA. A negative result, greater than twenty percent, essentially rules out iTTP, so you stop TPE, steroids, rituximab, and caplacizumab, and pursue other diagnoses. For boards, the key numbers are ADAMTS13 activity under ten percent confirms severe deficiency, and most true initial iTTP episodes have activity under five percent or undetectable, while relapsing episodes can have somewhat higher activity."
+        },
+        {
+          "id": "seg-051b",
+          "keypoints": [
+            "High probability → start TPE + steroids + caplacizumab immediately, don't wait for ADAMTS13",
+            "Low-intermediate probability → TPE + steroids only, hold caplacizumab",
+            "ADAMTS13 <10% (positive) → continue triple therapy + add rituximab",
+            "ADAMTS13 >20% (negative) → stop all iTTP-specific therapy, consider other diagnoses",
+            "Most initial iTTP episodes: ADAMTS13 <5% or undetectable"
+          ],
+          "page": 51,
+          "role": "keypoint",
+          "voiceover": "For high-probability iTTP, start plasma exchange, steroids, and caplacizumab right away without waiting for ADAMTS13 results, since treatment delay is dangerous. Lower-probability patients get plasma exchange and steroids only, holding caplacizumab given its bleeding risk. Once ADAMTS13 activity returns, a positive result under ten percent confirms the diagnosis, so you continue all three therapies and add rituximab. A negative result above twenty percent means you stop everything and look for another cause. Remember that most true initial iTTP cases have ADAMTS13 activity under five percent or completely undetectable."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-052.png",
+      "index": 52,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-052a",
+          "page": 52,
+          "role": "content",
+          "voiceover": "This figure illustrates the mechanism of action of caplacizumab, and it's a classic boards diagram for understanding iTTP pathophysiology and targeted therapy. In panel A, showing the pathogenesis of acquired TTP, anti-ADAMTS13 autoantibodies inhibit the enzyme's normal proteolytic cleavage of ultra-large von Willebrand factor multimers. Without cleavage, these ultra-large vWF strands persist and their A1 domain becomes activated, allowing platelets to bind through the glycoprotein Ib-alpha receptor. This drives excessive platelet aggregation, causing microvascular thrombosis and ischemic organ damage, which is the direct mechanistic explanation for the anemia, thrombocytopenia, and end-organ injury seen in TTP. Panel B shows how caplacizumab intervenes. Caplacizumab is a bivalent nanobody that binds directly to the A1 domain of von Willebrand factor, blocking the interaction between vWF and the platelet glycoprotein Ib-alpha receptor. This doesn't fix the underlying ADAMTS13 deficiency or remove the autoantibody, but it rapidly stops new microthrombi from forming, which is why caplacizumab produces fast platelet count recovery and reduces the risk of refractory TTP and exacerbations, even though ADAMTS13 activity and the autoantibody take longer to normalize with steroids, rituximab, and plasma exchange."
+        },
+        {
+          "id": "seg-052b",
+          "keypoints": [
+            "ADAMTS13 autoantibody → unable to cleave ultra-large vWF → platelet-vWF microthrombi",
+            "Platelets bind ultra-large vWF via GPIb-α on the activated A1 domain",
+            "Caplacizumab = anti-vWF nanobody, blocks A1 domain-GPIb-α interaction",
+            "Stops new microthrombi fast, but doesn't treat the ADAMTS13 antibody itself",
+            "Explains why caplacizumab speeds platelet recovery but rituximab treats the autoimmune driver"
+          ],
+          "page": 52,
+          "role": "keypoint",
+          "voiceover": "In iTTP, autoantibodies against ADAMTS13 prevent cleavage of ultra-large von Willebrand factor, so these giant multimers stay intact and their A1 domain becomes activated, recruiting platelets through glycoprotein Ib-alpha and forming microthrombi. Caplacizumab is a nanobody that binds the A1 domain of von Willebrand factor directly, physically blocking that platelet interaction. It rapidly halts new clot formation and speeds platelet recovery, but it doesn't touch the underlying autoantibody, which is why it's paired with steroids and rituximab to treat the actual autoimmune process."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-053.png",
+      "index": 53,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-053a",
+          "page": 53,
+          "role": "content",
+          "voiceover": "This table lists the clinical conditions most frequently associated with disseminated intravascular coagulation, and it's high-yield because boards love asking you to match the trigger to the predominant clinical phenotype, bleeding versus thrombosis. Severe infection, whether gram-positive, gram-negative, malaria, or hemorrhagic fevers, is probably the most common DIC trigger overall, and here thrombosis often contributes to organ failure such as acute kidney injury. Malignancy is another major cause, with solid tumors like adenocarcinomas typically producing a chronic, thrombotic phenotype with venous thromboembolism, while acute promyelocytic leukemia is the classic exception, causing severe thrombocytopenia and factor deficiency that leads to catastrophic bleeding, so APL and DIC is a very testable pairing. Trauma, including multitrauma, brain injury, and burns, has a biphasic course, acute bleeding first followed later by thrombosis. Obstetric complications like abruptio placentae and amniotic fluid embolism produce profuse bleeding combined with thrombotic complications. Vascular malformations such as Kasabach-Merritt syndrome cause bleeding from severe thrombocytopenia and hypofibrinogenemia. Finally, heat stroke and post-cardiopulmonary resuscitation states are notable because thrombotic features predominate over bleeding, which is a useful discriminator on exams."
+        },
+        {
+          "id": "seg-053b",
+          "keypoints": [
+            "Sepsis is the most common DIC trigger; often drives organ failure via thrombosis",
+            "APL (acute promyelocytic leukemia): classic cause of severe bleeding DIC",
+            "Solid tumors: chronic, thrombotic DIC phenotype (VTE)",
+            "Trauma: biphasic - acute bleeding then thrombosis",
+            "Kasabach-Merritt, heat stroke, post-CPR: distinct bleeding vs thrombotic patterns"
+          ],
+          "page": 53,
+          "role": "keypoint",
+          "voiceover": "Sepsis is the leading cause of DIC and tends to drive organ failure through thrombosis. Acute promyelocytic leukemia is the classic malignancy causing a severe bleeding-predominant DIC, in contrast to solid tumors, which usually produce a chronic thrombotic phenotype with venous thromboembolism. Trauma causes a biphasic pattern, bleeding acutely and thrombosis later, while obstetric catastrophes like abruptio placentae combine both. Remember heat stroke and post-cardiac arrest states as conditions where thrombosis, not bleeding, is the dominant feature of DIC."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-054.png",
+      "index": 54,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-054a",
+          "page": 54,
+          "role": "content",
+          "voiceover": "This clinical image shows a patient with severe DIC-related coagulopathy manifesting as extensive purpura fulminans-like skin necrosis. You can see dusky, violaceous, and frankly necrotic discoloration involving the hand, forearm, and lower leg, with surgical marking outlining areas likely being assessed for debridement or amputation, along with a critically ill, intubated patient in the bottom right panel. This pattern reflects the microvascular thrombosis component of DIC, where widespread fibrin deposition in small dermal and subdermal vessels causes ischemic skin necrosis, classically seen in severe sepsis, meningococcemia, or other fulminant infections triggering consumptive coagulopathy. Simultaneously, consumption of platelets and clotting factors, along with fibrinolysis, produces the bleeding component, which is why DIC is fundamentally a disease of simultaneous clotting and bleeding rather than one or the other. For boards, recognize this presentation as symmetric peripheral gangrene or purpura fulminans, associate it with severe sepsis-induced DIC, and remember that these patients often require ICU-level support, source control, and may need surgical debridement or amputation of necrotic tissue despite treatment of the underlying coagulopathy."
+        },
+        {
+          "id": "seg-054b",
+          "keypoints": [
+            "Purpura fulminans / symmetric peripheral gangrene = severe DIC manifestation",
+            "Caused by widespread microvascular fibrin thrombosis with ischemic skin necrosis",
+            "Classically triggered by severe sepsis or meningococcemia",
+            "DIC = simultaneous thrombosis AND consumptive bleeding, not just one",
+            "May require debridement or amputation despite treating underlying coagulopathy"
+          ],
+          "page": 54,
+          "role": "keypoint",
+          "voiceover": "This image shows purpura fulminans, or symmetric peripheral gangrene, a severe manifestation of DIC where widespread microvascular fibrin thrombosis causes ischemic skin necrosis, classically triggered by severe sepsis or meningococcemia. It's a vivid reminder that DIC is simultaneously a thrombotic and a bleeding disorder, driven by consumption of platelets and clotting factors alongside ongoing fibrin deposition. Despite treating the underlying trigger and coagulopathy, extensive tissue necrosis like this often requires surgical debridement or amputation."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-055.png",
+      "index": 55,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-055a",
+          "page": 55,
+          "role": "content",
+          "voiceover": "This case shows a thirty-four year old woman with choriocarcinoma, multiple metastases, and DIC, illustrating acral ischemic necrosis of the fingers and toes, with dark purple-black discoloration of the distal digits and surrounding petechial hemorrhage on the dorsum of the hand and foot. Choriocarcinoma is a gestational trophoblastic malignancy that's highly vascular and prone to both hemorrhage and thromboembolic complications, and when it triggers DIC, patients develop this combination of digital ischemia from microvascular thrombosis alongside petechiae and ecchymoses from the consumptive bleeding diathesis. This case reinforces the malignancy-associated DIC category from the earlier table, and it's a good reminder that gestational trophoblastic disease, though rare, is a boards-favorite cause of DIC in a woman of reproductive age, especially when paired with an elevated beta-hCG and pulmonary or CNS metastases. The digital gangrene pattern here, distinct from the more confluent purpura fulminans on the prior slide, still reflects the same underlying pathophysiology of fibrin thrombus formation in the microvasculature superimposed on a bleeding tendency from factor and platelet consumption."
+        },
+        {
+          "id": "seg-055b",
+          "keypoints": [
+            "34F, choriocarcinoma with metastases, complicated by DIC",
+            "Digital ischemic necrosis (fingers/toes) + petechiae = combined thrombotic-bleeding DIC picture",
+            "Choriocarcinoma: highly vascular gestational trophoblastic tumor, prone to DIC",
+            "Consider GTD/choriocarcinoma as a DIC cause in reproductive-age women with high beta-hCG"
+          ],
+          "page": 55,
+          "role": "keypoint",
+          "voiceover": "This is a thirty-four year old woman with metastatic choriocarcinoma complicated by DIC, showing dark ischemic necrosis of the fingers and toes alongside petechial bleeding. Choriocarcinoma is a highly vascular gestational trophoblastic tumor that can trigger DIC through the same combined thrombotic and consumptive bleeding mechanism seen in other malignancies. Keep gestational trophoblastic disease on your differential for DIC in a reproductive-age woman, particularly with a markedly elevated beta-hCG."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-056.png",
+      "index": 56,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-056a",
+          "page": 56,
+          "role": "content",
+          "voiceover": "This is the ISTH scoring algorithm for overt DIC, and you need to know it cold for boards. It's built on four simple labs. Platelet count gets zero points if over 100, one point if under 100, and two points if under 50. Fibrin-related markers like D-dimer score zero if not increased, two points if increased but less than five times upper limit of normal, and three points if strongly increased at five times or more. Prolonged PT scores zero if under three seconds prolongation, one point for three to under six seconds, and two points for six seconds or more. Fibrinogen scores one point only if it's low, at or below one gram per liter, otherwise zero. Add up the points. A total score of five or greater is compatible with overt DIC. If the score comes back under five but you still suspect DIC clinically, the key pearl is to repeat the panel in one to two days rather than dismissing the diagnosis. Remember this algorithm is only valid in a patient who already has an underlying condition known to cause DIC, such as sepsis, trauma, or malignancy, so it is not a screening test for the general population."
+        },
+        {
+          "id": "seg-056b",
+          "keypoints": [
+            "ISTH DIC score: platelets, fibrin markers, PT, fibrinogen",
+            "Score ≥5 = compatible with overt DIC",
+            "Platelets: >100=0, <100=1, <50=2 pts",
+            "Fibrinogen ≤1.0 g/L = 1 pt; score <5 → repeat in 1-2 days",
+            "Only valid with a known DIC-associated underlying disorder"
+          ],
+          "page": 56,
+          "role": "keypoint",
+          "voiceover": "Know the four components of the ISTH DIC score: platelet count, fibrin-related markers like D-dimer, prothrombin time, and fibrinogen. A total of five or more points is compatible with overt DIC. Platelets score zero above 100, one below 100, two below 50 times ten to the ninth per liter. Fibrinogen only adds a point when it's at or below one gram per liter. If the score is under five but suspicion remains high, repeat testing in one to two days. And remember, this tool only applies to patients with an underlying disorder already known to be associated with DIC."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-057.png",
+      "index": 57,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-057a",
+          "page": 57,
+          "role": "content",
+          "voiceover": "This flowchart is the practical companion to the ISTH score and it's exactly how boards like to test DIC management. Start with clinical suspicion, meaning a known DIC-associated condition plus a low or falling platelet count and prolonged PT or aPTT. Apply the DIC scoring algorithm. If the score is under five, there's no DIC, but repeat testing in one to two days if suspicion persists. If the score is five or greater, that's compatible with DIC, and the single most important step is always to treat the underlying condition, whether that's sepsis, obstetric catastrophe, or malignancy. Beyond that, management branches into three clinical scenarios. If the patient has active bleeding or needs an invasive procedure, give platelets to keep the count above 30 to 50, plasma or factor concentrates to keep the PT under three seconds and fibrinogen above 1.5, vitamin K if deficiency is suspected, and antifibrinolytics only if there's excessive hyperfibrinolysis. If there's no major bleeding or thrombosis, just give prophylactic low molecular weight heparin. And if the picture is overt thrombosis or organ failure from clot formation, like purpura fulminans, that calls for therapeutic anticoagulation, typically intravenous unfractionated heparin. The high-yield concept here is that DIC treatment is tailored to the dominant phenotype, bleeding versus clotting, not a one-size-fits-all protocol."
+        },
+        {
+          "id": "seg-057b",
+          "keypoints": [
+            "Treat the underlying condition first, always",
+            "Bleeding/procedure: platelets, plasma/factor concentrate, ± vitamin K, antifibrinolytics only if hyperfibrinolysis",
+            "No bleeding/thrombosis: prophylactic LMW heparin",
+            "Thrombosis/organ failure (e.g. purpura fulminans): therapeutic heparin",
+            "Score <5: repeat DIC panel in 1-2 days"
+          ],
+          "page": 57,
+          "role": "keypoint",
+          "voiceover": "After confirming DIC by score, the first move is always treating the underlying cause. Then tailor therapy to the clinical phenotype. Active bleeding or a planned invasive procedure calls for platelet transfusion above 30 to 50, plasma or factor concentrate to correct PT and fibrinogen, vitamin K if indicated, and antifibrinolytics reserved for excessive hyperfibrinolysis. No major bleeding or clotting simply gets prophylactic low molecular weight heparin. Overt thrombosis or organ failure, like purpura fulminans, needs therapeutic anticoagulation. And if the initial score is under five, repeat it in one to two days rather than ruling out DIC outright."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-058.png",
+      "index": 58,
+      "kind": "content",
+      "segments": [
+        {
+          "id": "seg-058a",
+          "page": 58,
+          "role": "content",
+          "voiceover": "This slide shows the classic clinical spectrum of hereditary hemorrhagic telangiectasia, also called Osler-Weber-Rendu syndrome, an autosomal dominant vascular disorder. Panels A and B show mucocutaneous telangiectasias, small blanching red spots on the lip, tongue, and fingertips, which are the most visible and earliest clue on exam. But the boards-relevant danger is visceral involvement, shown in panels C and D. Panel C is a chest x-ray and panel D is a pulmonary angiogram demonstrating a pulmonary arteriovenous malformation, a direct right-to-left shunt between a pulmonary artery and vein that bypasses the capillary bed. These pulmonary AVMs matter enormously because they create a paradoxical embolism risk, meaning clots or even bacteria can cross straight to the systemic circulation and cause stroke or brain abscess without ever passing through the lung filter. HHT patients also commonly have GI telangiectasias causing occult bleeding and iron deficiency anemia, plus hepatic AVMs. So the pattern to remember is mucocutaneous telangiectasias plus recurrent epistaxis plus visceral AVMs, especially pulmonary, hepatic, and cerebral."
+        },
+        {
+          "id": "seg-058b",
+          "keypoints": [
+            "HHT (Osler-Weber-Rendu): autosomal dominant vascular disorder",
+            "Mucocutaneous telangiectasias: lips, tongue, fingertips (A, B)",
+            "Pulmonary AVM (C, D): right-to-left shunt",
+            "Pulmonary AVM → paradoxical embolism → stroke, brain abscess",
+            "Also screen for hepatic and GI AVMs/telangiectasias"
+          ],
+          "page": 58,
+          "role": "keypoint",
+          "voiceover": "Hereditary hemorrhagic telangiectasia, or Osler-Weber-Rendu syndrome, is autosomal dominant. Look for mucocutaneous telangiectasias on the lips, tongue, and fingertips. The dangerous finding is a pulmonary arteriovenous malformation, a right-to-left shunt seen here on chest x-ray and pulmonary angiogram. Because blood bypasses the capillary filter, pulmonary AVMs carry a paradoxical embolism risk, leading to stroke or brain abscess. Also remember to screen these patients for hepatic and gastrointestinal AVMs."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-059.png",
+      "index": 59,
+      "kind": "title",
+      "segments": [
+        {
+          "id": "seg-059t",
+          "page": 59,
+          "role": "title",
+          "voiceover": "Let's now examine the Curacao criteria used for diagnosing hereditary hemorrhagic telangiectasia, an autosomal dominant bleeding disorder characterized by spontaneous nosebleeds and vascular abnormalities."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-060.png",
+      "index": 60,
+      "kind": "title",
+      "segments": [
+        {
+          "id": "seg-060t",
+          "page": 60,
+          "role": "title",
+          "voiceover": "This case demonstrates genetic analysis of a patient with hereditary hemorrhagic telangiectasia, showing a mutation in the ENG gene with confirmatory DNA sequencing."
+        }
+      ]
+    },
+    {
+      "image": "pages/page-061.png",
+      "index": 61,
+      "kind": "title",
+      "segments": [
+        {
+          "id": "seg-061t",
+          "page": 61,
+          "role": "title",
+          "voiceover": "That concludes this section on coagulation and hemostasis. Thank you for your attention."
+        }
+      ]
+    }
+  ],
+  "pdf": "pdf/2-1_陳宇欽醫師_Coagulation and hemostatsis part.pdf",
+  "slug": "coagulation-hemostasis-part1"
+}
