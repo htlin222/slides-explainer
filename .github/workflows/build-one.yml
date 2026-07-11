@@ -23,6 +23,14 @@ permissions:
   contents: write
   packages: read
 
+# Serialize heavy builds globally: on the free 20-concurrent-job cap, ONE deck's
+# 20 shards already saturate all slots, so running decks in parallel just makes
+# their shards fight and starves the terminal combine job. One deck at a time =
+# same throughput, and every combine gets a slot the moment its compose finishes.
+concurrency:
+  group: video-build-global
+  cancel-in-progress: false
+
 defaults:
   run:
     shell: bash   # container default shell is sh (dash); force bash for arrays etc.
