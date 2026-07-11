@@ -64,16 +64,24 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pdf", required=True)
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--shard", type=int, default=0, help="this worker's shard index")
+    ap.add_argument("--of", type=int, default=1, help="total number of shards")
     args = ap.parse_args()
+    if not (0 <= args.shard < args.of):
+        raise SystemExit("--shard must be in [0, --of)")
 
-    prod = C.Prod(Path(args.pdf))
+    prod = C.Prod(Path(args.pdf)).ensure()
     style = C.load_json(prod.style_path, DEFAULT_STYLE)
     tts = style["tts"]
     voice, rate, volume = tts["voice"], tts["rate"], tts["volume"]
     content = C.load_json(prod.content_path)
 
+    # TTS is embarrassingly parallel; each worker synthesizes its slice of
+    # segments. timeline.py (a downstream barrier) needs ALL audio, so a gather
+    # job collects every shard's audio before computing offsets.
+    segs = [s for i, s in enumerate(each_segment(content)) if i % args.of == args.shard]
     n = 0
-    for seg in each_segment(content):
+    for seg in segs:
         sid = seg["id"]
         text = volint.clean(seg["voiceover"])       # deterministic TTS-safe normalize
         for issue in volint.lint(text):
@@ -90,7 +98,7 @@ def main():
         stamp.write_text(key)
         n += 1
         print(f"tts {sid} ({len(text)} chars)")
-    print(f"synthesized {n} segment(s) (rest cached)")
+    print(f"shard {args.shard}/{args.of}: synthesized {n} of {len(segs)} segment(s)")
 
 
 if __name__ == "__main__":

@@ -1,10 +1,12 @@
 name: build-one
 
-# Reusable per-slug builder with a sharded compose (map-reduce):
-#   prepare  -> rasterize + keypoint cards + TTS + SRT + timeline (once)
-#   compose  -> 12 parallel workers, each renders its slice of segment clips
+# Reusable per-slug builder, fully sharded map-reduce:
+#   prepare  -> rasterize + keypoint cards
+#   tts      -> N parallel workers, each synthesizes its slice of segments
+#   gather   -> BARRIER: collect all audio, build SRT + timeline (needs all durations)
+#   compose  -> N parallel workers, each renders its slice of segment clips
 #   combine  -> gather all clips, concat, snapshot, publish the GH Release
-# Clips are handed between jobs as artifacts.
+# Audio and clips move between jobs as artifacts.
 
 on:
   workflow_call:
@@ -37,23 +39,78 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install edge-tts
       - id: chrome
         uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: stable
-      - name: TTS cache (stable timeline across restyles)
-        uses: actions/cache@v4
-        with:
-          path: production/${{ inputs.slug }}/audio
-          key: tts-${{ inputs.slug }}-${{ hashFiles(format('production/{0}/config/content.json', inputs.slug)) }}
-      - name: Prepare (raster, cards, TTS, SRT, timeline)
+      - name: Rasterize + keypoint cards
         env:
           CHROME_BIN: ${{ steps.chrome.outputs.chrome-path }}
         run: |
           PDF="${{ inputs.pdf }}"
           python scripts/render.py --pdf "$PDF" --pages content --only raster
-          python scripts/render.py --pdf "$PDF" --from slide --to timeline
+          python scripts/render.py --pdf "$PDF" --only slide
+      - uses: actions/upload-artifact@v4
+        with:
+          name: prep-pages-${{ inputs.slug }}
+          path: |
+            production/${{ inputs.slug }}/pages
+            production/${{ inputs.slug }}/slides
+            production/${{ inputs.slug }}/config
+          retention-days: 1
+          if-no-files-found: error
+
+  tts:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install edge-tts
+      - name: TTS cache (per shard)
+        uses: actions/cache@v4
+        with:
+          path: production/${{ inputs.slug }}/audio
+          key: tts-${{ inputs.slug }}-${{ matrix.shard }}-${{ hashFiles(format('production/{0}/config/content.json', inputs.slug)) }}
+      - name: Synthesize shard ${{ matrix.shard }}
+        run: python scripts/tts.py --pdf "${{ inputs.pdf }}" --shard ${{ matrix.shard }} --of ${{ env.SHARDS }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audio-${{ inputs.slug }}-${{ matrix.shard }}
+          path: production/${{ inputs.slug }}/audio
+          retention-days: 1
+          if-no-files-found: warn
+
+  gather:
+    needs: [prepare, tts]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install edge-tts
+      - uses: actions/download-artifact@v4
+        with:
+          name: prep-pages-${{ inputs.slug }}
+          path: production/${{ inputs.slug }}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: audio-${{ inputs.slug }}-*
+          path: production/${{ inputs.slug }}/audio
+          merge-multiple: true
+      - name: Build SRT + timeline (barrier over all audio)
+        run: |
+          PDF="${{ inputs.pdf }}"
+          python scripts/build_srt.py --pdf "$PDF"
+          python scripts/timeline.py --pdf "$PDF"
       - uses: actions/upload-artifact@v4
         with:
           name: prep-${{ inputs.slug }}
@@ -63,7 +120,7 @@ jobs:
           if-no-files-found: error
 
   compose:
-    needs: prepare
+    needs: gather
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -98,21 +155,20 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install edge-tts
-      - name: Restore prepared artifacts (config, timeline, master srt)
-        uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v4
         with:
           name: prep-${{ inputs.slug }}
           path: production/${{ inputs.slug }}
-      - name: Restore all composed shards
-        uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v4
         with:
           pattern: seg-${{ inputs.slug }}-*
           path: production/${{ inputs.slug }}/segments
           merge-multiple: true
       - name: Concat + snapshot
         run: |
-          python scripts/concat.py --pdf "${{ inputs.pdf }}"
-          python scripts/snapshot.py --pdf "${{ inputs.pdf }}"
+          PDF="${{ inputs.pdf }}"
+          python scripts/concat.py --pdf "$PDF"
+          python scripts/snapshot.py --pdf "$PDF"
       - name: Validate final
         run: python scripts/validate.py --pdf "${{ inputs.pdf }}" --stage final
       - name: Publish release
