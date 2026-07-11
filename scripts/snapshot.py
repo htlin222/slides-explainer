@@ -34,9 +34,9 @@ def hash_dir(prod: C.Prod) -> dict:
             if f.is_file() and f.suffix in (".png", ".mp3", ".srt", ".mp4"):
                 out[f"{sub}/{f.name}"] = C.sha256_file(f)
     if prod.final_mp4.exists():
-        out["final.mp4"] = C.sha256_file(prod.final_mp4)
+        out[prod.final_mp4.name] = C.sha256_file(prod.final_mp4)
     if prod.master_srt.exists():
-        out["master.srt"] = C.sha256_file(prod.master_srt)
+        out[prod.master_srt.name] = C.sha256_file(prod.master_srt)
     return out
 
 

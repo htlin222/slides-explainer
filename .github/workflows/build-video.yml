@@ -111,7 +111,7 @@ jobs:
           slug="${{ matrix.target.slug }}"
           dir="production/$slug"
           tag="video/$slug"
-          assets=("$dir/final.mp4" "$dir/master.srt" "$dir/config/render.lock.json")
+          assets=("$dir/$slug.mp4" "$dir/$slug.srt" "$dir/config/render.lock.json")
           if gh release view "$tag" >/dev/null 2>&1; then
             gh release upload "$tag" "${assets[@]}" --clobber
           else

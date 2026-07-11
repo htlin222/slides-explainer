@@ -4,15 +4,16 @@ __pycache__/
 *.pyc
 
 # Generated media — regenerated deterministically in cloud CI, never committed
+production/_staging/
 production/*/pages/
 production/*/audio/
 production/*/slides/
 production/*/captions/
 production/*/segments/
-production/*/final.mp4
-production/*/master.srt
+production/*/*.mp4
+production/*/*.srt
 production/*/concat.txt
-production/*/_joined.mp4
+# NOTE: production/index.json (pdf->slug registry) IS committed — CI needs it.
 
 # Derived / per-run artifacts (cloud recomputes; lock ships as a release asset)
 production/*/config/timeline.json

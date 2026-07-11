@@ -11,6 +11,18 @@ Parse `$ARGUMENTS`: first token is the PDF path; optional `--pages` (default `al
 
 Work through these steps and do not stop until `content.json` is assembled:
 
+## 0. Name the deck (haiku reads page 1 → semantic slug)
+This slug becomes the production dir, the release tag, and the output filenames
+`<slug>.mp4` / `<slug>.srt`, so make it human-readable.
+1. `.venv/bin/python scripts/stage_page1.py --pdf "<pdf>"` → prints a staging PNG path.
+2. Dispatch ONE **haiku** subagent (Agent tool, model: haiku):
+   > Read the image at <staging-png>. This is the FIRST slide of a lecture deck.
+   > Propose a short, human-readable slug (lowercase kebab-case, 2–5 words, no dates/
+   > author names) that captures the deck's topic — e.g. "wbc-part2-lymphoma",
+   > "coagulation-hemostasis", "rbc-disorders". Output ONLY: {"slug":"…","title":"…"}
+3. `.venv/bin/python scripts/register_slug.py --pdf "<pdf>" --slug "<proposed-slug>"`
+   → prints the FINAL slug (sanitized + de-duplicated). Use this slug from here on.
+
 ## 1. Rasterize (feed images to the models)
 Run: `.venv/bin/python scripts/rasterize.py --pdf "<pdf>" --pages <pages>`
 Note the printed `slug` and `production dir`. Page PNGs are at

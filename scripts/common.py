@@ -38,12 +38,32 @@ def slugify(name: str) -> str:
     return f"{s or 'pdf'}-{tag}"
 
 
+def kebab(text: str, max_len: int = 48) -> str:
+    """Human-readable kebab slug (no hash) for AI-proposed names."""
+    nfkd = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
+    s = re.sub(r"[^A-Za-z0-9]+", "-", nfkd).strip("-").lower()
+    return s[:max_len].strip("-") or "deck"
+
+
+# registry mapping repo-relative PDF path -> chosen slug (committed, CI reads it)
+SLUG_INDEX = ROOT / "production" / "index.json"
+
+
+def slug_map() -> dict:
+    return load_json(SLUG_INDEX, {}) or {}
+
+
+def resolve_slug(pdf: Path) -> str:
+    """AI-registered slug if present, else the deterministic filename slug."""
+    return slug_map().get(repo_rel(pdf)) or slugify(Path(pdf).stem)
+
+
 class Prod:
     """Handle for one production directory: production/<slug>/…"""
 
-    def __init__(self, pdf_path: Path):
+    def __init__(self, pdf_path: Path, slug: str | None = None):
         self.pdf = Path(pdf_path).resolve()
-        self.slug = slugify(self.pdf.stem)
+        self.slug = slug or resolve_slug(self.pdf)
         self.dir = ROOT / "production" / self.slug
         self.config = self.dir / "config"
         self.pages = self.dir / "pages"
@@ -77,11 +97,11 @@ class Prod:
 
     @property
     def master_srt(self):
-        return self.dir / "master.srt"
+        return self.dir / f"{self.slug}.srt"
 
     @property
     def final_mp4(self):
-        return self.dir / "final.mp4"
+        return self.dir / f"{self.slug}.mp4"
 
 
 # ---------------------------------------------------------------- json / hash
