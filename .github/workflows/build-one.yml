@@ -23,6 +23,10 @@ permissions:
   contents: write
   packages: read
 
+defaults:
+  run:
+    shell: bash   # container default shell is sh (dash); force bash for arrays etc.
+
 env:
   FFMPEG_BIN: ffmpeg
   FFPROBE_BIN: ffprobe
