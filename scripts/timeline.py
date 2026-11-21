@@ -36,10 +36,14 @@ def slide_for(page, seg):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--pdf", required=True)
+    ap.add_argument("--pdf")
+    ap.add_argument("--slug", help="rebuild by slug when the source PDF isn't at hand")
     args = ap.parse_args()
+    if not args.pdf and not args.slug:
+        ap.error("one of --pdf or --slug is required")
 
-    prod = C.Prod(Path(args.pdf))
+    pdf = Path(args.pdf) if args.pdf else Path(f"{args.slug}.pdf")
+    prod = C.Prod(pdf, slug=args.slug)
     style = C.load_json(prod.style_path, DEFAULT_STYLE)
     fps = style["video"]["fps"]
     g = style["gaps_s"]
